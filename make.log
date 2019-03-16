@@ -1,0 +1,43 @@
+ + clean up
+rm -rf lib/*.a *.out*
+hlt.conf
+hlt.log
+html
+include
+latex
+lib
+main
+make.log
+makefile
+memo.sh
+objects.mk
+src
+ + build libs
+clang -Wall -g -O2 -std=c++14 -c define.cpp -I../include -o ../lib/libdefine.a
+clang -Wall -g -O2 -std=c++14 -c hltoptions.cpp -I../include -o ../lib/libhltoptions.a
+clang -Wall -g -O2 -std=c++14 -c log.cpp -I../include -o ../lib/liblog.a
+clang -Wall -g -O2 -std=c++14 -c logqueue.cpp -I../include -o ../lib/liblogqueue.a
+clang -Wall -g -O2 -std=c++14 -c ltoptions.cpp -I../include -o ../lib/libltoptions.a
+clang -Wall -g -O2 -std=c++14 -c session.cpp -I../include -o ../lib/libsession.a
+ + build excutable
+clang -Wall -g -O2 -lc++ \
+	-std=c++14 \
+	HttpLoadTester.cpp \
+	-I../include -L../lib \
+	  -lboost_system -lboost_thread-mt -lboost_program_options  \
+	-ldefine -lhltoptions -llog -llogqueue -lltoptions -lsession \
+	-o ../HttpLoadTester.out;
+HttpLoadTester.out
+HttpLoadTester.out.dSYM
+hlt.conf
+hlt.log
+html
+include
+latex
+lib
+main
+make.log
+makefile
+memo.sh
+objects.mk
+src

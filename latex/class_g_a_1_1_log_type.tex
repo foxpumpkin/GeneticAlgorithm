@@ -1,0 +1,40 @@
+\hypertarget{class_g_a_1_1_log_type}{}\section{GA\+::Log\+Type Class Reference}
+\label{class_g_a_1_1_log_type}\index{GA::LogType@{GA::LogType}}
+
+
+ログレベルの基底クラス  
+
+
+
+
+{\ttfamily \#include $<$Log\+System.\+hpp$>$}
+
+Inheritance diagram for GA\+::Log\+Type\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=9.000000cm]{class_g_a_1_1_log_type}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_log_type_a6239f4e1761585f048416e05dbb9f242}\label{class_g_a_1_1_log_type_a6239f4e1761585f048416e05dbb9f242}} 
+uint64\+\_\+t {\bfseries get\+Log\+Type} () const
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_log_type_a663fc1aa2df92d978b2ca8e6ebb6f5f5}\label{class_g_a_1_1_log_type_a663fc1aa2df92d978b2ca8e6ebb6f5f5}} 
+uint64\+\_\+t {\bfseries type}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+ログレベルの基底クラス 
+
+新規にログレベルを実装する場合は、メンバ変数typeにuint64\+\_\+tを設定する必要がある。 ログレベルの指定を型に任せることで不正な引数によるエラーをバグを避ける狙いがある。 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Log\+System.\+hpp\item 
+src/Log\+System.\+cpp\end{DoxyCompactItemize}

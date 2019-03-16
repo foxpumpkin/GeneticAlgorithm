@@ -1,0 +1,61 @@
+\hypertarget{class_g_a_1_1_population}{}\section{GA\+::Population Class Reference}
+\label{class_g_a_1_1_population}\index{GA::Population@{GA::Population}}
+
+
+集団（population）  
+
+
+
+
+{\ttfamily \#include $<$Population.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_population_a6ebc73e0c16b36463ea2834fb5dc53e7}\label{class_g_a_1_1_population_a6ebc73e0c16b36463ea2834fb5dc53e7}} 
+{\bfseries Population} (const uint64\+\_\+t \&population\+\_\+locus)
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_population_a8dcdd839cb17b00327bed382207dcc87}\label{class_g_a_1_1_population_a8dcdd839cb17b00327bed382207dcc87}} 
+const uint64\+\_\+t {\bfseries get\+\_\+population\+\_\+locus} () const
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_population_a33cbabc8b461b7d0486dba2c064ee005}\label{class_g_a_1_1_population_a33cbabc8b461b7d0486dba2c064ee005}} 
+uint64\+\_\+t {\bfseries length} () const
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_population_af054c634ff6cff4b3187649f9c4e7357}\label{class_g_a_1_1_population_af054c634ff6cff4b3187649f9c4e7357}} 
+void {\bfseries allocation} (const uint64\+\_\+t \&length)
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_population_a46544410b015c010b0d37fabb7bdcfc5}\label{class_g_a_1_1_population_a46544410b015c010b0d37fabb7bdcfc5}} 
+const \mbox{\hyperlink{class_g_a_1_1_individual}{Individual}} \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (std\+::size\+\_\+t idx) const
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_population_a852598da7700c4f2598aba5b7f0d9bcf}\label{class_g_a_1_1_population_a852598da7700c4f2598aba5b7f0d9bcf}} 
+\mbox{\hyperlink{class_g_a_1_1_individual}{Individual}} \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (std\+::size\+\_\+t idx)
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_population_a97ec98c0cb6fdc4661a02c0b41850b7f}\label{class_g_a_1_1_population_a97ec98c0cb6fdc4661a02c0b41850b7f}} 
+void {\bfseries initialize} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_population_aab745d770cf42b7c2f0817e3b028689d}\label{class_g_a_1_1_population_aab745d770cf42b7c2f0817e3b028689d}} 
+std\+::unique\+\_\+ptr$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_g_a_1_1_individual}{Individual}} $>$\mbox{[}$\,$\mbox{]}, std\+::default\+\_\+delete$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_g_a_1_1_individual}{Individual}} $>$\mbox{[}$\,$\mbox{]}$>$ $>$ {\bfseries individuals}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_population_a10e07cdeda4b84792cd7761f35079770}\label{class_g_a_1_1_population_a10e07cdeda4b84792cd7761f35079770}} 
+uint64\+\_\+t {\bfseries \+\_\+length}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_population_aeb1fd098be08f34a663fb8b3f10b3937}\label{class_g_a_1_1_population_aeb1fd098be08f34a663fb8b3f10b3937}} 
+uint64\+\_\+t {\bfseries \+\_\+population\+\_\+locus}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_population_a98499a0a682339d3d62d79fae9f23396}\label{class_g_a_1_1_population_a98499a0a682339d3d62d79fae9f23396}} 
+\mbox{\hyperlink{class_g_a_1_1_log}{Log}} {\bfseries log}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+集団（population） 
+
+様々な個体の集まり 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Population.\+hpp\item 
+src/Population.\+cpp\end{DoxyCompactItemize}

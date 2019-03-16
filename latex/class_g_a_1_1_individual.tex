@@ -1,0 +1,67 @@
+\hypertarget{class_g_a_1_1_individual}{}\section{GA\+::Individual Class Reference}
+\label{class_g_a_1_1_individual}\index{GA::Individual@{GA::Individual}}
+
+
+個体（individual）  
+
+
+
+
+{\ttfamily \#include $<$Individual.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_individual_afe771f951d8ce9b807e70c190d69b789}\label{class_g_a_1_1_individual_afe771f951d8ce9b807e70c190d69b789}} 
+{\bfseries Individual} (const uint64\+\_\+t \&population\+\_\+locus, const uint64\+\_\+t \&indivisual\+\_\+locus)
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_individual_a6349cf4b04cc9cd63c02cb4ee88a5a0a}\label{class_g_a_1_1_individual_a6349cf4b04cc9cd63c02cb4ee88a5a0a}} 
+const uint64\+\_\+t {\bfseries get\+\_\+population\+\_\+locus} () const
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_individual_a9a44596dc37dd943251ae3765377f3cf}\label{class_g_a_1_1_individual_a9a44596dc37dd943251ae3765377f3cf}} 
+const uint64\+\_\+t {\bfseries get\+\_\+individual\+\_\+locus} () const
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_individual_afbe6128365e7286608a128381ce727f1}\label{class_g_a_1_1_individual_afbe6128365e7286608a128381ce727f1}} 
+uint64\+\_\+t {\bfseries length} () const
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_individual_a4b5f35bd833656932a7cbdc443af5a41}\label{class_g_a_1_1_individual_a4b5f35bd833656932a7cbdc443af5a41}} 
+void {\bfseries allocation} (const uint64\+\_\+t \&length)
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_individual_a93ca941721f5d7f5d25acd46ea040e43}\label{class_g_a_1_1_individual_a93ca941721f5d7f5d25acd46ea040e43}} 
+const \mbox{\hyperlink{class_g_a_1_1_chromosome}{Chromosome}} \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (std\+::size\+\_\+t idx) const
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_individual_ad553827fd98c6e07434593cba12047f7}\label{class_g_a_1_1_individual_ad553827fd98c6e07434593cba12047f7}} 
+\mbox{\hyperlink{class_g_a_1_1_chromosome}{Chromosome}} \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (std\+::size\+\_\+t idx)
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_individual_a4d06751b523554d306aae3574f2254d8}\label{class_g_a_1_1_individual_a4d06751b523554d306aae3574f2254d8}} 
+void {\bfseries initialize} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_individual_a183dbace348505f41e542030d25992ee}\label{class_g_a_1_1_individual_a183dbace348505f41e542030d25992ee}} 
+std\+::unique\+\_\+ptr$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_g_a_1_1_chromosome}{Chromosome}} $>$\mbox{[}$\,$\mbox{]}, std\+::default\+\_\+delete$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_g_a_1_1_chromosome}{Chromosome}} $>$\mbox{[}$\,$\mbox{]}$>$ $>$ {\bfseries chromosomes}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_individual_a699a3f9f0aefcd4c0503b8190223ddcb}\label{class_g_a_1_1_individual_a699a3f9f0aefcd4c0503b8190223ddcb}} 
+uint64\+\_\+t {\bfseries \+\_\+length}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_individual_a00bf2a027858f02daec180eba5edf464}\label{class_g_a_1_1_individual_a00bf2a027858f02daec180eba5edf464}} 
+uint64\+\_\+t {\bfseries \+\_\+population\+\_\+locus}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_individual_a8c5bddcd8de924efa1094651e095dbac}\label{class_g_a_1_1_individual_a8c5bddcd8de924efa1094651e095dbac}} 
+uint64\+\_\+t {\bfseries \+\_\+individual\+\_\+locus}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_individual_a0f9b85d7584e7edfce280fdec7abf616}\label{class_g_a_1_1_individual_a0f9b85d7584e7edfce280fdec7abf616}} 
+\mbox{\hyperlink{class_g_a_1_1_log}{Log}} {\bfseries log}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+個体（individual） 
+
+１つまたは複数の染色体によって表現される自律的な個命題に対する解の候補 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Individual.\+hpp\item 
+src/Individual.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,97 @@
+\hypertarget{class_log_queue}{}\section{Log\+Queue Class Reference}
+\label{class_log_queue}\index{LogQueue@{LogQueue}}
+
+
+ログを格納し、リスト化するクラス  
+
+
+
+
+{\ttfamily \#include $<$Log\+Queue.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_log_queue_a819b9467d4a7b368cb60f8a9f90cdc85}\label{class_log_queue_a819b9467d4a7b368cb60f8a9f90cdc85}} 
+\mbox{\hyperlink{class_log_queue_a819b9467d4a7b368cb60f8a9f90cdc85}{Log\+Queue}} ()
+\begin{DoxyCompactList}\small\item\em 処理なし \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_log_queue_a87faedeaddc1f268f3ec52d0068a9780}\label{class_log_queue_a87faedeaddc1f268f3ec52d0068a9780}} 
+\mbox{\hyperlink{class_log_queue_a87faedeaddc1f268f3ec52d0068a9780}{$\sim$\+Log\+Queue}} ()
+\begin{DoxyCompactList}\small\item\em 処理なし \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_log_queue_a9e17310378f23882588d6af0d8929710}\label{class_log_queue_a9e17310378f23882588d6af0d8929710}} 
+void \mbox{\hyperlink{class_log_queue_a9e17310378f23882588d6af0d8929710}{add\+Queue}} (\mbox{\hyperlink{class_g_a_1_1_log_instance}{G\+A\+::\+Log\+Instance}} log)
+\begin{DoxyCompactList}\small\item\em キューの追加 ※使用は非推奨 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_log_queue_a96a85394648bf0d7cdc7e5db72c260f0}\label{class_log_queue_a96a85394648bf0d7cdc7e5db72c260f0}} 
+void \mbox{\hyperlink{class_log_queue_a96a85394648bf0d7cdc7e5db72c260f0}{add\+Queue}} (std\+::string message, uint64\+\_\+t code=G\+A\+::code\+::unknown)
+\begin{DoxyCompactList}\small\item\em キューの追加 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_log_queue_a064087cf640d1803a5c17ccb34fef861}{set\+Id}} (uint64\+\_\+t \mbox{\hyperlink{class_log_queue_ab9253dce534aa882b15b6c92bc8a3056}{id}})
+\begin{DoxyCompactList}\small\item\em キューの\+I\+Dをセット \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_log_queue_abeff8371e74a14a8781936d04553c7b4}\label{class_log_queue_abeff8371e74a14a8781936d04553c7b4}} 
+std\+::vector$<$ \mbox{\hyperlink{class_g_a_1_1_log_instance}{G\+A\+::\+Log\+Instance}} $>$ \mbox{\hyperlink{class_log_queue_abeff8371e74a14a8781936d04553c7b4}{get\+Queue}} () const
+\begin{DoxyCompactList}\small\item\em キュー（std\+::vector）を返す \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_log_queue}{Log\+Queue}} \& \mbox{\hyperlink{class_log_queue_aac145e91664101348b553b437df86d2c}{operator$<$$<$}} (const \mbox{\hyperlink{class_log_queue}{Log\+Queue}} \&queue)
+\begin{DoxyCompactList}\small\item\em キュー（std\+::vector）を結合する \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_log_queue_a401482776cd4b1483ad5dfe99c9892e1}\label{class_log_queue_a401482776cd4b1483ad5dfe99c9892e1}} 
+void \mbox{\hyperlink{class_log_queue_a401482776cd4b1483ad5dfe99c9892e1}{print}} ()
+\begin{DoxyCompactList}\small\item\em 格納されている\+Logインスタンスに対してprint()をコールする \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_log_queue_ac52d5613f64c2b356278b7291893e56f}{get\+Http\+Response\+Code}} (const uint64\+\_\+t \&code)
+\begin{DoxyCompactList}\small\item\em H\+T\+TP Response Codeが一致する\+Logインスタンスのカウンタ合計を返す \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_log_queue_a662e9b91372f9d5791b887117186dbe2}\label{class_log_queue_a662e9b91372f9d5791b887117186dbe2}} 
+int \mbox{\hyperlink{class_log_queue_a662e9b91372f9d5791b887117186dbe2}{get\+Statistics}} (const uint64\+\_\+t \&code)
+\begin{DoxyCompactList}\small\item\em code\+::messageとのビット積が一致する\+Logインスタンスのカウンタ合計を返す \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_log_queue_ab026255ea635d81b101f0d89f27d7afd}\label{class_log_queue_ab026255ea635d81b101f0d89f27d7afd}} 
+void \mbox{\hyperlink{class_log_queue_ab026255ea635d81b101f0d89f27d7afd}{sort}} ()
+\begin{DoxyCompactList}\small\item\em Logの記録時間をキーとしてstd\+::vectorを昇順にソートする \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_log_queue_a6366d0b9ed5268d9e14c0d251a207bce}\label{class_log_queue_a6366d0b9ed5268d9e14c0d251a207bce}} 
+std\+::vector$<$ \mbox{\hyperlink{class_g_a_1_1_log_instance}{G\+A\+::\+Log\+Instance}} $>$ \mbox{\hyperlink{class_log_queue_a6366d0b9ed5268d9e14c0d251a207bce}{loglist}}
+\begin{DoxyCompactList}\small\item\em Log用のキュー(std\+::vector) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_log_queue_ab9253dce534aa882b15b6c92bc8a3056}\label{class_log_queue_ab9253dce534aa882b15b6c92bc8a3056}} 
+uint64\+\_\+t \mbox{\hyperlink{class_log_queue_ab9253dce534aa882b15b6c92bc8a3056}{id}}
+\begin{DoxyCompactList}\small\item\em I\+Dを格納する \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+ログを格納し、リスト化するクラス 
+
+シフト(perator$<$$<$)はstd\+::vectorを連結する。 define.\+hppで定義される(bool)G\+A\+::global\+::verbose\+\_\+logがtrueであれば std\+::vectorを連結し、falseであればコードをキーとしてカウンタを合算する。 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_log_queue_ac52d5613f64c2b356278b7291893e56f}\label{class_log_queue_ac52d5613f64c2b356278b7291893e56f}} 
+\index{LogQueue@{LogQueue}!getHttpResponseCode@{getHttpResponseCode}}
+\index{getHttpResponseCode@{getHttpResponseCode}!LogQueue@{LogQueue}}
+\subsubsection{\texorpdfstring{getHttpResponseCode()}{getHttpResponseCode()}}
+{\footnotesize\ttfamily int Log\+Queue\+::get\+Http\+Response\+Code (\begin{DoxyParamCaption}\item[{const uint64\+\_\+t \&}]{code }\end{DoxyParamCaption})}
+
+
+
+H\+T\+TP Response Codeが一致する\+Logインスタンスのカウンタ合計を返す 
+
+Log\+Queue\+::get\+Gtpp\+Response\+Code 未実装 \mbox{\Hypertarget{class_log_queue_aac145e91664101348b553b437df86d2c}\label{class_log_queue_aac145e91664101348b553b437df86d2c}} 
+\index{LogQueue@{LogQueue}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!LogQueue@{LogQueue}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_log_queue}{Log\+Queue}} \& Log\+Queue\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_log_queue}{Log\+Queue}} \&}]{queue }\end{DoxyParamCaption})}
+
+
+
+キュー（std\+::vector）を結合する 
+
+G\+A\+::global\+::verbose\+\_\+logがtrueの場合はstd\+::vectorを結合する。 falseの場合はコードをキーとしてカウンタを加算する。 \mbox{\Hypertarget{class_log_queue_a064087cf640d1803a5c17ccb34fef861}\label{class_log_queue_a064087cf640d1803a5c17ccb34fef861}} 
+\index{LogQueue@{LogQueue}!setId@{setId}}
+\index{setId@{setId}!LogQueue@{LogQueue}}
+\subsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void Log\+Queue\+::set\+Id (\begin{DoxyParamCaption}\item[{uint64\+\_\+t}]{id }\end{DoxyParamCaption})}
+
+
+
+キューの\+I\+Dをセット 
+
+実際はスレッド\+I\+Dとして使用しており、ログを詳細に出力する場合は 効果がある。 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Log\+Queue.\+hpp\item 
+src/Log\+Queue.\+cpp\end{DoxyCompactItemize}

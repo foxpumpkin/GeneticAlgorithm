@@ -1,0 +1,58 @@
+\hypertarget{class_g_a_1_1_genetic_algorithm}{}\section{GA\+::Genetic\+Algorithm Class Reference}
+\label{class_g_a_1_1_genetic_algorithm}\index{GA::GeneticAlgorithm@{GA::GeneticAlgorithm}}
+
+
+遺伝的アルゴリズムのベースクラス  
+
+
+
+
+{\ttfamily \#include $<$Genetic\+Algorithm.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_genetic_algorithm_ab9ea4a383b2872e420d553414f4f86b1}\label{class_g_a_1_1_genetic_algorithm_ab9ea4a383b2872e420d553414f4f86b1}} 
+\mbox{\hyperlink{class_g_a_1_1_genetic_algorithm_ab9ea4a383b2872e420d553414f4f86b1}{Genetic\+Algorithm}} ()
+\begin{DoxyCompactList}\small\item\em コンストラクタ \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_g_a_1_1_genetic_algorithm_a0a82a40c0777aee6dc1d7cedd91f2a46}\label{class_g_a_1_1_genetic_algorithm_a0a82a40c0777aee6dc1d7cedd91f2a46}} 
+\mbox{\hyperlink{class_g_a_1_1_genetic_algorithm_a0a82a40c0777aee6dc1d7cedd91f2a46}{$\sim$\+Genetic\+Algorithm}} ()
+\begin{DoxyCompactList}\small\item\em デストラクタ \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_g_a_1_1_genetic_algorithm_ac14b87eff3d1c6efc8df49ea553f1899}\label{class_g_a_1_1_genetic_algorithm_ac14b87eff3d1c6efc8df49ea553f1899}} 
+uint64\+\_\+t \mbox{\hyperlink{class_g_a_1_1_genetic_algorithm_ac14b87eff3d1c6efc8df49ea553f1899}{length}} () const
+\begin{DoxyCompactList}\small\item\em Populationの列数を返す \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_g_a_1_1_genetic_algorithm_a2661a7b2739663668602af7648d1e0d3}\label{class_g_a_1_1_genetic_algorithm_a2661a7b2739663668602af7648d1e0d3}} 
+void \mbox{\hyperlink{class_g_a_1_1_genetic_algorithm_a2661a7b2739663668602af7648d1e0d3}{allocation}} (const uint64\+\_\+t \&\mbox{\hyperlink{class_g_a_1_1_genetic_algorithm_ac14b87eff3d1c6efc8df49ea553f1899}{length}})
+\begin{DoxyCompactList}\small\item\em 指定した列長の\+Populationをインスタンス化する \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_g_a_1_1_genetic_algorithm_a5b4ea58a3fa0c360b1c7ae8f00f4c3aa}\label{class_g_a_1_1_genetic_algorithm_a5b4ea58a3fa0c360b1c7ae8f00f4c3aa}} 
+const \mbox{\hyperlink{class_g_a_1_1_population}{Population}} \& \mbox{\hyperlink{class_g_a_1_1_genetic_algorithm_a5b4ea58a3fa0c360b1c7ae8f00f4c3aa}{operator\mbox{[}$\,$\mbox{]}}} (std\+::size\+\_\+t idx) const
+\begin{DoxyCompactList}\small\item\em 配列アクセス用のオペレータ \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_g_a_1_1_genetic_algorithm_af896a9c7d10d430d42e082eb3e6abea5}\label{class_g_a_1_1_genetic_algorithm_af896a9c7d10d430d42e082eb3e6abea5}} 
+\mbox{\hyperlink{class_g_a_1_1_population}{Population}} \& \mbox{\hyperlink{class_g_a_1_1_genetic_algorithm_af896a9c7d10d430d42e082eb3e6abea5}{operator\mbox{[}$\,$\mbox{]}}} (std\+::size\+\_\+t idx)
+\begin{DoxyCompactList}\small\item\em 配列アクセス用のオペレータ \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_g_a_1_1_genetic_algorithm_ae0529e9d547c16f0c4e668a1de882632}\label{class_g_a_1_1_genetic_algorithm_ae0529e9d547c16f0c4e668a1de882632}} 
+void \mbox{\hyperlink{class_g_a_1_1_genetic_algorithm_ae0529e9d547c16f0c4e668a1de882632}{initialize}} ()
+\begin{DoxyCompactList}\small\item\em allocation後の現世代生成用関数 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_genetic_algorithm_aa289043454c31ce1c815a95eb7ffdbde}\label{class_g_a_1_1_genetic_algorithm_aa289043454c31ce1c815a95eb7ffdbde}} 
+std\+::unique\+\_\+ptr$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_g_a_1_1_population}{Population}} $>$\mbox{[}$\,$\mbox{]}, std\+::default\+\_\+delete$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_g_a_1_1_population}{Population}} $>$\mbox{[}$\,$\mbox{]}$>$ $>$ \mbox{\hyperlink{class_g_a_1_1_genetic_algorithm_aa289043454c31ce1c815a95eb7ffdbde}{populations}}
+\begin{DoxyCompactList}\small\item\em Population配列を格納するユニークポインタ \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_g_a_1_1_genetic_algorithm_ae478c53fd0b276bd27e31af2d8b37ce1}\label{class_g_a_1_1_genetic_algorithm_ae478c53fd0b276bd27e31af2d8b37ce1}} 
+uint64\+\_\+t \mbox{\hyperlink{class_g_a_1_1_genetic_algorithm_ae478c53fd0b276bd27e31af2d8b37ce1}{\+\_\+length}}
+\begin{DoxyCompactList}\small\item\em 列帳を格納する \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_g_a_1_1_genetic_algorithm_a715b2216b6e091f29738494ea2e8eadd}\label{class_g_a_1_1_genetic_algorithm_a715b2216b6e091f29738494ea2e8eadd}} 
+\mbox{\hyperlink{class_g_a_1_1_log}{Log}} \mbox{\hyperlink{class_g_a_1_1_genetic_algorithm_a715b2216b6e091f29738494ea2e8eadd}{log}}
+\begin{DoxyCompactList}\small\item\em ログ出力用インスタンス \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+遺伝的アルゴリズムのベースクラス 
+
+main関数からは呼ぶのは原則このクラスのみ 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Genetic\+Algorithm.\+hpp\item 
+src/Genetic\+Algorithm.\+cpp\end{DoxyCompactItemize}

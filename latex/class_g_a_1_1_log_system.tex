@@ -1,0 +1,63 @@
+\hypertarget{class_g_a_1_1_log_system}{}\section{GA\+::Log\+System Class Reference}
+\label{class_g_a_1_1_log_system}\index{GA::LogSystem@{GA::LogSystem}}
+
+
+Log\+Systemクラス  
+
+
+
+
+{\ttfamily \#include $<$Log\+System.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_log_system_a8392ce9e3cef641f1b36009405bfb103}\label{class_g_a_1_1_log_system_a8392ce9e3cef641f1b36009405bfb103}} 
+{\bfseries Log\+System} (const \mbox{\hyperlink{class_g_a_1_1_log_system}{Log\+System}} \&)=delete
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_log_system_a2b1bded8fbbab1bc63a725b50da98c18}\label{class_g_a_1_1_log_system_a2b1bded8fbbab1bc63a725b50da98c18}} 
+\mbox{\hyperlink{class_g_a_1_1_log_system}{Log\+System}} \& {\bfseries operator=} (const \mbox{\hyperlink{class_g_a_1_1_log_system}{Log\+System}} \&)=delete
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_log_system_a7ba7151f3f987f69d034399dc8abd560}\label{class_g_a_1_1_log_system_a7ba7151f3f987f69d034399dc8abd560}} 
+{\bfseries Log\+System} (\mbox{\hyperlink{class_g_a_1_1_log_system}{Log\+System}} \&\&)=delete
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_log_system_af5d80a0c043182da9754ac655436a48e}\label{class_g_a_1_1_log_system_af5d80a0c043182da9754ac655436a48e}} 
+\mbox{\hyperlink{class_g_a_1_1_log_system}{Log\+System}} \& {\bfseries operator=} (\mbox{\hyperlink{class_g_a_1_1_log_system}{Log\+System}} \&\&)=delete
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_log_system_a5a9bc23d70b327a7d2890eb58b9bd59d}\label{class_g_a_1_1_log_system_a5a9bc23d70b327a7d2890eb58b9bd59d}} 
+void {\bfseries add\+Log} (const \mbox{\hyperlink{class_g_a_1_1_log_instance}{Log\+Instance}} \&log)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_log_system_ae6a49d4301f86ff287bc90320cbf5698}\label{class_g_a_1_1_log_system_ae6a49d4301f86ff287bc90320cbf5698}} 
+static std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_g_a_1_1_log_system}{Log\+System}} $>$ \& {\bfseries get} ()
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_log_system_aba3eefd20f69e2ea25fe3229487a9c6d}\label{class_g_a_1_1_log_system_aba3eefd20f69e2ea25fe3229487a9c6d}} 
+static void {\bfseries create} ()
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_log_system_a19cde21cbb3555b8bde82e57d475531f}\label{class_g_a_1_1_log_system_a19cde21cbb3555b8bde82e57d475531f}} 
+static void {\bfseries destroy} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_log_system_a66584752867fe618dbcc99dbde6ba572}\label{class_g_a_1_1_log_system_a66584752867fe618dbcc99dbde6ba572}} 
+static std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_g_a_1_1_log_system}{Log\+System}} $>$ {\bfseries logsystem} = unique\+\_\+ptr$<$\mbox{\hyperlink{class_g_a_1_1_log_system}{Log\+System}}$>$(nullptr)
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_log_system_a77bec71a7878e7bff3e4cb77e185dc18}\label{class_g_a_1_1_log_system_a77bec71a7878e7bff3e4cb77e185dc18}} 
+static \mbox{\hyperlink{class_g_a_1_1_log_queue}{Log\+Queue}} {\bfseries queue}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Log\+Systemクラス 
+
+Singletonにしているが、インスタンスを一意に保てないバグが存在し、 下記の方法でインスタンスを増やせてしまう。
+
+unique\+\_\+ptr$<$\+Log\+System$>$ lsystem= unique\+\_\+ptr$<$\+Log\+System$>$(Log\+System\+::get().release()); 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Log\+System.\+hpp\item 
+src/Log\+System.\+cpp\end{DoxyCompactItemize}

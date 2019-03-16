@@ -1,0 +1,80 @@
+\hypertarget{class_load_tester_options}{}\section{Load\+Tester\+Options Class Reference}
+\label{class_load_tester_options}\index{LoadTesterOptions@{LoadTesterOptions}}
+
+
+コマンドライン引数を処理する基底クラス  
+
+
+
+
+{\ttfamily \#include $<$ltoptions.\+hpp$>$}
+
+Inheritance diagram for Load\+Tester\+Options\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_load_tester_options}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_load_tester_options_a53f0855b8d4e2514b8879ac542efae7e}\label{class_load_tester_options_a53f0855b8d4e2514b8879ac542efae7e}} 
+\mbox{\hyperlink{class_load_tester_options_a53f0855b8d4e2514b8879ac542efae7e}{Load\+Tester\+Options}} (const int \+\_\+ac, const char $\ast$const $\ast$const \+\_\+av)
+\begin{DoxyCompactList}\small\item\em 標準のhelpオプションとversionオプションを追加 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_load_tester_options_a165080e42361b6d88cdea91d6edd512d}\label{class_load_tester_options_a165080e42361b6d88cdea91d6edd512d}} 
+\mbox{\hyperlink{class_load_tester_options_a165080e42361b6d88cdea91d6edd512d}{$\sim$\+Load\+Tester\+Options}} ()
+\begin{DoxyCompactList}\small\item\em 処理なし \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_load_tester_options_ae444c5c2f49cf71d6c63c2eaaf577f62}{parse}} ()
+\begin{DoxyCompactList}\small\item\em オプションの解釈 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_load_tester_options_a2ba0cddfb94af4d27a1288a04092084d}\label{class_load_tester_options_a2ba0cddfb94af4d27a1288a04092084d}} 
+virtual string \mbox{\hyperlink{class_load_tester_options_a2ba0cddfb94af4d27a1288a04092084d}{get\+Version}} ()=0
+\begin{DoxyCompactList}\small\item\em バージョン出力の純粋仮想関数 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_load_tester_options_aab66e27da3f039d38d6cb3a43b222fdc}\label{class_load_tester_options_aab66e27da3f039d38d6cb3a43b222fdc}} 
+virtual void \mbox{\hyperlink{class_load_tester_options_aab66e27da3f039d38d6cb3a43b222fdc}{add\+Options}} ()=0
+\begin{DoxyCompactList}\small\item\em オプションを追加する純粋仮想関数 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_load_tester_options_ab0bc9997b16a8e3281375e813b7c3a4a}\label{class_load_tester_options_ab0bc9997b16a8e3281375e813b7c3a4a}} 
+options\+\_\+description {\bfseries description}
+\item 
+\mbox{\Hypertarget{class_load_tester_options_acda9a48699a930b39d3eaf549ad1369c}\label{class_load_tester_options_acda9a48699a930b39d3eaf549ad1369c}} 
+const int {\bfseries ac}
+\item 
+\mbox{\Hypertarget{class_load_tester_options_ad697cf2849316d75b639be09c209e334}\label{class_load_tester_options_ad697cf2849316d75b639be09c209e334}} 
+const char $\ast$const  $\ast$const {\bfseries av}
+\item 
+\mbox{\Hypertarget{class_load_tester_options_a5faf20fdd265664256ab89240ef57dc7}\label{class_load_tester_options_a5faf20fdd265664256ab89240ef57dc7}} 
+variables\+\_\+map {\bfseries vmap}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+コマンドライン引数を処理する基底クラス 
+
+純粋仮想関数を含むため、直接インスタンスにできない。 ベースはboost\+::program\+\_\+optionsを使用している。 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_load_tester_options_ae444c5c2f49cf71d6c63c2eaaf577f62}\label{class_load_tester_options_ae444c5c2f49cf71d6c63c2eaaf577f62}} 
+\index{LoadTesterOptions@{LoadTesterOptions}!parse@{parse}}
+\index{parse@{parse}!LoadTesterOptions@{LoadTesterOptions}}
+\subsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily void Load\+Tester\+Options\+::parse (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+オプションの解釈 
+
+継承時は原則、子クラスから呼ぶこと。 
+
+Reimplemented in \mbox{\hyperlink{class_http_load_tester_options_a5b5ce6c59de007c423d7da2481622b09}{Http\+Load\+Tester\+Options}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/ltoptions.\+hpp\item 
+src/ltoptions.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,73 @@
+\hypertarget{class_g_a_1_1_chromosome}{}\section{GA\+::Chromosome Class Reference}
+\label{class_g_a_1_1_chromosome}\index{GA::Chromosome@{GA::Chromosome}}
+
+
+染色体（chromosome）  
+
+
+
+
+{\ttfamily \#include $<$Chromosome.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_chromosome_a88fbe9d3924eeb11bfdb10882dbf6b40}\label{class_g_a_1_1_chromosome_a88fbe9d3924eeb11bfdb10882dbf6b40}} 
+{\bfseries Chromosome} (const uint64\+\_\+t \&population\+\_\+locus, const uint64\+\_\+t \&individual\+\_\+locus, const uint64\+\_\+t \&locus)
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_chromosome_a42d70e39ac609f2083775a3bf24ab102}\label{class_g_a_1_1_chromosome_a42d70e39ac609f2083775a3bf24ab102}} 
+const uint64\+\_\+t {\bfseries get\+\_\+population\+\_\+locus} () const
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_chromosome_a01ec410db0534ba16a838eec2289befb}\label{class_g_a_1_1_chromosome_a01ec410db0534ba16a838eec2289befb}} 
+const uint64\+\_\+t {\bfseries get\+\_\+individual\+\_\+locus} () const
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_chromosome_aba0e559017f6bb4d0f9cbf110e8ba593}\label{class_g_a_1_1_chromosome_aba0e559017f6bb4d0f9cbf110e8ba593}} 
+const uint64\+\_\+t {\bfseries get\+\_\+chromosome\+\_\+locus} () const
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_chromosome_a5bb683031addbb164e60a84ea13a347c}\label{class_g_a_1_1_chromosome_a5bb683031addbb164e60a84ea13a347c}} 
+uint64\+\_\+t {\bfseries length} () const
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_chromosome_abb1b0748d92e1b5a9d65ecc41a2e39ff}\label{class_g_a_1_1_chromosome_abb1b0748d92e1b5a9d65ecc41a2e39ff}} 
+void {\bfseries allocation} (const uint64\+\_\+t \&length)
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_chromosome_a7291c0601f5759b6f84f656440c33b1f}\label{class_g_a_1_1_chromosome_a7291c0601f5759b6f84f656440c33b1f}} 
+const \mbox{\hyperlink{class_g_a_1_1_gene}{Gene}} \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (std\+::size\+\_\+t idx) const
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_chromosome_a4601dbff60d4bb1c72a65aa5b43d9777}\label{class_g_a_1_1_chromosome_a4601dbff60d4bb1c72a65aa5b43d9777}} 
+\mbox{\hyperlink{class_g_a_1_1_gene}{Gene}} \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (std\+::size\+\_\+t idx)
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_chromosome_ad2d253da87b08e855bfb0217e2df8219}\label{class_g_a_1_1_chromosome_ad2d253da87b08e855bfb0217e2df8219}} 
+void {\bfseries initialize} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_chromosome_ac79e019628bfba6806367adbb0fbb67e}\label{class_g_a_1_1_chromosome_ac79e019628bfba6806367adbb0fbb67e}} 
+std\+::unique\+\_\+ptr$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_g_a_1_1_gene}{Gene}} $>$\mbox{[}$\,$\mbox{]}, std\+::default\+\_\+delete$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_g_a_1_1_gene}{Gene}} $>$\mbox{[}$\,$\mbox{]}$>$ $>$ {\bfseries genes}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_chromosome_abdd3fc9f826acee761f0a9812150ae9c}\label{class_g_a_1_1_chromosome_abdd3fc9f826acee761f0a9812150ae9c}} 
+uint64\+\_\+t {\bfseries \+\_\+length}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_chromosome_a4a490e1df7294e29a614c2e252ee1d0d}\label{class_g_a_1_1_chromosome_a4a490e1df7294e29a614c2e252ee1d0d}} 
+uint64\+\_\+t {\bfseries \+\_\+population\+\_\+locus}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_chromosome_a23a182704349d6de8a5383c8ec690525}\label{class_g_a_1_1_chromosome_a23a182704349d6de8a5383c8ec690525}} 
+uint64\+\_\+t {\bfseries \+\_\+individual\+\_\+locus}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_chromosome_abdc5f6da1c5bf5ddfdfc69100a58e351}\label{class_g_a_1_1_chromosome_abdc5f6da1c5bf5ddfdfc69100a58e351}} 
+uint64\+\_\+t {\bfseries \+\_\+chromosome\+\_\+locus}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_chromosome_a3cb12b6d2aa8c78debb52a6d7693cfd9}\label{class_g_a_1_1_chromosome_a3cb12b6d2aa8c78debb52a6d7693cfd9}} 
+\mbox{\hyperlink{class_g_a_1_1_log}{Log}} {\bfseries log}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+染色体（chromosome） 
+
+複数の遺伝子に集まり 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Chromosome.\+hpp\item 
+src/Chromosome.\+cpp\end{DoxyCompactItemize}
