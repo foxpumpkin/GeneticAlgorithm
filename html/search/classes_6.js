@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['population',['Population',['../class_g_a_1_1_population.html',1,'GA']]]
+  ['options',['Options',['../class_g_a_1_1_options.html',1,'GA']]]
 ];

@@ -27,17 +27,8 @@ namespace GA{
     for(int i= 0; i< _length; i++){
       individuals.get()[i]= shared_ptr<Individual>(new Individual( _population_locus, i));
     }
-    //population = std::shared_ptr<GA::Individual>(new GA::Individual[_length], std::default_delete<Individual[]>());
   }
-  /*
-     const std::shared_ptr<Individual> Population::operator[](std::size_t idx) const {
-     return individuals.get()[idx];
-     }
 
-     std::shared_ptr<Individual> Population::operator[](std::size_t idx) {
-     return individuals.get()[idx];
-     }
-     */
   const Individual& Population::operator[](std::size_t idx) const {
     return *(individuals.get()[idx]);
   }

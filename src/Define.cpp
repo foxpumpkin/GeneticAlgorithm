@@ -119,14 +119,32 @@ namespace GA{
 
       return msg;
     }
+    
+    //! template color::to_stringにおける黒の特殊化実装
     template string to_string<Black>( const string &message);
+    
+    //! template color::to_stringにおける赤の特殊化実装
     template string to_string<Red>( const string &message);
+    
+    //! template color::to_stringにおける緑の特殊化実装
     template string to_string<Green>( const string &message);
+    
+    //! template color::to_stringにおける黄の特殊化実装
     template string to_string<Yellow>( const string &message);
+    
+    //! template color::to_stringにおける青の特殊化実装
     template string to_string<Blue>( const string &message);
+    
+    //! template color::to_stringにおけるマゼンタの特殊化実装
     template string to_string<Magenta>( const string &message);
+    
+    //! template color::to_stringにおけるシアンの特殊化実装
     template string to_string<Cyan>( const string &message);
+    
+    //! template color::to_stringにおける白の特殊化実装
     template string to_string<White>( const string &message);
+    
+    //! template color::to_stringにおける初期化の特殊化実装
     template string to_string<Clear>( const string &message);
   }
 }

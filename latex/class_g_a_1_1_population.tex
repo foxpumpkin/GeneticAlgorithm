@@ -13,41 +13,41 @@
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\Hypertarget{class_g_a_1_1_population_a6ebc73e0c16b36463ea2834fb5dc53e7}\label{class_g_a_1_1_population_a6ebc73e0c16b36463ea2834fb5dc53e7}} 
-{\bfseries Population} (const uint64\+\_\+t \&population\+\_\+locus)
-\item 
+\mbox{\hyperlink{class_g_a_1_1_population_a6ebc73e0c16b36463ea2834fb5dc53e7}{Population}} (const uint64\+\_\+t \&population\+\_\+locus)
+\begin{DoxyCompactList}\small\item\em Populationのlocusを引数とするコンストラクタ \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_g_a_1_1_population_a8dcdd839cb17b00327bed382207dcc87}\label{class_g_a_1_1_population_a8dcdd839cb17b00327bed382207dcc87}} 
-const uint64\+\_\+t {\bfseries get\+\_\+population\+\_\+locus} () const
-\item 
+const uint64\+\_\+t \mbox{\hyperlink{class_g_a_1_1_population_a8dcdd839cb17b00327bed382207dcc87}{get\+\_\+population\+\_\+locus}} () const
+\begin{DoxyCompactList}\small\item\em Populationインスタンスのlocusを返す \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_g_a_1_1_population_a33cbabc8b461b7d0486dba2c064ee005}\label{class_g_a_1_1_population_a33cbabc8b461b7d0486dba2c064ee005}} 
-uint64\+\_\+t {\bfseries length} () const
-\item 
+uint64\+\_\+t \mbox{\hyperlink{class_g_a_1_1_population_a33cbabc8b461b7d0486dba2c064ee005}{length}} () const
+\begin{DoxyCompactList}\small\item\em Individualの配列長を返す \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_g_a_1_1_population_af054c634ff6cff4b3187649f9c4e7357}\label{class_g_a_1_1_population_af054c634ff6cff4b3187649f9c4e7357}} 
-void {\bfseries allocation} (const uint64\+\_\+t \&length)
-\item 
+void \mbox{\hyperlink{class_g_a_1_1_population_af054c634ff6cff4b3187649f9c4e7357}{allocation}} (const uint64\+\_\+t \&\mbox{\hyperlink{class_g_a_1_1_population_a33cbabc8b461b7d0486dba2c064ee005}{length}})
+\begin{DoxyCompactList}\small\item\em Individualの配列長を引数としてメモリを確保する \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_g_a_1_1_population_a46544410b015c010b0d37fabb7bdcfc5}\label{class_g_a_1_1_population_a46544410b015c010b0d37fabb7bdcfc5}} 
-const \mbox{\hyperlink{class_g_a_1_1_individual}{Individual}} \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (std\+::size\+\_\+t idx) const
-\item 
+const \mbox{\hyperlink{class_g_a_1_1_individual}{Individual}} \& \mbox{\hyperlink{class_g_a_1_1_population_a46544410b015c010b0d37fabb7bdcfc5}{operator\mbox{[}$\,$\mbox{]}}} (std\+::size\+\_\+t idx) const
+\begin{DoxyCompactList}\small\item\em 指定された位置の\+Individualの参照を返す \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_g_a_1_1_population_a852598da7700c4f2598aba5b7f0d9bcf}\label{class_g_a_1_1_population_a852598da7700c4f2598aba5b7f0d9bcf}} 
-\mbox{\hyperlink{class_g_a_1_1_individual}{Individual}} \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (std\+::size\+\_\+t idx)
-\item 
+\mbox{\hyperlink{class_g_a_1_1_individual}{Individual}} \& \mbox{\hyperlink{class_g_a_1_1_population_a852598da7700c4f2598aba5b7f0d9bcf}{operator\mbox{[}$\,$\mbox{]}}} (std\+::size\+\_\+t idx)
+\begin{DoxyCompactList}\small\item\em 指定された位置の\+Individualの参照を返す \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_g_a_1_1_population_a97ec98c0cb6fdc4661a02c0b41850b7f}\label{class_g_a_1_1_population_a97ec98c0cb6fdc4661a02c0b41850b7f}} 
-void {\bfseries initialize} ()
-\end{DoxyCompactItemize}
+void \mbox{\hyperlink{class_g_a_1_1_population_a97ec98c0cb6fdc4661a02c0b41850b7f}{initialize}} ()
+\begin{DoxyCompactList}\small\item\em 包含する\+Individualの現世代を生成する \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\Hypertarget{class_g_a_1_1_population_aab745d770cf42b7c2f0817e3b028689d}\label{class_g_a_1_1_population_aab745d770cf42b7c2f0817e3b028689d}} 
-std\+::unique\+\_\+ptr$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_g_a_1_1_individual}{Individual}} $>$\mbox{[}$\,$\mbox{]}, std\+::default\+\_\+delete$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_g_a_1_1_individual}{Individual}} $>$\mbox{[}$\,$\mbox{]}$>$ $>$ {\bfseries individuals}
-\item 
+std\+::unique\+\_\+ptr$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_g_a_1_1_individual}{Individual}} $>$\mbox{[}$\,$\mbox{]}, std\+::default\+\_\+delete$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_g_a_1_1_individual}{Individual}} $>$\mbox{[}$\,$\mbox{]}$>$ $>$ \mbox{\hyperlink{class_g_a_1_1_population_aab745d770cf42b7c2f0817e3b028689d}{individuals}}
+\begin{DoxyCompactList}\small\item\em Individualのシェアードポインタ配列を保持するユニークポインタ \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_g_a_1_1_population_a10e07cdeda4b84792cd7761f35079770}\label{class_g_a_1_1_population_a10e07cdeda4b84792cd7761f35079770}} 
-uint64\+\_\+t {\bfseries \+\_\+length}
-\item 
+uint64\+\_\+t \mbox{\hyperlink{class_g_a_1_1_population_a10e07cdeda4b84792cd7761f35079770}{\+\_\+length}}
+\begin{DoxyCompactList}\small\item\em Individualのシェアードポインタ配列長 \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_g_a_1_1_population_aeb1fd098be08f34a663fb8b3f10b3937}\label{class_g_a_1_1_population_aeb1fd098be08f34a663fb8b3f10b3937}} 
-uint64\+\_\+t {\bfseries \+\_\+population\+\_\+locus}
-\item 
+uint64\+\_\+t \mbox{\hyperlink{class_g_a_1_1_population_aeb1fd098be08f34a663fb8b3f10b3937}{\+\_\+population\+\_\+locus}}
+\begin{DoxyCompactList}\small\item\em Populationのlocusを保持する変数 \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_g_a_1_1_population_a98499a0a682339d3d62d79fae9f23396}\label{class_g_a_1_1_population_a98499a0a682339d3d62d79fae9f23396}} 
-\mbox{\hyperlink{class_g_a_1_1_log}{Log}} {\bfseries log}
-\end{DoxyCompactItemize}
+\mbox{\hyperlink{class_g_a_1_1_log}{Log}} \mbox{\hyperlink{class_g_a_1_1_population_a98499a0a682339d3d62d79fae9f23396}{log}}
+\begin{DoxyCompactList}\small\item\em ログ出力用インスタンス \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}

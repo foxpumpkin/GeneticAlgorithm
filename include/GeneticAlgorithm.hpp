@@ -15,6 +15,7 @@ namespace GA{
    */
   class GeneticAlgorithm{
     public:
+      
       //! コンストラクタ
       GeneticAlgorithm();
       

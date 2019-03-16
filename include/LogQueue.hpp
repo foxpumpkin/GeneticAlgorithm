@@ -7,6 +7,7 @@
 #include <LogInstance.hpp>
 
 namespace GA{
+
   //! ログを格納し、リスト化するクラス
   /*!
    * シフト(perator<<)はstd::vectorを連結する。

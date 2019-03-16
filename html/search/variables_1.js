@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['code',['code',['../class_g_a_1_1_log_instance.html#af6f9fa596cac584e654d5aff58014b0d',1,'GA::LogInstance']]],
-  ['counter',['counter',['../class_g_a_1_1_log_instance.html#a1b99305f46337a38910bc30fea9bdffc',1,'GA::LogInstance']]]
+  ['ac',['ac',['../class_g_a_1_1_options.html#a3049a68a6be9163941d290a3c814bb95',1,'GA::Options']]],
+  ['all',['all',['../namespace_g_a_1_1loglevel.html#afd59244a2773df14653a08d10924298b',1,'GA::loglevel']]],
+  ['av',['av',['../class_g_a_1_1_options.html#af173d38c599bb7a18936fa789cf20834',1,'GA::Options']]]
 ];

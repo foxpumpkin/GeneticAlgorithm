@@ -8,6 +8,7 @@
 #include <Define.hpp>
 
 namespace GA{
+
   //! 遺伝子（gene）
   /*!
    * 個体の形質を表すための基本となる構成要素

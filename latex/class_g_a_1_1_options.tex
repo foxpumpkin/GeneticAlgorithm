@@ -1,0 +1,106 @@
+\hypertarget{class_g_a_1_1_options}{}\section{GA\+::Options Class Reference}
+\label{class_g_a_1_1_options}\index{GA::Options@{GA::Options}}
+
+
+コマンドライン引数を処理する基底クラス  
+
+
+
+
+{\ttfamily \#include $<$Options.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a12ed88bc6f90c447b4742d1bd643a530}\label{class_g_a_1_1_options_a12ed88bc6f90c447b4742d1bd643a530}} 
+\mbox{\hyperlink{class_g_a_1_1_options_a12ed88bc6f90c447b4742d1bd643a530}{Options}} (const int \+\_\+ac, const char $\ast$const $\ast$const \+\_\+av)
+\begin{DoxyCompactList}\small\item\em 標準のhelpオプションとversionオプションを追加 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a8d0d013e8198245d530e362be30dd802}\label{class_g_a_1_1_options_a8d0d013e8198245d530e362be30dd802}} 
+\mbox{\hyperlink{class_g_a_1_1_options_a8d0d013e8198245d530e362be30dd802}{$\sim$\+Options}} ()
+\begin{DoxyCompactList}\small\item\em 処理なし \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_g_a_1_1_options_a8d16d8303f4988f0a5c3cf5b15492c24}{parse}} ()
+\begin{DoxyCompactList}\small\item\em オプションの解釈 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a84742afdf96565a5c76a820350cf3f6a}\label{class_g_a_1_1_options_a84742afdf96565a5c76a820350cf3f6a}} 
+bool {\bfseries is\+Color} ()
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a2b64c48a38e4ddb21907ff0c20ca16a6}\label{class_g_a_1_1_options_a2b64c48a38e4ddb21907ff0c20ca16a6}} 
+const uint64\+\_\+t {\bfseries get\+Population\+Number} () const
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a5c530fdecc7fd52b489f0b22dde66690}\label{class_g_a_1_1_options_a5c530fdecc7fd52b489f0b22dde66690}} 
+const uint64\+\_\+t {\bfseries get\+Individual\+Number} () const
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a031bbb8da0909142db58c05007b3b156}\label{class_g_a_1_1_options_a031bbb8da0909142db58c05007b3b156}} 
+const uint64\+\_\+t {\bfseries get\+Chromosome\+Number} () const
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a0731390ca7c6122ef353dcc364078ec2}\label{class_g_a_1_1_options_a0731390ca7c6122ef353dcc364078ec2}} 
+const uint64\+\_\+t {\bfseries get\+Gene\+Number} () const
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a8ed5817b7aa19cd6d6797552b335f2b6}\label{class_g_a_1_1_options_a8ed5817b7aa19cd6d6797552b335f2b6}} 
+std\+::string \mbox{\hyperlink{class_g_a_1_1_options_a8ed5817b7aa19cd6d6797552b335f2b6}{get\+Version}} ()
+\begin{DoxyCompactList}\small\item\em バージョン情報をstring型で返す。 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a20669586e0f3b564d5d94c93b677f050}\label{class_g_a_1_1_options_a20669586e0f3b564d5d94c93b677f050}} 
+options\+\_\+description \mbox{\hyperlink{class_g_a_1_1_options_a20669586e0f3b564d5d94c93b677f050}{description}}
+\begin{DoxyCompactList}\small\item\em boost\+::program\+\_\+options \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a3049a68a6be9163941d290a3c814bb95}\label{class_g_a_1_1_options_a3049a68a6be9163941d290a3c814bb95}} 
+const int \mbox{\hyperlink{class_g_a_1_1_options_a3049a68a6be9163941d290a3c814bb95}{ac}}
+\begin{DoxyCompactList}\small\item\em main関数が受け取るコマンドライン引数 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_af173d38c599bb7a18936fa789cf20834}\label{class_g_a_1_1_options_af173d38c599bb7a18936fa789cf20834}} 
+const char $\ast$const  $\ast$const \mbox{\hyperlink{class_g_a_1_1_options_af173d38c599bb7a18936fa789cf20834}{av}}
+\begin{DoxyCompactList}\small\item\em main関数が受け取るコマンドライン引数 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a3def8dc5a8eb71dfcfa4361904077628}\label{class_g_a_1_1_options_a3def8dc5a8eb71dfcfa4361904077628}} 
+variables\+\_\+map \mbox{\hyperlink{class_g_a_1_1_options_a3def8dc5a8eb71dfcfa4361904077628}{vmap}}
+\begin{DoxyCompactList}\small\item\em boost\+::program\+\_\+options用の実マップ \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_ab33ec17ac35f1712e7c67b536f44910c}\label{class_g_a_1_1_options_ab33ec17ac35f1712e7c67b536f44910c}} 
+bool {\bfseries verbose}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_ab730c521a7b0cfa01ca122079a8b3d88}\label{class_g_a_1_1_options_ab730c521a7b0cfa01ca122079a8b3d88}} 
+bool {\bfseries color}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a9e53e11a7f60f5923c7006ec3f589735}\label{class_g_a_1_1_options_a9e53e11a7f60f5923c7006ec3f589735}} 
+\mbox{\hyperlink{class_g_a_1_1_log}{Log}} {\bfseries log}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a092453ebf41cdc99809ba4e35adb09bb}\label{class_g_a_1_1_options_a092453ebf41cdc99809ba4e35adb09bb}} 
+uint64\+\_\+t {\bfseries population\+\_\+number}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a0a112c15fd46f0830a7f42ec2f384800}\label{class_g_a_1_1_options_a0a112c15fd46f0830a7f42ec2f384800}} 
+uint64\+\_\+t {\bfseries individual\+\_\+number}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a876bb34ddc68a08180d50d737cd6e28a}\label{class_g_a_1_1_options_a876bb34ddc68a08180d50d737cd6e28a}} 
+uint64\+\_\+t {\bfseries chromosome\+\_\+number}
+\item 
+\mbox{\Hypertarget{class_g_a_1_1_options_a4f567205175c6b7ee39157bc758ccf02}\label{class_g_a_1_1_options_a4f567205175c6b7ee39157bc758ccf02}} 
+uint64\+\_\+t {\bfseries gene\+\_\+number}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+コマンドライン引数を処理する基底クラス 
+
+純粋仮想関数を含むため、直接インスタンスにできない。 ベースはboost\+::program\+\_\+optionsを使用している。 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_g_a_1_1_options_a8d16d8303f4988f0a5c3cf5b15492c24}\label{class_g_a_1_1_options_a8d16d8303f4988f0a5c3cf5b15492c24}} 
+\index{GA::Options@{GA::Options}!parse@{parse}}
+\index{parse@{parse}!GA::Options@{GA::Options}}
+\subsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily void G\+A\+::\+Options\+::parse (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+オプションの解釈 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Options.\+hpp\item 
+src/Options.\+cpp\end{DoxyCompactItemize}

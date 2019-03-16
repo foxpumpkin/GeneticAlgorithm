@@ -8,6 +8,7 @@
 #include <Log.hpp>
 
 namespace GA{
+
   //! 染色体（chromosome）
   /*!
    * 複数の遺伝子に集まり
