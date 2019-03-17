@@ -24,11 +24,11 @@ Kazuhide Okamura,  遺伝的アルゴリズム（Genetic Algorithm）を始め�
   GeneticAlgorithmライブラリの動作確認用テストプログラム
 1. GeneticAlgorithm  
   本リポジトリのメインとなる遺伝的アルゴリズムを実装する
-1. Log
+1. Log  
   ログ出力を管理する
-1. Option
+1. Option  
   コマンドライン引数を解釈する
-1. Define
+1. Define  
   全体で使用する変数やクラスを記述する
 
 ## Release Note
