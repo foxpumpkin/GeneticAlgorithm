@@ -1,5 +1,7 @@
 # GeneticAlgorithm
 
+## 概要
+
 遺伝的アルゴリズム（Genetic Algorithm）のC++による実装。
 
 ## Release Note
