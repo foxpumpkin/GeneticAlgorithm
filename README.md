@@ -77,10 +77,18 @@ Options:
 [Debug/None/06:13:24.370] (Options) color option was set to false.
 [Trace/None/06:13:24.371] (GeneticAlgorithm) instancing
 [Trace/None/06:13:24.371] (GeneticAlgorithm) allocation: 0
-[Trace/None/06:13:24.371] (GeneticAlgorithm)  initializing
+[Trace/None/06:13:24.371] (GeneticAlgorithm) initializing
 [Error/None/06:13:24.371] (GeneticAlgorithm) length is zero. allocate memory.
 [Debug/None/06:13:24.371] (main) application was successful
 [Trace/None/06:13:24.371] (GeneticAlgorithm) destructing
+</pre>
+
+<pre>
+% ./GeneticAlgorithm.out -v
+Implementation of The GeneticAlgorithm with C++
+     Version: 0.0
+ Update Date: Mar. 2019
+      Author: foxpumpkin
 </pre>
 
 ## Release Note
