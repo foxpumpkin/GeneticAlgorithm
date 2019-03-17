@@ -39,7 +39,7 @@ namespace GA{
       throw runtime_error("called help option");
     }
     if( vmap.count("version") ) {
-      cout << this->getVersion() << endl;
+      cout << this->getVersion();
       throw runtime_error("called version option");
     }
     if( vmap.count("Color") ) {
@@ -78,8 +78,10 @@ namespace GA{
 
   string Options::getVersion(){
     stringstream ss;
-    ss<< "HTTP Load Tester ver 0.0"<< endl;
-    ss<< "Written by Kumazawa"<< endl;
+    ss<< "Implementation of The GeneticAlgorithm with C++"<< endl;
+    ss<< "     Version: 0.0"<< endl;
+    ss<< " Update Date: Mar. 2019"<< endl;
+    ss<< "      Author: foxpumpkin"<< endl;
     return ss.str();
   }
 }
