@@ -31,6 +31,9 @@ Kazuhide Okamura,  遺伝的アルゴリズム（Genetic Algorithm）を始め�
 1. Define  
   全体で使用する変数やクラスを記述する
 
+---
+
+
 ## Release Note
 
 | 日付 | 版数 | 備考 |
