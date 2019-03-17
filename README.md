@@ -33,7 +33,7 @@ Kazuhide Okamura,  遺伝的アルゴリズム（Genetic Algorithm）を始め�
 
 ### Option
   コマンドライン引数を解釈する。
-  boost::program_optionsを使用してお、コマンドライン引数を解釈する。
+  boost::program_optionsを使用し、コマンドライン引数を解釈する。
   現時点（March 2019）では一般化されていないため、他のプログラムに
   流用するのは難しいと思われる。
 
@@ -52,8 +52,8 @@ Kazuhide Okamura,  遺伝的アルゴリズム（Genetic Algorithm）を始め�
   標準出力/標準エラー出力時の色を指定することを目的とした変数およびクラスを宣言/定義する。
   色の指定はuint64_t型で宣言/定義される変数を使用する。
 
-  
-  color::to_string<color::Color>()で引数として与えるstringに対してglobal::color_logがtrueの場合はカラータグを付与したstringを返す。
+  color::to_string<color::Color>()で引数として与えるstringに対してglobal::color_logが
+  trueの場合はカラータグを付与したstringを返す。
   global::color_logがfalseの場合はタグを付与せずそのまま返す。
 
 ## Release Note
