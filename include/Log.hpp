@@ -7,6 +7,7 @@
 #include <LogSystem.hpp>
 
 namespace GA{
+
   //! ログ生成用
   /*!
    * Singletonで実装されているLogSystem Classに対するインタフェースの役割

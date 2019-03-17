@@ -8,6 +8,7 @@
 #include <Log.hpp>
 
 namespace GA{
+  
   //! 個体（individual）
   /*!
    * １つまたは複数の染色体によって表現される自律的な個命題に対する解の候補

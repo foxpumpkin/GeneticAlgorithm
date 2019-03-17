@@ -8,11 +8,18 @@
 #include <map>
 
 namespace GA{
+
+  //! グローバル変数定義用の名前空間
+  /*! 
+   */
   namespace global{
     extern bool verbose_log;
     extern bool color_log;
   }
 
+  //! ログコード定義用の名前空間
+  /*! 
+   */
   namespace code{
     extern const uint64_t code_A;
     extern const uint64_t code_B;
@@ -21,9 +28,17 @@ namespace GA{
     extern const uint64_t code_E;
     extern const uint64_t none;
 
+    //! コードをstring型に変換する関数
+    /*! 
+     * 未定義のコードの場合はUnknownを返す。
+     */
     extern std::string to_string(const uint64_t &code);
   }
 
+  //! ログレベル定義用の名前空間
+  /*! 
+   * 
+   */
   namespace loglevel{
     extern const uint64_t all;
     extern const uint64_t fatal;
@@ -33,10 +48,19 @@ namespace GA{
     extern const uint64_t debug;
     extern const uint64_t trace;
     extern const uint64_t none;
+    
+    //! ログレベルをstring型に変換する関数
+    /*!
+     * 未定義のログレベルの場合はUnknownを返す。
+     */
     extern std::string to_string(const uint64_t &flag);
 
   }
 
+  //! 標準出力への着色用名前空間
+  /*! 
+   * 
+   */
   namespace color{
     extern const uint64_t black;
     extern const uint64_t red;
@@ -47,10 +71,10 @@ namespace GA{
     extern const uint64_t cyan; 
     extern const uint64_t white;
     extern const uint64_t clear;
-    
+
     //! ログカラー出力用の基底クラス
     /*!
-     */
+    */
     class Color{
       public:
         Color()= default;
@@ -59,82 +83,82 @@ namespace GA{
       protected:
         uint64_t code;
     };
-    
+
     //! ログカラー出力用の派生クラス（黒）
     /*!
-     */
+    */
     class Black: public Color{
       public:
         Black();
         virtual ~Black();
     };
-    
+
     //! ログカラー出力用の派生クラス（赤）
     /*!
-     */
+    */
     class Red: public Color{
       public:
         Red();
         virtual ~Red();
     };
-    
+
     //! ログカラー出力用の派生クラス（緑）
     /*!
-     */
+    */
     class Green: public Color{
       public:
         Green();
         virtual ~Green();
     };
-    
+
     //! ログカラー出力用の派生クラス（黄）
     /*!
-     */
+    */
     class Yellow: public Color{
       public:
         Yellow();
         virtual ~Yellow();
     };
-    
+
     //! ログカラー出力用の派生クラス（青）
     /*!
-     */
+    */
     class Blue: public Color{
       public:
         Blue();
         virtual ~Blue();
     };
-    
+
     //! ログカラー出力用の派生クラス（マゼンタ）
     /*!
-     */
+    */
     class Magenta: public Color{
       public:
         Magenta();
         virtual ~Magenta();
     };
-    
+
     //! ログカラー出力用の派生クラス（シアン）
     /*!
-     */
+    */
     class Cyan: public Color{
       public:
         Cyan();
         virtual ~Cyan();
     };
-    
+
     //! ログカラー出力用の派生クラス（白）
     /*!
-     */
+    */
     class White: public Color{
       public:
         White();
         virtual ~White();
     };
-    
+
     //! ログカラー出力用の派生クラス（初期化）
     /*!
-     */
+    */
     class Clear: public Color{
       public:
         Clear();

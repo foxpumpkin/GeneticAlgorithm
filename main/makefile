@@ -17,10 +17,8 @@ all: $(MAINLIST)
 
 
 ../%.out: %.cpp
-	$(CPP) -lc++ \
-	-std=c++17 \
-	$< \
-	$(MINEINC) $(MINELIB) \
+	$(CPP) -std=c++17 -lc++ \
+	$< $(MINEINC) $(MINELIB) \
 	$(LIBS) \
 	$(LIBLIST) \
 	-o $@;

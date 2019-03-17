@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['geneticalgorithm',['GeneticAlgorithm',['../index.html',1,'']]],
-  ['geneticalgorithm',['GeneticAlgorithm',['../md_markdown_title.html',1,'']]]
+  ['99_5frelease_5fnote',['99_release_note',['../md_markdown_99_release_note.html',1,'']]]
 ];

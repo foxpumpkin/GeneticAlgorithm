@@ -2,6 +2,7 @@ MAKE := make -C
 QUICK := -j16
 SRCDIR := src
 MAINDIR := main
+TEXDIR := latex
 MD_MAIN := README.md
 MD_DIR := ./markdown
 MD_LS = $(shell ls $(MD_DIR)/*.md | xargs -0 -n1 basename )
@@ -17,6 +18,7 @@ mdclear:
 %.md: 
 	cat ./markdown/$@ >> $(MD_MAIN)
 	doxygen
+	$(MAKE) $(TEXDIR)
 
 src: FORCE
 	@echo " + build libs"
@@ -28,6 +30,7 @@ main: FORCE
 
 clean:
 	@echo " + clean up"
+	$(MAKE) $(TEXDIR) clean
 	rm -rf lib/*.a *.out*
 
 FORCE:
