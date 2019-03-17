@@ -19,12 +19,17 @@ Kazuhide Okamura,  遺伝的アルゴリズム（Genetic Algorithm）を始め�
 
 ### システム構成
 
-下記の４つに分類できる。
+下記の５つに分類できる。
 1. mainプログラム  
-  aaaa
-1. aaaa
-1. aaaa
-1. aaa
+  GeneticAlgorithmライブラリの動作確認用テストプログラム
+1. GeneticAlgorithm  
+  本リポジトリのメインとなる遺伝的アルゴリズムを実装する
+1. Log
+  ログ出力を管理する
+1. Option
+  コマンドライン引数を解釈する
+1. Define
+  全体で使用する変数やクラスを記述する
 
 ## Release Note
 
