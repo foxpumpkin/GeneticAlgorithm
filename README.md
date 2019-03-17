@@ -55,6 +55,9 @@ Kazuhide Okamura,  遺伝的アルゴリズム（Genetic Algorithm）を始め�
   color::to_string&lt;color::Color&gt;()で引数として与えるstringに対してglobal::color_logが
   trueの場合はカラータグを付与したstringを返す。
   global::color_logがfalseの場合はタグを付与せずそのまま返す。
+## Conclusion
+
+
 
 ## Release Note
 
