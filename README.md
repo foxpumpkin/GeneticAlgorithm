@@ -17,8 +17,6 @@ Kazuhide Okamura,  遺伝的アルゴリズム（Genetic Algorithm）を始め�
 @nanasess, ログ設計指針, https://qiita.com/nanasess/items/350e59b29cceb2f122b3
 ## Structure
 
-### システム構成
-
 下記の５つに分類できる。
 
 ### main()
