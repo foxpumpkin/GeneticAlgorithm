@@ -52,7 +52,7 @@ Kazuhide Okamura,  遺伝的アルゴリズム（Genetic Algorithm）を始め�
   標準出力/標準エラー出力時の色を指定することを目的とした変数およびクラスを宣言/定義する。
   色の指定はuint64_t型で宣言/定義される変数を使用する。
 
-  color::to_string<color::Color>()で引数として与えるstringに対してglobal::color_logが
+  color::to_string&gt;color::Color&rt;()で引数として与えるstringに対してglobal::color_logが
   trueの場合はカラータグを付与したstringを返す。
   global::color_logがfalseの場合はタグを付与せずそのまま返す。
 
