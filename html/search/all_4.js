@@ -8,5 +8,8 @@ var searchData=
   ['getmessage',['getMessage',['../class_g_a_1_1_log_instance.html#a4da709e1f67e6113cb2ec25ce3512107',1,'GA::LogInstance']]],
   ['getqueue',['getQueue',['../class_g_a_1_1_log_queue.html#a3091d352fa55c1f0e9ed1b27845628d2',1,'GA::LogQueue']]],
   ['getstatistics',['getStatistics',['../class_g_a_1_1_log_queue.html#afcffc2b2531853f235da51dece095e47',1,'GA::LogQueue']]],
-  ['green',['Green',['../class_g_a_1_1color_1_1_green.html',1,'GA::color']]]
+  ['getversion',['getVersion',['../class_g_a_1_1_options.html#a8ed5817b7aa19cd6d6797552b335f2b6',1,'GA::Options']]],
+  ['green',['Green',['../class_g_a_1_1color_1_1_green.html',1,'GA::color']]],
+  ['geneticalgorithm',['GeneticAlgorithm',['../index.html',1,'']]],
+  ['geneticalgorithm',['GeneticAlgorithm',['../md_markdown_title.html',1,'']]]
 ];

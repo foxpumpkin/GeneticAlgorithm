@@ -24,21 +24,27 @@ vim -c 'e main/GeneticAlgorithm.cpp |
 
   tabnew | e src/Log.cpp |
   let b:syntastic_cpp_cflags = "-std=c++17 -std=gnu++17 -stdlib=libc++" |
-  sp include/Log.hpp 
+  sp include/Log.hpp |
 
   tabnew | e src/LogSystem.cpp |
   let b:syntastic_cpp_cflags = "-std=c++17 -std=gnu++17 -stdlib=libc++" |
-  sp include/LogSystem.hpp 
+  sp include/LogSystem.hpp |
 
   tabnew | e src/LogQueue.cpp |
   let b:syntastic_cpp_cflags = "-std=c++17 -std=gnu++17 -stdlib=libc++" |
-  sp include/LogQueue.hpp 
+  sp include/LogQueue.hpp |
 
   tabnew | e src/LogInstance.cpp |
   let b:syntastic_cpp_cflags = "-std=c++17 -std=gnu++17 -stdlib=libc++" |
-  sp include/LogInstance.hpp 
+  sp include/LogInstance.hpp |
 
   tabnew | e src/Define.cpp |
   let b:syntastic_cpp_cflags = "-std=c++17 -std=gnu++17 -stdlib=libc++" |
-  sp include/Define.hpp 
+  sp include/Define.hpp |
+ 
+  tabnew | e src/Options.cpp |
+  let b:syntastic_cpp_cflags = "-std=c++17 -std=gnu++17 -stdlib=libc++" |
+  sp include/Options.hpp |
+ 
+  tabnext
   '

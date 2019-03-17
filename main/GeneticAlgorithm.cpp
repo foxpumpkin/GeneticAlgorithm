@@ -5,29 +5,31 @@
 
 #include <GeneticAlgorithm.hpp>
 #include <Log.hpp>
+#include <Options.hpp>
 
 using namespace std;
 using namespace GA;
 
-int main(){
-  //global::verbose_log= true;
-  global::color_log= true;
-
+int main(const int _ac, const char* const * const _av){
   Log log("main");
-  int pl_num= 2;
-  int in_num= 2;
-  int ch_num= 2;
-  int gn_num= 2;
+
+  Options o(_ac, _av);
+  try{
+    o.parse();
+  } catch( std::exception &e){
+    log.log<LogFatal>("options: "+ std::string(e.what()));
+    return -1;
+  }
 
   GeneticAlgorithm ga;
-  ga.allocation(pl_num);
+  ga.allocation(o.getPopulationNumber());
 
-  for(int pl= 0; pl< pl_num; pl++){
-    ga[pl].allocation(in_num);
-    for(int in= 0; in< in_num; in++){
-      ga[pl][in].allocation(ch_num);
-      for(int ch= 0; ch< ch_num; ch++){
-        ga[pl][in][ch].allocation(gn_num);
+  for(int pl= 0; pl< o.getPopulationNumber(); pl++){
+    ga[pl].allocation(o.getIndividualNumber());
+    for(int in= 0; in< o.getIndividualNumber(); in++){
+      ga[pl][in].allocation(o.getChromosomeNumber());
+      for(int ch= 0; ch< o.getChromosomeNumber(); ch++){
+        ga[pl][in][ch].allocation(o.getGeneNumber());
       }
     }
   }
@@ -38,3 +40,5 @@ int main(){
   log.log<LogDebug>("application was successful");
   return 0;
 }
+
+

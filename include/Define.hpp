@@ -146,6 +146,3 @@ namespace GA{
 
 #endif
 
-/*! \mainpage
- * hello
- */
