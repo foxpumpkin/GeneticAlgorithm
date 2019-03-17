@@ -16,6 +16,9 @@ int main(const int _ac, const char* const * const _av){
   Options o(_ac, _av);
   try{
     o.parse();
+  } catch( std::runtime_error &e){
+    //log.log<LogFatal>("options: "+ std::string(e.what()));
+    return 0;
   } catch( std::exception &e){
     log.log<LogFatal>("options: "+ std::string(e.what()));
     return -1;

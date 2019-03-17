@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['setid',['setId',['../class_g_a_1_1_log_queue.html#ab58dec28bf80d687c364ab54f84ebb36',1,'GA::LogQueue']]],
-  ['sort',['sort',['../class_g_a_1_1_log_queue.html#a94a6016a80ecf0b926acb9fbde9cc176',1,'GA::LogQueue']]]
+  ['time',['time',['../class_g_a_1_1_log_instance.html#ae2ec73fb80d7eeae4bedeb7aa2810eda',1,'GA::LogInstance']]],
+  ['to_5fstring',['to_string',['../namespace_g_a_1_1code.html#abc5de9a375bbfb29df3bfee41dbe8c60',1,'GA::code::to_string()'],['../namespace_g_a_1_1loglevel.html#a9319a21550f7dfdd3229358e00009ce4',1,'GA::loglevel::to_string()']]]
 ];
