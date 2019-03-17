@@ -20,7 +20,7 @@ Kazuhide Okamura,  遺伝的アルゴリズム（Genetic Algorithm）を始め�
 ### システム構成
 
 下記の４つに分類できる。
-1. mainプログラム
+1. mainプログラム  
   aaaa
 1. aaaa
 1. aaaa
