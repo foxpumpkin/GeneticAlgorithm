@@ -1,0 +1,108 @@
+\hypertarget{class_http_load_tester_options}{}\section{Http\+Load\+Tester\+Options Class Reference}
+\label{class_http_load_tester_options}\index{HttpLoadTesterOptions@{HttpLoadTesterOptions}}
+
+
+コマンドライン引数を処理する派生クラス  
+
+
+
+
+{\ttfamily \#include $<$hltoptions.\+hpp$>$}
+
+Inheritance diagram for Http\+Load\+Tester\+Options\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_http_load_tester_options}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_http_load_tester_options_a7c4396abdb5a1fbdb7c46ee9a42758fe}\label{class_http_load_tester_options_a7c4396abdb5a1fbdb7c46ee9a42758fe}} 
+\mbox{\hyperlink{class_http_load_tester_options_a7c4396abdb5a1fbdb7c46ee9a42758fe}{Http\+Load\+Tester\+Options}} (const int ac, const char $\ast$const $\ast$const av)
+\begin{DoxyCompactList}\small\item\em 処理なし（add\+Optionをコール） \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_http_load_tester_options_a0bb3528400ff9cd78db9e3f07fe4f04c}\label{class_http_load_tester_options_a0bb3528400ff9cd78db9e3f07fe4f04c}} 
+\mbox{\hyperlink{class_http_load_tester_options_a0bb3528400ff9cd78db9e3f07fe4f04c}{$\sim$\+Http\+Load\+Tester\+Options}} ()
+\begin{DoxyCompactList}\small\item\em 処理なし \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_http_load_tester_options_a5b5ce6c59de007c423d7da2481622b09}{parse}} ()
+\begin{DoxyCompactList}\small\item\em オプションの解釈 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_http_load_tester_options_a63cbd4a342e44b6a7df5ba256fdd1570}\label{class_http_load_tester_options_a63cbd4a342e44b6a7df5ba256fdd1570}} 
+string \mbox{\hyperlink{class_http_load_tester_options_a63cbd4a342e44b6a7df5ba256fdd1570}{get\+Server\+Address}} ()
+\begin{DoxyCompactList}\small\item\em H\+T\+T\+Pサーバのアドレスを返す \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_http_load_tester_options_aa93d967c1a6b0f441dbd0b076bac0280}\label{class_http_load_tester_options_aa93d967c1a6b0f441dbd0b076bac0280}} 
+string \mbox{\hyperlink{class_http_load_tester_options_aa93d967c1a6b0f441dbd0b076bac0280}{get\+Download\+Path}} ()
+\begin{DoxyCompactList}\small\item\em ダウンロードパスを返す \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_http_load_tester_options_ac5c4dce62d2f5e10f2184e972f4b84d2}\label{class_http_load_tester_options_ac5c4dce62d2f5e10f2184e972f4b84d2}} 
+uint32\+\_\+t \mbox{\hyperlink{class_http_load_tester_options_ac5c4dce62d2f5e10f2184e972f4b84d2}{get\+Thread\+Number}} ()
+\begin{DoxyCompactList}\small\item\em 起動するスレッド数を返す \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_http_load_tester_options_a6d59ec8444404c279011020ee8fc3883}\label{class_http_load_tester_options_a6d59ec8444404c279011020ee8fc3883}} 
+uint32\+\_\+t \mbox{\hyperlink{class_http_load_tester_options_a6d59ec8444404c279011020ee8fc3883}{get\+Request\+Number}} ()
+\begin{DoxyCompactList}\small\item\em スレッドが送る\+G\+ET R\+E\+Q\+U\+E\+S\+T数を返す \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_http_load_tester_options_a582d36d54cea7cdf87e08f2457aa46af}\label{class_http_load_tester_options_a582d36d54cea7cdf87e08f2457aa46af}} 
+uint32\+\_\+t \mbox{\hyperlink{class_http_load_tester_options_a582d36d54cea7cdf87e08f2457aa46af}{get\+Expire\+Time}} ()
+\begin{DoxyCompactList}\small\item\em 制限時間を返す\mbox{[}usec\mbox{]} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_http_load_tester_options_a9cbb3361d020193d230d02d5526aa824}\label{class_http_load_tester_options_a9cbb3361d020193d230d02d5526aa824}} 
+bool \mbox{\hyperlink{class_http_load_tester_options_a9cbb3361d020193d230d02d5526aa824}{get\+Verbose}} ()
+\begin{DoxyCompactList}\small\item\em 詳細ログの是(ture)非(false)を返す \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_http_load_tester_options_a64c39330a7c012b5d5327bd9bcecf3e6}\label{class_http_load_tester_options_a64c39330a7c012b5d5327bd9bcecf3e6}} 
+string \mbox{\hyperlink{class_http_load_tester_options_a64c39330a7c012b5d5327bd9bcecf3e6}{get\+Version}} ()
+\begin{DoxyCompactList}\small\item\em バージョン情報をstring型で返す \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_http_load_tester_options_aa8f1a91b911d9d5e1d39475e6ac1fa3e}\label{class_http_load_tester_options_aa8f1a91b911d9d5e1d39475e6ac1fa3e}} 
+void \mbox{\hyperlink{class_http_load_tester_options_aa8f1a91b911d9d5e1d39475e6ac1fa3e}{add\+Options}} ()
+\begin{DoxyCompactList}\small\item\em オプションを追加する \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_http_load_tester_options_a7537010767c2b21de982333f0b633b5d}\label{class_http_load_tester_options_a7537010767c2b21de982333f0b633b5d}} 
+string {\bfseries dst}
+\item 
+\mbox{\Hypertarget{class_http_load_tester_options_a862eb478246f91578132f5d8eeaa7de9}\label{class_http_load_tester_options_a862eb478246f91578132f5d8eeaa7de9}} 
+string {\bfseries path}
+\item 
+\mbox{\Hypertarget{class_http_load_tester_options_a2d4cc41774e040a77f62d84e95cb1131}\label{class_http_load_tester_options_a2d4cc41774e040a77f62d84e95cb1131}} 
+uint32\+\_\+t {\bfseries thread\+\_\+number}
+\item 
+\mbox{\Hypertarget{class_http_load_tester_options_a6a453a3ee1096f8a8f9166bed46cf811}\label{class_http_load_tester_options_a6a453a3ee1096f8a8f9166bed46cf811}} 
+uint32\+\_\+t {\bfseries request\+\_\+number}
+\item 
+\mbox{\Hypertarget{class_http_load_tester_options_a84a7933df80d15873893b38b0d11636c}\label{class_http_load_tester_options_a84a7933df80d15873893b38b0d11636c}} 
+uint32\+\_\+t {\bfseries expire\+\_\+time}
+\item 
+\mbox{\Hypertarget{class_http_load_tester_options_a0759dc95082494148e28f57a43ca7a7c}\label{class_http_load_tester_options_a0759dc95082494148e28f57a43ca7a7c}} 
+bool {\bfseries verbose}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+コマンドライン引数を処理する派生クラス 
+
+Load\+Tester\+Optionsを継承して、実際に使用するオプションを定義および解釈する。 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_http_load_tester_options_a5b5ce6c59de007c423d7da2481622b09}\label{class_http_load_tester_options_a5b5ce6c59de007c423d7da2481622b09}} 
+\index{HttpLoadTesterOptions@{HttpLoadTesterOptions}!parse@{parse}}
+\index{parse@{parse}!HttpLoadTesterOptions@{HttpLoadTesterOptions}}
+\subsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily void Http\+Load\+Tester\+Options\+::parse (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+オプションの解釈 
+
+基底クラスのparseも合わせてコールする 
+
+Reimplemented from \mbox{\hyperlink{class_load_tester_options_ae444c5c2f49cf71d6c63c2eaaf577f62}{Load\+Tester\+Options}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/hltoptions.\+hpp\item 
+src/hltoptions.\+cpp\end{DoxyCompactItemize}

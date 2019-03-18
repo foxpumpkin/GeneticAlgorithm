@@ -1,0 +1,69 @@
+\hypertarget{namespace_g_a}{}\section{GA Namespace Reference}
+\label{namespace_g_a}\index{GA@{GA}}
+
+
+ログの実クラス  
+
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_g_a_1_1_chromosome}{Chromosome}}
+\begin{DoxyCompactList}\small\item\em 染色体（chromosome） \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_gene}{Gene}}
+\begin{DoxyCompactList}\small\item\em 遺伝子（gene） \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_genetic_algorithm}{Genetic\+Algorithm}}
+\begin{DoxyCompactList}\small\item\em 遺伝的アルゴリズムのベースクラス \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_individual}{Individual}}
+\begin{DoxyCompactList}\small\item\em 個体（individual） \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_log}{Log}}
+\begin{DoxyCompactList}\small\item\em ログ生成用 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_log_all}{Log\+All}}
+\begin{DoxyCompactList}\small\item\em ログレベル\+Log\+Allクラス \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_log_debug}{Log\+Debug}}
+\begin{DoxyCompactList}\small\item\em ログレベル\+Log\+Debugクラス \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_log_error}{Log\+Error}}
+\begin{DoxyCompactList}\small\item\em ログレベル\+Log\+Errorクラス \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_log_fatal}{Log\+Fatal}}
+\begin{DoxyCompactList}\small\item\em ログレベル\+Log\+Fatalクラス \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_log_information}{Log\+Information}}
+\begin{DoxyCompactList}\small\item\em ログレベル\+Log\+Informationクラス \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_log_instance}{Log\+Instance}}
+\item 
+class \mbox{\hyperlink{class_g_a_1_1_log_none}{Log\+None}}
+\begin{DoxyCompactList}\small\item\em ログレベル\+Log\+Noneクラス \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_log_queue}{Log\+Queue}}
+\begin{DoxyCompactList}\small\item\em ログを格納し、リスト化するクラス \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_log_system}{Log\+System}}
+\begin{DoxyCompactList}\small\item\em Log\+Systemクラス \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_log_trace}{Log\+Trace}}
+\begin{DoxyCompactList}\small\item\em ログレベル\+Log\+Traceクラス \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_log_type}{Log\+Type}}
+\begin{DoxyCompactList}\small\item\em ログレベルの基底クラス \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_log_warning}{Log\+Warning}}
+\begin{DoxyCompactList}\small\item\em ログレベル\+Log\+Warningクラス \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_g_a_1_1_population}{Population}}
+\begin{DoxyCompactList}\small\item\em 集団（population） \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespace_g_a_a3257264d9480e9ae601d4a09f7456c1e}\label{namespace_g_a_a3257264d9480e9ae601d4a09f7456c1e}} 
+const std\+::string {\bfseries locus\+\_\+to\+\_\+string} (const \mbox{\hyperlink{class_g_a_1_1_chromosome}{Chromosome}} $\ast$chromosome)
+\item 
+\mbox{\Hypertarget{namespace_g_a_afa6676deab617ba7f44ca7f4d1216429}\label{namespace_g_a_afa6676deab617ba7f44ca7f4d1216429}} 
+const std\+::string {\bfseries locus\+\_\+to\+\_\+string} (const \mbox{\hyperlink{class_g_a_1_1_gene}{Gene}} $\ast$gene)
+\item 
+\mbox{\Hypertarget{namespace_g_a_acb12729d562fa5f52323dbccc037fa90}\label{namespace_g_a_acb12729d562fa5f52323dbccc037fa90}} 
+const std\+::string {\bfseries locus\+\_\+to\+\_\+string} (const \mbox{\hyperlink{class_g_a_1_1_individual}{Individual}} $\ast$individual)
+\item 
+\mbox{\Hypertarget{namespace_g_a_a1ecc9cbb7b0a197eb33af3792d11e77e}\label{namespace_g_a_a1ecc9cbb7b0a197eb33af3792d11e77e}} 
+const std\+::string {\bfseries locus\+\_\+to\+\_\+string} (const \mbox{\hyperlink{class_g_a_1_1_population}{Population}} $\ast$population)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+ログの実クラス 
+
+時刻(time\+\_\+point)、メッセージ(string)、\+I\+D(uint64\+\_\+t)、コード(uint64\+\_\+t)、カウンタ(uint64\+\_\+t)を持つ。 比較(operator==)はコードを比較し、和(operator+=)はカウンタを合算する。
+
+ログレベルは下記\+U\+R\+Lを参考にしている。 \href{https://qiita.com/nanasess/items/350e59b29cceb2f122b3}{\texttt{ https\+://qiita.\+com/nanasess/items/350e59b29cceb2f122b3}} 

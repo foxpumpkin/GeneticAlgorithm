@@ -1,0 +1,212 @@
+\hypertarget{class_session}{}\section{Session Class Reference}
+\label{class_session}\index{Session@{Session}}
+
+
+Http\+Load\+Testerプログラムのメインクラス  
+
+
+
+
+{\ttfamily \#include $<$session.\+hpp$>$}
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_session_1_1_http_get_sequence}{Http\+Get\+Sequence}}
+\begin{DoxyCompactList}\small\item\em 実際に\+Httpのシーケンスを処理する内部クラス \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_session_ad92ef09b872c9227e38a6efdd4d8a837}\label{class_session_ad92ef09b872c9227e38a6efdd4d8a837}} 
+\mbox{\hyperlink{class_session_ad92ef09b872c9227e38a6efdd4d8a837}{Session}} ()
+\begin{DoxyCompactList}\small\item\em 処理なし \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_session_a8753bb9dee966b7d39abc9b7237cd665}{$\sim$\+Session}} ()
+\begin{DoxyCompactList}\small\item\em 処理なし \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_ac021327c4e92076d0dc6a129e4bf5f7d}\label{class_session_ac021327c4e92076d0dc6a129e4bf5f7d}} 
+void \mbox{\hyperlink{class_session_ac021327c4e92076d0dc6a129e4bf5f7d}{set\+Timer}} (std\+::chrono\+::milliseconds \&milli)
+\begin{DoxyCompactList}\small\item\em 処理時間\mbox{[}umsec\mbox{]}を設定 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_session_a04178216aff38a635e926a1983f64ff2}{set\+Timer}} (const uint32\+\_\+t \&milli)
+\begin{DoxyCompactList}\small\item\em 処理時間\mbox{[}umsec\mbox{]}を設定 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_session_ae2c389b0a37a29dfa05a55e6026b704d}{print\+Log}} ()
+\begin{DoxyCompactList}\small\item\em Logを出力 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_session_ae59450c62e173a51a22b50764f205bc6}{print\+Statistics}} ()
+\begin{DoxyCompactList}\small\item\em 統計情報を出力 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_session_a1b0a0eee5c4429fd148d796e6add79cd}{print\+Time\+Information}} ()
+\begin{DoxyCompactList}\small\item\em 処理時間を出力 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_session_a373987ee33c3e34612b56eb6f21bee42}{run}} ()
+\begin{DoxyCompactList}\small\item\em 処理を実行 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_a28d4235ecf412be4a714610f9a37c54e}\label{class_session_a28d4235ecf412be4a714610f9a37c54e}} 
+void \mbox{\hyperlink{class_session_a28d4235ecf412be4a714610f9a37c54e}{set\+Server\+Address}} (string const \mbox{\hyperlink{class_session_a6d1ea15ced9736aa0ee7752300e430ea}{dst}})
+\begin{DoxyCompactList}\small\item\em サーバのアドレスを指定 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_aacf1c816b90b02fd7a57984777a24de5}\label{class_session_aacf1c816b90b02fd7a57984777a24de5}} 
+void \mbox{\hyperlink{class_session_aacf1c816b90b02fd7a57984777a24de5}{set\+Download\+Path}} (string const \mbox{\hyperlink{class_session_ae26e301fcbf0c2d4717c3e9c28624fc7}{path}})
+\begin{DoxyCompactList}\small\item\em ダウンロードパスを指定 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_ad4fb464f039e4b30914800d2dcc90051}\label{class_session_ad4fb464f039e4b30914800d2dcc90051}} 
+void \mbox{\hyperlink{class_session_ad4fb464f039e4b30914800d2dcc90051}{set\+Thread\+Number}} (uint32\+\_\+t const \mbox{\hyperlink{class_session_aef9ab24b7bf5b9323d126d2f87ae29c8}{thread\+\_\+number}})
+\begin{DoxyCompactList}\small\item\em 同時処理するスレッド数を指定 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_session_aebaba3b41feb88ff5ac38bccc9a59145}{set\+Request\+Number}} (uint32\+\_\+t const \mbox{\hyperlink{class_session_a8e0e6196c88d75c190fb38054fa02c53}{request\+\_\+number}})
+\begin{DoxyCompactList}\small\item\em スレッドあたりの実行回数を指定 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_a433cadcd740535d8b8bf58e27dbfe48c}\label{class_session_a433cadcd740535d8b8bf58e27dbfe48c}} 
+bool \mbox{\hyperlink{class_session_a433cadcd740535d8b8bf58e27dbfe48c}{is\+Run}} ()
+\begin{DoxyCompactList}\small\item\em 処理中かどうかを返す \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_a2cd066dba731c145e3d553ae558b4273}\label{class_session_a2cd066dba731c145e3d553ae558b4273}} 
+void \mbox{\hyperlink{class_session_a2cd066dba731c145e3d553ae558b4273}{sort}} ()
+\begin{DoxyCompactList}\small\item\em ログ取得時間をキーにして\+Log\+Queueを昇順にソールする \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_log_queue}{Log\+Queue}} \mbox{\hyperlink{class_session_a1723417ecebdb373c736aedff685d401}{\+\_\+do}} (uint32\+\_\+t id, boost\+::asio\+::io\+\_\+service $\ast$io, shared\+\_\+ptr$<$ tcp\+::socket $>$ socket)
+\begin{DoxyCompactList}\small\item\em 各threadで実行する関数 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_a675d980ab2d2127cd33e49d5590771f0}\label{class_session_a675d980ab2d2127cd33e49d5590771f0}} 
+void \mbox{\hyperlink{class_session_a675d980ab2d2127cd33e49d5590771f0}{stop\+Run}} ()
+\begin{DoxyCompactList}\small\item\em 処理を中断するハンドラ \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_session_aef9ab24b7bf5b9323d126d2f87ae29c8}\label{class_session_aef9ab24b7bf5b9323d126d2f87ae29c8}} 
+uint32\+\_\+t \mbox{\hyperlink{class_session_aef9ab24b7bf5b9323d126d2f87ae29c8}{thread\+\_\+number}}
+\begin{DoxyCompactList}\small\item\em 実行するスレッド数を格納する \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_a8e0e6196c88d75c190fb38054fa02c53}\label{class_session_a8e0e6196c88d75c190fb38054fa02c53}} 
+uint32\+\_\+t \mbox{\hyperlink{class_session_a8e0e6196c88d75c190fb38054fa02c53}{request\+\_\+number}}
+\begin{DoxyCompactList}\small\item\em スレッド毎の実行回数を格納する \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_aecca10a5ed03f04cdb9d30a69ff220a0}\label{class_session_aecca10a5ed03f04cdb9d30a69ff220a0}} 
+vector$<$ boost\+::unique\+\_\+future$<$ \mbox{\hyperlink{class_log_queue}{Log\+Queue}} $>$ $\ast$ $>$ $\ast$ \mbox{\hyperlink{class_session_aecca10a5ed03f04cdb9d30a69ff220a0}{thread\+\_\+list}}
+\begin{DoxyCompactList}\small\item\em 生成したスレッドを格納する \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_ad6d63231c9ebb745496a8c30c3c432de}\label{class_session_ad6d63231c9ebb745496a8c30c3c432de}} 
+chrono\+::milliseconds \mbox{\hyperlink{class_session_ad6d63231c9ebb745496a8c30c3c432de}{timer}}
+\begin{DoxyCompactList}\small\item\em 実行時間\mbox{[}msec\mbox{]}を格納する \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_afa6fedb9c26219352907e9c2ce7f03ae}\label{class_session_afa6fedb9c26219352907e9c2ce7f03ae}} 
+chrono\+::system\+\_\+clock\+::time\+\_\+point \mbox{\hyperlink{class_session_afa6fedb9c26219352907e9c2ce7f03ae}{run\+\_\+start\+\_\+time}}
+\begin{DoxyCompactList}\small\item\em 計算開始時刻を格納する \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_a4d53e3a1a06099694e94b51d448b94a4}\label{class_session_a4d53e3a1a06099694e94b51d448b94a4}} 
+chrono\+::system\+\_\+clock\+::time\+\_\+point \mbox{\hyperlink{class_session_a4d53e3a1a06099694e94b51d448b94a4}{run\+\_\+end\+\_\+time}}
+\begin{DoxyCompactList}\small\item\em 計算終了時刻を格納する \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_a6d1ea15ced9736aa0ee7752300e430ea}\label{class_session_a6d1ea15ced9736aa0ee7752300e430ea}} 
+string \mbox{\hyperlink{class_session_a6d1ea15ced9736aa0ee7752300e430ea}{dst}}
+\begin{DoxyCompactList}\small\item\em 負荷を与えるサーバのアドレスを格納する \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_ae26e301fcbf0c2d4717c3e9c28624fc7}\label{class_session_ae26e301fcbf0c2d4717c3e9c28624fc7}} 
+string \mbox{\hyperlink{class_session_ae26e301fcbf0c2d4717c3e9c28624fc7}{path}}
+\begin{DoxyCompactList}\small\item\em ダウンロードパスを格納する \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_a047c4dca57751816ffa8d2163bb967d1}\label{class_session_a047c4dca57751816ffa8d2163bb967d1}} 
+\mbox{\hyperlink{class_log_queue}{Log\+Queue}} \mbox{\hyperlink{class_session_a047c4dca57751816ffa8d2163bb967d1}{queue}}
+\begin{DoxyCompactList}\small\item\em ログを格納する \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_session_aef8d58138baac878a24d20294c5fe64f}\label{class_session_aef8d58138baac878a24d20294c5fe64f}} 
+bool \mbox{\hyperlink{class_session_aef8d58138baac878a24d20294c5fe64f}{is\+\_\+run}}
+\begin{DoxyCompactList}\small\item\em 実行中であるか否かを示す \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Http\+Load\+Testerプログラムのメインクラス 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_session_a8753bb9dee966b7d39abc9b7237cd665}\label{class_session_a8753bb9dee966b7d39abc9b7237cd665}} 
+\index{Session@{Session}!````~Session@{$\sim$Session}}
+\index{````~Session@{$\sim$Session}!Session@{Session}}
+\subsubsection{\texorpdfstring{$\sim$Session()}{~Session()}}
+{\footnotesize\ttfamily Session\+::$\sim$\+Session (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+処理なし 
+
+thread\+\_\+listがnullptrでない場合はメモリを開放 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_session_a1723417ecebdb373c736aedff685d401}\label{class_session_a1723417ecebdb373c736aedff685d401}} 
+\index{Session@{Session}!\_do@{\_do}}
+\index{\_do@{\_do}!Session@{Session}}
+\subsubsection{\texorpdfstring{\_do()}{\_do()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_log_queue}{Log\+Queue}} Session\+::\+\_\+do (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{id,  }\item[{boost\+::asio\+::io\+\_\+service $\ast$}]{io,  }\item[{shared\+\_\+ptr$<$ tcp\+::socket $>$}]{socket }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+各threadで実行する関数 
+
+Http\+Get\+Sequenceに宛先、パスを設定し処理を実行する。 \mbox{\Hypertarget{class_session_ae2c389b0a37a29dfa05a55e6026b704d}\label{class_session_ae2c389b0a37a29dfa05a55e6026b704d}} 
+\index{Session@{Session}!printLog@{printLog}}
+\index{printLog@{printLog}!Session@{Session}}
+\subsubsection{\texorpdfstring{printLog()}{printLog()}}
+{\footnotesize\ttfamily void Session\+::print\+Log (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Logを出力 
+
+実行回数が指定された場合は、処理時間指定は無効 \mbox{\Hypertarget{class_session_ae59450c62e173a51a22b50764f205bc6}\label{class_session_ae59450c62e173a51a22b50764f205bc6}} 
+\index{Session@{Session}!printStatistics@{printStatistics}}
+\index{printStatistics@{printStatistics}!Session@{Session}}
+\subsubsection{\texorpdfstring{printStatistics()}{printStatistics()}}
+{\footnotesize\ttfamily void Session\+::print\+Statistics (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+統計情報を出力 
+
+Log\+Queueからコードごとのカウンタを取得する。
+
+取得したカウンタを出力する。
+
+H\+T\+TP Response Codeごとにカウンタを出力する \mbox{\Hypertarget{class_session_a1b0a0eee5c4429fd148d796e6add79cd}\label{class_session_a1b0a0eee5c4429fd148d796e6add79cd}} 
+\index{Session@{Session}!printTimeInformation@{printTimeInformation}}
+\index{printTimeInformation@{printTimeInformation}!Session@{Session}}
+\subsubsection{\texorpdfstring{printTimeInformation()}{printTimeInformation()}}
+{\footnotesize\ttfamily void Session\+::print\+Time\+Information (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+処理時間を出力 
+
+事前に取得した実行時間の差分を取る。
+
+実行時間を出力する。 \mbox{\Hypertarget{class_session_a373987ee33c3e34612b56eb6f21bee42}\label{class_session_a373987ee33c3e34612b56eb6f21bee42}} 
+\index{Session@{Session}!run@{run}}
+\index{run@{run}!Session@{Session}}
+\subsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void Session\+::run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+処理を実行 
+
+thread\+\_\+listがnullptrの場合はメモリを確保する。
+
+タイマをセットする。ハンドラとしてstop\+Run()を登録する。
+
+thread\+\_\+number分だけスレッドを生成する。
+
+socketを生成する。ファイルディスクリプの制限等で例外が投げられた場合は スレッドの生成を中止し、タイマーを待つ。
+
+スレッドを生成する。生成に失敗した場合、直前に生成したsocketを削除しタイマーを待つ。
+
+回数指定がない場合はタイマーのタイムアウトまで待機 タイムアウト後はソケットをshutdown()およびclose()し各スレッドの通信を中断する。
+
+全スレッドの実行が終了を待ち、実行終了時間を記録する。
+
+thread、そのvector、ソケット、io\+\_\+serviceのメモリを開放する。 \mbox{\Hypertarget{class_session_aebaba3b41feb88ff5ac38bccc9a59145}\label{class_session_aebaba3b41feb88ff5ac38bccc9a59145}} 
+\index{Session@{Session}!setRequestNumber@{setRequestNumber}}
+\index{setRequestNumber@{setRequestNumber}!Session@{Session}}
+\subsubsection{\texorpdfstring{setRequestNumber()}{setRequestNumber()}}
+{\footnotesize\ttfamily void Session\+::set\+Request\+Number (\begin{DoxyParamCaption}\item[{uint32\+\_\+t const}]{request\+\_\+number }\end{DoxyParamCaption})}
+
+
+
+スレッドあたりの実行回数を指定 
+
+実行回数が指定された場合は、処理時間指定は無効 \mbox{\Hypertarget{class_session_a04178216aff38a635e926a1983f64ff2}\label{class_session_a04178216aff38a635e926a1983f64ff2}} 
+\index{Session@{Session}!setTimer@{setTimer}}
+\index{setTimer@{setTimer}!Session@{Session}}
+\subsubsection{\texorpdfstring{setTimer()}{setTimer()}}
+{\footnotesize\ttfamily void Session\+::set\+Timer (\begin{DoxyParamCaption}\item[{const uint32\+\_\+t \&}]{milli }\end{DoxyParamCaption})}
+
+
+
+処理時間\mbox{[}umsec\mbox{]}を設定 
+
+実行回数が指定された場合は、処理時間指定は無効 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/session.\+hpp\item 
+src/session.\+cpp\end{DoxyCompactItemize}
