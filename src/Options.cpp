@@ -1,6 +1,8 @@
 #include <Options.hpp>
 
 namespace GA{
+  using namespace std;
+
   Options::Options(const int _ac, const char* const * const _av):
     description("Options"), ac(_ac), av(_av), vmap(), log("Options"),
       population_number(0), individual_number(0), chromosome_number(0), gene_number(0)

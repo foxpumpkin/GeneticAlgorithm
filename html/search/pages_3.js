@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['release_20note',['Release Note',['../md_markdown_99_release_note.html',1,'']]]
+  ['previous_20studies',['Previous Studies',['../md_markdown_20_previous_studies.html',1,'']]]
 ];

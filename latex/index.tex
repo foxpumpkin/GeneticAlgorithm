@@ -2,6 +2,8 @@
 
 このプログラムは遺伝的アルゴリズム（\+Genetic Algorithm）の\+C++による実装である。\+C++17の使用を前提としている。
 
+現代では遺伝的アルゴリズムの基礎研究はなされていないため特別参考にした論文はない。 仮に基礎研究の論文が見つかれば、それに準ずる実装を進める。
+
 \subsection*{Previous Studies}
 
 \subsubsection*{遺伝的アルゴリズムについて}
@@ -10,7 +12,83 @@ Kazuhide Okamura, 遺伝的アルゴリズム（\+Genetic Algorithm）を始め�
 
 \subsubsection*{設計について}
 
-@nanasess, ログ設計指針, \href{https://qiita.com/nanasess/items/350e59b29cceb2f122b3}{\texttt{ https\+://qiita.\+com/nanasess/items/350e59b29cceb2f122b3}}
+@nanasess, ログ設計指針, \href{https://qiita.com/nanasess/items/350e59b29cceb2f122b3}{\texttt{ https\+://qiita.\+com/nanasess/items/350e59b29cceb2f122b3}} \subsection*{Structure}
+
+下記の５つに分類できる。
+
+\subsubsection*{main()}
+
+Genetic\+Algorithmライブラリの動作確認用テストプログラムである。
+
+\subsubsection*{Genetic\+Algorithm}
+
+本リポジトリのメインとなる遺伝的アルゴリズムを実装する。
+
+\subsubsection*{Log}
+
+ログ出力を管理する。ベースは\+Log\+System classであるが、 Log classでラップするように運用する。ただし、\+Log\+System classは Singletonで設計/実装されているため、必ずしも\+Log classを使用する必要はない。 非推奨であるが、直接\+Log\+System classを呼んでログ出力（統計）も可能である。
+
+\subsubsection*{Option}
+
+コマンドライン引数を解釈する。 boost\+::program\+\_\+optionsを使用し、コマンドライン引数を解釈する。 現時点（\+March 2019）では一般化されていないため、他のプログラムに 流用するのは難しいと思われる。
+
+\subsubsection*{Define}
+
+全体で使用する変数やクラスを記述する。
+
+\paragraph*{名前空間 global}
+
+プログラム全体で使用するフラグ類である。
+
+\paragraph*{名前空間 loglevel}
+
+ログレベルを表すuint64\+\_\+t型の変数を宣言/定義し、 また、loglevel\+::to\+\_\+string()を使用し、uint64\+\_\+t型のログレベルを引数としてstring型へ 変換できる。
+
+\paragraph*{名前空間 color}
+
+標準出力/標準エラー出力時の色を指定することを目的とした変数およびクラスを宣言/定義する。 色の指定はuint64\+\_\+t型で宣言/定義される変数を使用する。
+
+color\+::to\+\_\+string$<$color\+::\+Color$>$()で引数として与えるstringに対してglobal\+::color\+\_\+logが trueの場合はカラータグを付与したstringを返す。 global\+::color\+\_\+logがfalseの場合はタグを付与せずそのまま返す。 \subsection*{Conclusion}
+
+実行結果を示す。
+
+
+\begin{DoxyPre}
+\% ./GeneticAlgorithm.out -h
+Options:
+  -h [ --help ]           Help
+  -v [ --version ]        Version information
+  -C [ --Color ]          color log
+  -p [ --population ] arg Number of population (for test)
+  -i [ --individual ] arg Number of individual (for test)
+  -c [ --chromosome ] arg Number of population (for test)
+  -g [ --gene ] arg       Number of population (for test)
+  -V [ --verbose ]        more log
+\end{DoxyPre}
+
+
+
+\begin{DoxyPre}
+\% ./GeneticAlgorithm.out
+[Debug/None/06:13:24.370] (Options) color option was set to false.
+[Trace/None/06:13:24.371] (GeneticAlgorithm) instancing
+[Trace/None/06:13:24.371] (GeneticAlgorithm) allocation: 0
+[Trace/None/06:13:24.371] (GeneticAlgorithm) initializing
+[Error/None/06:13:24.371] (GeneticAlgorithm) length is zero. allocate memory.
+[Debug/None/06:13:24.371] (main) application was successful
+[Trace/None/06:13:24.371] (GeneticAlgorithm) destructing
+\end{DoxyPre}
+
+
+
+\begin{DoxyPre}
+\% ./GeneticAlgorithm.out -v
+Implementation of The GeneticAlgorithm with C++
+     Version: 0.0
+ Update Date: Mar. 2019
+      Author: foxpumpkin
+\end{DoxyPre}
+
 
 \subsection*{Release Note}
 
@@ -24,5 +102,17 @@ Kazuhide Okamura, 遺伝的アルゴリズム（\+Genetic Algorithm）を始め�
 \hline
 \PBS\raggedleft \cellcolor{\tableheadbgcolor}\textbf{ 日付  }&\PBS\raggedleft \cellcolor{\tableheadbgcolor}\textbf{ 版数  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ 備考   }\\\cline{1-3}
 \endhead
-\PBS\raggedleft March 18th 2019  &\PBS\raggedleft 0.\+0  &アップロード   \\\cline{1-3}
+\PBS\raggedleft Mar. 18th 2019  &\PBS\raggedleft 0.\+0  &アップロード   \\\cline{1-3}
+\PBS\raggedleft &\PBS\raggedleft .  &\\\cline{1-3}
+\PBS\raggedleft &\PBS\raggedleft .  &\\\cline{1-3}
+\PBS\raggedleft &\PBS\raggedleft .  &\\\cline{1-3}
+\PBS\raggedleft &\PBS\raggedleft .  &\\\cline{1-3}
+\PBS\raggedleft &\PBS\raggedleft .  &\\\cline{1-3}
+\PBS\raggedleft &\PBS\raggedleft .  &\\\cline{1-3}
+\PBS\raggedleft &\PBS\raggedleft .  &\\\cline{1-3}
+\PBS\raggedleft &\PBS\raggedleft .  &\\\cline{1-3}
+\PBS\raggedleft &\PBS\raggedleft .  &\\\cline{1-3}
+\PBS\raggedleft &\PBS\raggedleft .  &\\\cline{1-3}
+\PBS\raggedleft &\PBS\raggedleft .  &\\\cline{1-3}
+\PBS\raggedleft &\PBS\raggedleft .  &\\\cline{1-3}
 \end{longtabu}

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['geneticalgorithm',['GeneticAlgorithm',['../class_g_a_1_1_genetic_algorithm.html#ab9ea4a383b2872e420d553414f4f86b1',1,'GA::GeneticAlgorithm']]],
+  ['get_5fpopulation_5flocus',['get_population_locus',['../class_g_a_1_1_population.html#a8dcdd839cb17b00327bed382207dcc87',1,'GA::Population']]],
   ['getcode',['getCode',['../class_g_a_1_1_log_instance.html#ad9ccca468988cdbf118d0ab4fd0dd0a9',1,'GA::LogInstance']]],
   ['getcounter',['getCounter',['../class_g_a_1_1_log_instance.html#a3d88f1acc4dbd7f696e05521950225b9',1,'GA::LogInstance']]],
   ['gethttpresponsecode',['getHttpResponseCode',['../class_g_a_1_1_log_queue.html#ad2026bee29a87a03824227189cf13fa3',1,'GA::LogQueue']]],

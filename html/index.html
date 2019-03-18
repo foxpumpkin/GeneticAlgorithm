@@ -67,17 +67,87 @@ $(function() {
 <div class="contents">
 <div class="textblock"><h2>Introduction</h2>
 <p>このプログラムは遺伝的アルゴリズム（Genetic Algorithm）のC++による実装である。C++17の使用を前提としている。</p>
+<p>現代では遺伝的アルゴリズムの基礎研究はなされていないため特別参考にした論文はない。 仮に基礎研究の論文が見つかれば、それに準ずる実装を進める。</p>
 <h2>Previous Studies</h2>
 <h3>遺伝的アルゴリズムについて</h3>
 <p>Kazuhide Okamura, 遺伝的アルゴリズム（Genetic Algorithm）を始めよう！, <a href="https://www.slideshare.net/kzokm/genetic-algorithm-41617242">https://www.slideshare.net/kzokm/genetic-algorithm-41617242</a></p>
 <h3>設計について</h3>
-<p>@nanasess, ログ設計指針, <a href="https://qiita.com/nanasess/items/350e59b29cceb2f122b3">https://qiita.com/nanasess/items/350e59b29cceb2f122b3</a></p>
-<h2>Release Note</h2>
+<p>@nanasess, ログ設計指針, <a href="https://qiita.com/nanasess/items/350e59b29cceb2f122b3">https://qiita.com/nanasess/items/350e59b29cceb2f122b3</a> </p><h2>Structure</h2>
+<p>下記の５つに分類できる。</p>
+<h3>main()</h3>
+<p>GeneticAlgorithmライブラリの動作確認用テストプログラムである。</p>
+<h3>GeneticAlgorithm</h3>
+<p>本リポジトリのメインとなる遺伝的アルゴリズムを実装する。</p>
+<h3>Log</h3>
+<p>ログ出力を管理する。ベースはLogSystem classであるが、 Log classでラップするように運用する。ただし、LogSystem classは Singletonで設計/実装されているため、必ずしもLog classを使用する必要はない。 非推奨であるが、直接LogSystem classを呼んでログ出力（統計）も可能である。</p>
+<h3>Option</h3>
+<p>コマンドライン引数を解釈する。 boost::program_optionsを使用し、コマンドライン引数を解釈する。 現時点（March 2019）では一般化されていないため、他のプログラムに 流用するのは難しいと思われる。</p>
+<h3>Define</h3>
+<p>全体で使用する変数やクラスを記述する。</p>
+<h4>名前空間 global</h4>
+<p>プログラム全体で使用するフラグ類である。</p>
+<h4>名前空間 loglevel</h4>
+<p>ログレベルを表すuint64_t型の変数を宣言/定義し、 また、loglevel::to_string()を使用し、uint64_t型のログレベルを引数としてstring型へ 変換できる。</p>
+<h4>名前空間 color</h4>
+<p>標準出力/標準エラー出力時の色を指定することを目的とした変数およびクラスを宣言/定義する。 色の指定はuint64_t型で宣言/定義される変数を使用する。</p>
+<p>color::to_string&lt;color::Color&gt;()で引数として与えるstringに対してglobal::color_logが trueの場合はカラータグを付与したstringを返す。 global::color_logがfalseの場合はタグを付与せずそのまま返す。 </p><h2>Conclusion</h2>
+<p>実行結果を示す。</p>
+<pre>
+% ./GeneticAlgorithm.out -h
+Options:
+  -h [ --help ]           Help
+  -v [ --version ]        Version information
+  -C [ --Color ]          color log
+  -p [ --population ] arg Number of population (for test)
+  -i [ --individual ] arg Number of individual (for test)
+  -c [ --chromosome ] arg Number of population (for test)
+  -g [ --gene ] arg       Number of population (for test)
+  -V [ --verbose ]        more log
+</pre><pre>
+% ./GeneticAlgorithm.out
+[Debug/None/06:13:24.370] (Options) color option was set to false.
+[Trace/None/06:13:24.371] (GeneticAlgorithm) instancing
+[Trace/None/06:13:24.371] (GeneticAlgorithm) allocation: 0
+[Trace/None/06:13:24.371] (GeneticAlgorithm) initializing
+[Error/None/06:13:24.371] (GeneticAlgorithm) length is zero. allocate memory.
+[Debug/None/06:13:24.371] (main) application was successful
+[Trace/None/06:13:24.371] (GeneticAlgorithm) destructing
+</pre><pre>
+% ./GeneticAlgorithm.out -v
+Implementation of The GeneticAlgorithm with C++
+     Version: 0.0
+ Update Date: Mar. 2019
+      Author: foxpumpkin
+</pre><h2>Release Note</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadRight">日付  </th><th class="markdownTableHeadRight">版数  </th><th class="markdownTableHeadNone">備考   </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyRight">March 18th 2019  </td><td class="markdownTableBodyRight">0.0  </td><td class="markdownTableBodyNone">アップロード   </td></tr>
+<td class="markdownTableBodyRight">Mar. 18th 2019  </td><td class="markdownTableBodyRight">0.0  </td><td class="markdownTableBodyNone">アップロード   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyRight"></td><td class="markdownTableBodyRight">.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyRight"></td><td class="markdownTableBodyRight">.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyRight"></td><td class="markdownTableBodyRight">.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyRight"></td><td class="markdownTableBodyRight">.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyRight"></td><td class="markdownTableBodyRight">.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyRight"></td><td class="markdownTableBodyRight">.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyRight"></td><td class="markdownTableBodyRight">.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyRight"></td><td class="markdownTableBodyRight">.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyRight"></td><td class="markdownTableBodyRight">.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyRight"></td><td class="markdownTableBodyRight">.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyRight"></td><td class="markdownTableBodyRight">.  </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyRight"></td><td class="markdownTableBodyRight">.  </td><td class="markdownTableBodyNone"></td></tr>
 </table>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->

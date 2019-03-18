@@ -13,7 +13,6 @@
 
 #include <Log.hpp>
 
-using namespace std;
 using namespace boost::program_options;
 
 namespace GA{
@@ -42,12 +41,22 @@ namespace GA{
       const uint64_t getGeneNumber() const;
 
     protected:
+      
+      //! boost::program_options
       options_description description;
-      //! バージョン出力の純粋仮想関数
-      string getVersion();
+      
+      //! バージョン情報をstring型で返す。
+      std::string getVersion();
+      
+      //! main関数が受け取るコマンドライン引数
       const int ac;
+      
+      //! main関数が受け取るコマンドライン引数
       const char* const * const av;
+      
+      //! boost::program_options用の実マップ
       variables_map vmap;
+
     private:
       bool verbose;
       bool color;

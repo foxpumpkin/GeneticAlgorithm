@@ -1,0 +1,3634 @@
+{\rtf1\ansi\ansicpg932\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset128\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset128\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset128\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\info 
+{\title {\comment Implementation of The GeneticAlgorithm with C++ }Implementation of The GeneticAlgorithm with C++}
+{\comment Generated by doxygen.}
+{\creatim \yr2019\mo3\dy18\hr13\min13\sec22}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt Implementation of The GeneticAlgorithm with C++}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Version \par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt Mon Mar 18 2019 }}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Table of Contents\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+GeneticAlgorithm\par \pard\plain 
+{\tc \v GeneticAlgorithm}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid {\tc\tcl2 Introduction} \par}
+\'82\'B1\'82\'CC\'83\'76\'83\'8D\'83\'4F\'83\'89\'83\'80\'82\'CD\'88\'E2\'93\'60\'93\'49\'83\'41\'83\'8B\'83\'53\'83\'8A\'83\'59\'83\'80\'81\'69Genetic Algorithm\'81\'6A\'82\'CCC++\'82\'C9\'82\'E6\'82\'E9\'8E\'C0\'91\'95\'82\'C5\'82\'A0\'82\'E9\'81\'42C++17\'82\'CC\'8E\'67\'97\'70\'82\'F0\'91\'4F\'92\'F1\'82\'C6\'82\'B5\'82\'C4\'82\'A2\'82\'E9\'81\'42\par
+\'8C\'BB\'91\'E3\'82\'C5\'82\'CD\'88\'E2\'93\'60\'93\'49\'83\'41\'83\'8B\'83\'53\'83\'8A\'83\'59\'83\'80\'82\'CC\'8A\'EE\'91\'62\'8C\'A4\'8B\'86\'82\'CD\'82\'C8\'82\'B3\'82\'EA\'82\'C4\'82\'A2\'82\'C8\'82\'A2\'82\'BD\'82\'DF\'93\'C1\'95\'CA\'8E\'51\'8D\'6C\'82\'C9\'82\'B5\'82\'BD\'98\'5F\'95\'B6\'82\'CD\'82\'C8\'82\'A2\'81\'42 \'89\'BC\'82\'C9\'8A\'EE\'91\'62\'8C\'A4\'8B\'86\'82\'CC\'98\'5F\'95\'B6\'82\'AA\'8C\'A9\'82\'C2\'82\'A9\'82\'EA\'82\'CE\'81\'41\'82\'BB\'82\'EA\'82\'C9\'8F\'80\'82\'B8\'82\'E9\'8E\'C0\'91\'95\'82\'F0\'90\'69\'82\'DF\'82\'E9\'81\'42\par
+{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid {\tc\tcl2 Previous Studies} \par}
+{\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid {\tc\tcl3 \'88\'E2\'93\'60\'93\'49\'83\'41\'83\'8B\'83\'53\'83\'8A\'83\'59\'83\'80\'82\'C9\'82\'C2\'82\'A2\'82\'C4} \par}
+Kazuhide Okamura, \'88\'E2\'93\'60\'93\'49\'83\'41\'83\'8B\'83\'53\'83\'8A\'83\'59\'83\'80\'81\'69Genetic Algorithm\'81\'6A\'82\'F0\'8E\'6E\'82\'DF\'82\'E6\'82\'A4\'81\'49, {\field {\*\fldinst { HYPERLINK "https://www.slideshare.net/kzokm/genetic-algorithm-41617242" }{}}{\fldrslt {\cs37\ul\cf2 https://www.slideshare.net/kzokm/genetic-algorithm-41617242}}}
+\par
+{\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid {\tc\tcl3 \'90\'DD\'8C\'76\'82\'C9\'82\'C2\'82\'A2\'82\'C4} \par}
+@nanasess, \'83\'8D\'83\'4F\'90\'DD\'8C\'76\'8E\'77\'90\'6A, {\field {\*\fldinst { HYPERLINK "https://qiita.com/nanasess/items/350e59b29cceb2f122b3" }{}}{\fldrslt {\cs37\ul\cf2 https://qiita.com/nanasess/items/350e59b29cceb2f122b3}}}
+ {\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid {\tc\tcl2 Structure} \par}
+\'89\'BA\'8B\'4C\'82\'CC\'82\'54\'82\'C2\'82\'C9\'95\'AA\'97\'DE\'82\'C5\'82\'AB\'82\'E9\'81\'42\par
+{\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid {\tc\tcl3 main()} \par}
+GeneticAlgorithm\'83\'89\'83\'43\'83\'75\'83\'89\'83\'8A\'82\'CC\'93\'AE\'8D\'EC\'8A\'6D\'94\'46\'97\'70\'83\'65\'83\'58\'83\'67\'83\'76\'83\'8D\'83\'4F\'83\'89\'83\'80\'82\'C5\'82\'A0\'82\'E9\'81\'42\par
+{\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid {\tc\tcl3 GeneticAlgorithm} \par}
+\'96\'7B\'83\'8A\'83\'7C\'83\'57\'83\'67\'83\'8A\'82\'CC\'83\'81\'83\'43\'83\'93\'82\'C6\'82\'C8\'82\'E9\'88\'E2\'93\'60\'93\'49\'83\'41\'83\'8B\'83\'53\'83\'8A\'83\'59\'83\'80\'82\'F0\'8E\'C0\'91\'95\'82\'B7\'82\'E9\'81\'42\par
+{\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid {\tc\tcl3 Log} \par}
+\'83\'8D\'83\'4F\'8F\'6F\'97\'CD\'82\'F0\'8A\'C7\'97\'9D\'82\'B7\'82\'E9\'81\'42\'83\'78\'81\'5B\'83\'58\'82\'CDLogSystem class\'82\'C5\'82\'A0\'82\'E9\'82\'AA\'81\'41 Log class\'82\'C5\'83\'89\'83\'62\'83\'76\'82\'B7\'82\'E9\'82\'E6\'82\'A4\'82\'C9\'89\'5E\'97\'70\'82\'B7\'82\'E9\'81\'42\'82\'BD\'82\'BE\'82\'B5\'81\'41LogSystem class\'82\'CD Singleton\'82\'C5\'90\'DD\'8C\'76/\'8E\'C0\'91\'95\'82\'B3\'82\'EA\'82\'C4\'82\'A2\'82\'E9\'82\'BD\'82\'DF\'81\'41\'95\'4B\'82\'B8\'82\'B5\'82\'E0Log class\'82\'F0\'8E\'67\'97\'70\'82\'B7\'82\'E9\'95\'4B\'97\'76\'82\'CD\'82\'C8\'82\'A2\'81\'42 \'94\'F1\'90\'84\'8F\'A7\'82\'C5\'82\'A0\'82\'E9\'82\'AA\'81\'41\'92\'BC\'90\'DALogSystem class\'82\'F0\'8C\'C4\'82\'F1\'82\'C5\'83\'8D\'83\'4F\'8F\'6F\'97\'CD\'81\'69\'93\'9D\'8C\'76\'81\'6A\'82\'E0\'89\'C2\'94\'5C\'82\'C5\'82\'A0\'82\'E9\'81\'42\par
+{\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid {\tc\tcl3 Option} \par}
+\'83\'52\'83\'7D\'83\'93\'83\'68\'83\'89\'83\'43\'83\'93\'88\'F8\'90\'94\'82\'F0\'89\'F0\'8E\'DF\'82\'B7\'82\'E9\'81\'42 boost::program_options\'82\'F0\'8E\'67\'97\'70\'82\'B5\'81\'41\'83\'52\'83\'7D\'83\'93\'83\'68\'83\'89\'83\'43\'83\'93\'88\'F8\'90\'94\'82\'F0\'89\'F0\'8E\'DF\'82\'B7\'82\'E9\'81\'42 \'8C\'BB\'8E\'9E\'93\'5F\'81\'69March 2019\'81\'6A\'82\'C5\'82\'CD\'88\'EA\'94\'CA\'89\'BB\'82\'B3\'82\'EA\'82\'C4\'82\'A2\'82\'C8\'82\'A2\'82\'BD\'82\'DF\'81\'41\'91\'BC\'82\'CC\'83\'76\'83\'8D\'83\'4F\'83\'89\'83\'80\'82\'C9 \'97\'AC\'97\'70\'82\'B7\'82\'E9\'82\'CC\'82\'CD\'93\'EF\'82\'B5\'82\'A2\'82\'C6\'8E\'76\'82\'ED\'82\'EA\'82\'E9\'81\'42\par
+{\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid {\tc\tcl3 Define} \par}
+\'91\'53\'91\'CC\'82\'C5\'8E\'67\'97\'70\'82\'B7\'82\'E9\'95\'CF\'90\'94\'82\'E2\'83\'4E\'83\'89\'83\'58\'82\'F0\'8B\'4C\'8F\'71\'82\'B7\'82\'E9\'81\'42\par
+{\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {\tc\tcl4 \'96\'BC\'91\'4F\'8B\'F3\'8A\'D4 global} \par}
+\'83\'76\'83\'8D\'83\'4F\'83\'89\'83\'80\'91\'53\'91\'CC\'82\'C5\'8E\'67\'97\'70\'82\'B7\'82\'E9\'83\'74\'83\'89\'83\'4F\'97\'DE\'82\'C5\'82\'A0\'82\'E9\'81\'42\par
+{\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {\tc\tcl4 \'96\'BC\'91\'4F\'8B\'F3\'8A\'D4 loglevel} \par}
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'82\'F0\'95\'5C\'82\'B7uint64_t\'8C\'5E\'82\'CC\'95\'CF\'90\'94\'82\'F0\'90\'E9\'8C\'BE/\'92\'E8\'8B\'60\'82\'B5\'81\'41 \'82\'DC\'82\'BD\'81\'41loglevel::to_string()\'82\'F0\'8E\'67\'97\'70\'82\'B5\'81\'41uint64_t\'8C\'5E\'82\'CC\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'82\'F0\'88\'F8\'90\'94\'82\'C6\'82\'B5\'82\'C4string\'8C\'5E\'82\'D6 \'95\'CF\'8A\'B7\'82\'C5\'82\'AB\'82\'E9\'81\'42\par
+{\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {\tc\tcl4 \'96\'BC\'91\'4F\'8B\'F3\'8A\'D4 color} \par}
+\'95\'57\'8F\'80\'8F\'6F\'97\'CD/\'95\'57\'8F\'80\'83\'47\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'8E\'9E\'82\'CC\'90\'46\'82\'F0\'8E\'77\'92\'E8\'82\'B7\'82\'E9\'82\'B1\'82\'C6\'82\'F0\'96\'DA\'93\'49\'82\'C6\'82\'B5\'82\'BD\'95\'CF\'90\'94\'82\'A8\'82\'E6\'82\'D1\'83\'4E\'83\'89\'83\'58\'82\'F0\'90\'E9\'8C\'BE/\'92\'E8\'8B\'60\'82\'B7\'82\'E9\'81\'42 \'90\'46\'82\'CC\'8E\'77\'92\'E8\'82\'CDuint64_t\'8C\'5E\'82\'C5\'90\'E9\'8C\'BE/\'92\'E8\'8B\'60\'82\'B3\'82\'EA\'82\'E9\'95\'CF\'90\'94\'82\'F0\'8E\'67\'97\'70\'82\'B7\'82\'E9\'81\'42\par
+color::to_string<color::Color>()\'82\'C5\'88\'F8\'90\'94\'82\'C6\'82\'B5\'82\'C4\'97\'5E\'82\'A6\'82\'E9string\'82\'C9\'91\'CE\'82\'B5\'82\'C4global::color_log\'82\'AA true\'82\'CC\'8F\'EA\'8D\'87\'82\'CD\'83\'4A\'83\'89\'81\'5B\'83\'5E\'83\'4F\'82\'F0\'95\'74\'97\'5E\'82\'B5\'82\'BDstring\'82\'F0\'95\'D4\'82\'B7\'81\'42 global::color_log\'82\'AAfalse\'82\'CC\'8F\'EA\'8D\'87\'82\'CD\'83\'5E\'83\'4F\'82\'F0\'95\'74\'97\'5E\'82\'B9\'82\'B8\'82\'BB\'82\'CC\'82\'DC\'82\'DC\'95\'D4\'82\'B7\'81\'42 {\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid {\tc\tcl2 Conclusion} \par}
+\'8E\'C0\'8D\'73\'8C\'8B\'89\'CA\'82\'F0\'8E\'A6\'82\'B7\'81\'42\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 
+% ./GeneticAlgorithm.out -h
+Options:
+  -h [ --help ]           Help
+  -v [ --version ]        Version information
+  -C [ --Color ]          color log
+  -p [ --population ] arg Number of population (for test)
+  -i [ --individual ] arg Number of individual (for test)
+  -c [ --chromosome ] arg Number of population (for test)
+  -g [ --gene ] arg       Number of population (for test)
+  -V [ --verbose ]        more log
+\par}
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 
+% ./GeneticAlgorithm.out
+[Debug/None/06:13:24.370] (Options) color option was set to false.
+[Trace/None/06:13:24.371] (GeneticAlgorithm) instancing
+[Trace/None/06:13:24.371] (GeneticAlgorithm) allocation: 0
+[Trace/None/06:13:24.371] (GeneticAlgorithm) initializing
+[Error/None/06:13:24.371] (GeneticAlgorithm) length is zero. allocate memory.
+[Debug/None/06:13:24.371] (main) application was successful
+[Trace/None/06:13:24.371] (GeneticAlgorithm) destructing
+\par}
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 
+% ./GeneticAlgorithm.out -v
+Implementation of The GeneticAlgorithm with C++
+     Version: 0.0
+ Update Date: Mar. 2019
+      Author: foxpumpkin
+\par}
+{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid {\tc\tcl2 Release Note} \par}
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clcbpat16\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clcbpat16\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clcbpat16\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\'93\'FA\'95\'74  \cell }{\'94\'C5\'90\'94  \cell }{\'94\'F5\'8D\'6C   \cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{Mar. 18th 2019  \cell }{0.0  \cell }{\'83\'41\'83\'62\'83\'76\'83\'8D\'81\'5B\'83\'68   \cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\cell }{.  \cell }{\cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\cell }{.  \cell }{\cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\cell }{.  \cell }{\cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\cell }{.  \cell }{\cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\cell }{.  \cell }{\cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\cell }{.  \cell }{\cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\cell }{.  \cell }{\cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\cell }{.  \cell }{\cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\cell }{.  \cell }{\cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\cell }{.  \cell }{\cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\cell }{.  \cell }{\cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\cell }{.  \cell }{\cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\pard\plain
+\par
+}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Namespace Index\par \pard\plain 
+{\tc \v Namespace Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Namespace List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here is a list of all documented namespaces with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFQ" }{}}{\fldrslt {\cs37\ul\cf2 GA::code}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'52\'81\'5B\'83\'68\'92\'E8\'8B\'60\'97\'70\'82\'CC\'96\'BC\'91\'4F\'8B\'F3\'8A\'D4 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFX" }{}}{\fldrslt {\cs37\ul\cf2 GA::color}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'95\'57\'8F\'80\'8F\'6F\'97\'CD\'82\'D6\'82\'CC\'92\'85\'90\'46\'97\'70\'96\'BC\'91\'4F\'8B\'F3\'8A\'D4 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAHE" }{}}{\fldrslt {\cs37\ul\cf2 GA::global}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'4F\'83\'8D\'81\'5B\'83\'6F\'83\'8B\'95\'CF\'90\'94\'92\'E8\'8B\'60\'97\'70\'82\'CC\'96\'BC\'91\'4F\'8B\'F3\'8A\'D4 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAHH" }{}}{\fldrslt {\cs37\ul\cf2 GA::loglevel}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'92\'E8\'8B\'60\'97\'70\'82\'CC\'96\'BC\'91\'4F\'8B\'F3\'8A\'D4 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Hierarchical Index\par \pard\plain 
+{\tc \v Hierarchical Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Class Hierarchy\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid This inheritance list is sorted roughly, but not completely, alphabetically:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+GA::Chromosome\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::color::Color\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGB \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+GA::color::Black\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::color::Blue\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::color::Clear\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::color::Cyan\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::color::Green\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::color::Magenta\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::color::Red\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::color::White\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::color::Yellow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+GA::Gene\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::GeneticAlgorithm\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::Individual\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::Log\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::LogInstance\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::LogQueue\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::LogSystem\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::LogType\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEG \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+GA::LogAll\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::LogDebug\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::LogError\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::LogFatal\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::LogInformation\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::LogNone\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::LogTrace\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::LogWarning\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+GA::Options\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+GA::Population\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Index\par \pard\plain 
+{\tc \v Class Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Class List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here are the classes, structs, unions and interfaces with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFY" }{}}{\fldrslt {\cs37\ul\cf2 GA::color::Black}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'8D\'95\'81\'6A })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFZ" }{}}{\fldrslt {\cs37\ul\cf2 GA::color::Blue}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'90\'C2\'81\'6A })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAA" }{}}{\fldrslt {\cs37\ul\cf2 GA::Chromosome}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'90\'F5\'90\'46\'91\'CC\'81\'69chromosome\'81\'6A })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGA" }{}}{\fldrslt {\cs37\ul\cf2 GA::color::Clear}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'8F\'89\'8A\'FA\'89\'BB\'81\'6A })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGB" }{}}{\fldrslt {\cs37\ul\cf2 GA::color::Color}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'8A\'EE\'92\'EA\'83\'4E\'83\'89\'83\'58 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGC" }{}}{\fldrslt {\cs37\ul\cf2 GA::color::Cyan}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'83\'56\'83\'41\'83\'93\'81\'6A })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 GA::Gene}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'88\'E2\'93\'60\'8E\'71\'81\'69gene\'81\'6A })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABF" }{}}{\fldrslt {\cs37\ul\cf2 GA::GeneticAlgorithm}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'88\'E2\'93\'60\'93\'49\'83\'41\'83\'8B\'83\'53\'83\'8A\'83\'59\'83\'80\'82\'CC\'83\'78\'81\'5B\'83\'58\'83\'4E\'83\'89\'83\'58 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGD" }{}}{\fldrslt {\cs37\ul\cf2 GA::color::Green}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'97\'CE\'81\'6A })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABR" }{}}{\fldrslt {\cs37\ul\cf2 GA::Individual}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8C\'C2\'91\'CC\'81\'69individual\'81\'6A })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 GA::Log}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'90\'B6\'90\'AC\'97\'70 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACI" }{}}{\fldrslt {\cs37\ul\cf2 GA::LogAll}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogAll\'83\'4E\'83\'89\'83\'58 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACJ" }{}}{\fldrslt {\cs37\ul\cf2 GA::LogDebug}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogDebug\'83\'4E\'83\'89\'83\'58 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACK" }{}}{\fldrslt {\cs37\ul\cf2 GA::LogError}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogError\'83\'4E\'83\'89\'83\'58 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACL" }{}}{\fldrslt {\cs37\ul\cf2 GA::LogFatal}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogFatal\'83\'4E\'83\'89\'83\'58 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACM" }{}}{\fldrslt {\cs37\ul\cf2 GA::LogInformation}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogInformation\'83\'4E\'83\'89\'83\'58 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACN" }{}}{\fldrslt {\cs37\ul\cf2 GA::LogInstance}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'82\'CC\'8E\'C0\'83\'4E\'83\'89\'83\'58 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADE" }{}}{\fldrslt {\cs37\ul\cf2 GA::LogNone}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogNone\'83\'4E\'83\'89\'83\'58 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADF" }{}}{\fldrslt {\cs37\ul\cf2 GA::LogQueue}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'82\'F0\'8A\'69\'94\'5B\'82\'B5\'81\'41\'83\'8A\'83\'58\'83\'67\'89\'BB\'82\'B7\'82\'E9\'83\'4E\'83\'89\'83\'58 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADU" }{}}{\fldrslt {\cs37\ul\cf2 GA::LogSystem}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+LogSystem\'83\'4E\'83\'89\'83\'58 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAEF" }{}}{\fldrslt {\cs37\ul\cf2 GA::LogTrace}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogTrace\'83\'4E\'83\'89\'83\'58 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAEG" }{}}{\fldrslt {\cs37\ul\cf2 GA::LogType}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'82\'CC\'8A\'EE\'92\'EA\'83\'4E\'83\'89\'83\'58 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAEJ" }{}}{\fldrslt {\cs37\ul\cf2 GA::LogWarning}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogWarning\'83\'4E\'83\'89\'83\'58 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGE" }{}}{\fldrslt {\cs37\ul\cf2 GA::color::Magenta}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'83\'7D\'83\'5B\'83\'93\'83\'5E\'81\'6A })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAEK" }{}}{\fldrslt {\cs37\ul\cf2 GA::Options}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'52\'83\'7D\'83\'93\'83\'68\'83\'89\'83\'43\'83\'93\'88\'F8\'90\'94\'82\'F0\'8F\'88\'97\'9D\'82\'B7\'82\'E9\'8A\'EE\'92\'EA\'83\'4E\'83\'89\'83\'58 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABK" }{}}{\fldrslt {\cs37\ul\cf2 GA::Population}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8F\'57\'92\'63\'81\'69population\'81\'6A })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGF" }{}}{\fldrslt {\cs37\ul\cf2 GA::color::Red}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'90\'D4\'81\'6A })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGG" }{}}{\fldrslt {\cs37\ul\cf2 GA::color::White}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'94\'92\'81\'6A })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGH" }{}}{\fldrslt {\cs37\ul\cf2 GA::color::Yellow}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'89\'A9\'81\'6A })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Namespace Documentation\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::code Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v GA::code}
+{\xe \v GA::code}
+{\bkmkstart AAAAAAAAFQ}
+{\bkmkend AAAAAAAAFQ}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'52\'81\'5B\'83\'68\'92\'E8\'8B\'60\'97\'70\'82\'CC\'96\'BC\'91\'4F\'8B\'F3\'8A\'D4 }}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::string {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFR" }{}}{\fldrslt {\cs37\ul\cf2 to_string}}}
+ (const uint64_t &code)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'52\'81\'5B\'83\'68\'82\'F0string\'8C\'5E\'82\'C9\'95\'CF\'8A\'B7\'82\'B7\'82\'E9\'8A\'D6\'90\'94 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Variables\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFS" }{}}{\fldrslt {\cs37\ul\cf2 code_A}}}
+ = 0x00'00'00'00'00'00'00'01{\bkmkstart AAAAAAAAFS}
+{\bkmkend AAAAAAAAFS}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'97\'70\'93\'72\'96\'A2\'92\'E8\'89\'BC\'90\'DD\'83\'52\'81\'5B\'83\'68\'81\'69A\'81\'6A }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFT" }{}}{\fldrslt {\cs37\ul\cf2 code_B}}}
+ = 0x00'00'00'00'00'00'00'02{\bkmkstart AAAAAAAAFT}
+{\bkmkend AAAAAAAAFT}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'97\'70\'93\'72\'96\'A2\'92\'E8\'89\'BC\'90\'DD\'83\'52\'81\'5B\'83\'68\'81\'69B\'81\'6A }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFU" }{}}{\fldrslt {\cs37\ul\cf2 code_C}}}
+ = 0x00'00'00'00'00'00'00'04{\bkmkstart AAAAAAAAFU}
+{\bkmkend AAAAAAAAFU}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'97\'70\'93\'72\'96\'A2\'92\'E8\'89\'BC\'90\'DD\'83\'52\'81\'5B\'83\'68\'81\'69C\'81\'6A }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFV" }{}}{\fldrslt {\cs37\ul\cf2 code_D}}}
+ = 0x00'00'00'00'00'00'00'08{\bkmkstart AAAAAAAAFV}
+{\bkmkend AAAAAAAAFV}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'97\'70\'93\'72\'96\'A2\'92\'E8\'89\'BC\'90\'DD\'83\'52\'81\'5B\'83\'68\'81\'69D\'81\'6A }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFW" }{}}{\fldrslt {\cs37\ul\cf2 code_E}}}
+ = 0x00'00'00'00'00'00'00'10{\bkmkstart AAAAAAAAFW}
+{\bkmkend AAAAAAAAFW}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'97\'70\'93\'72\'96\'A2\'92\'E8\'89\'BC\'90\'DD\'83\'52\'81\'5B\'83\'68\'81\'69E\'81\'6A }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADK" }{}}{\fldrslt {\cs37\ul\cf2 none}}}
+ = 0x00'00'00'00'00'00'00'00{\bkmkstart AAAAAAAADK}
+{\bkmkend AAAAAAAADK}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'66\'83\'74\'83\'48\'83\'8B\'83\'67\'83\'52\'81\'5B\'83\'68 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'52\'81\'5B\'83\'68\'92\'E8\'8B\'60\'97\'70\'82\'CC\'96\'BC\'91\'4F\'8B\'F3\'8A\'D4 \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v to_string\:GA::code}
+{\xe \v GA::code\:to_string}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string GA::code::to_string (const uint64_t &  {\i code})}}
+\par
+{\bkmkstart AAAAAAAAFR}
+{\bkmkend AAAAAAAAFR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'52\'81\'5B\'83\'68\'82\'F0string\'8C\'5E\'82\'C9\'95\'CF\'8A\'B7\'82\'B7\'82\'E9\'8A\'D6\'90\'94 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'96\'A2\'92\'E8\'8B\'60\'82\'CC\'83\'52\'81\'5B\'83\'68\'82\'CC\'8F\'EA\'8D\'87\'82\'CDUnknown\'82\'F0\'95\'D4\'82\'B7\'81\'42 \par
+}}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::color Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v GA::color}
+{\xe \v GA::color}
+{\bkmkstart AAAAAAAAFX}
+{\bkmkend AAAAAAAAFX}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'95\'57\'8F\'80\'8F\'6F\'97\'CD\'82\'D6\'82\'CC\'92\'85\'90\'46\'97\'70\'96\'BC\'91\'4F\'8B\'F3\'8A\'D4 }}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFY" }{}}{\fldrslt {\cs37\ul\cf2 Black}}}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'8D\'95\'81\'6A }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFZ" }{}}{\fldrslt {\cs37\ul\cf2 Blue}}}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'90\'C2\'81\'6A }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGA" }{}}{\fldrslt {\cs37\ul\cf2 Clear}}}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'8F\'89\'8A\'FA\'89\'BB\'81\'6A }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGB" }{}}{\fldrslt {\cs37\ul\cf2 Color}}}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'8A\'EE\'92\'EA\'83\'4E\'83\'89\'83\'58 }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGC" }{}}{\fldrslt {\cs37\ul\cf2 Cyan}}}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'83\'56\'83\'41\'83\'93\'81\'6A }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGD" }{}}{\fldrslt {\cs37\ul\cf2 Green}}}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'97\'CE\'81\'6A }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGE" }{}}{\fldrslt {\cs37\ul\cf2 Magenta}}}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'83\'7D\'83\'5B\'83\'93\'83\'5E\'81\'6A }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGF" }{}}{\fldrslt {\cs37\ul\cf2 Red}}}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'90\'D4\'81\'6A }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGG" }{}}{\fldrslt {\cs37\ul\cf2 White}}}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'94\'92\'81\'6A }}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGH" }{}}{\fldrslt {\cs37\ul\cf2 Yellow}}}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'89\'A9\'81\'6A }}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+template<class T > std::string {\b to_string} (const std::string &message){\bkmkstart AAAAAAAAGI}
+{\bkmkend AAAAAAAAGI}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+template<class T > string {\b to_string} (const std::string &message){\bkmkstart AAAAAAAAGJ}
+{\bkmkend AAAAAAAAGJ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+template string {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGK" }{}}{\fldrslt {\cs37\ul\cf2 to_string< Black >}}}
+ (const string &message){\bkmkstart AAAAAAAAGK}
+{\bkmkend AAAAAAAAGK}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+template color::to_string\'82\'C9\'82\'A8\'82\'AF\'82\'E9\'8D\'95\'82\'CC\'93\'C1\'8E\'EA\'89\'BB\'8E\'C0\'91\'95 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+template string {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGL" }{}}{\fldrslt {\cs37\ul\cf2 to_string< Red >}}}
+ (const string &message){\bkmkstart AAAAAAAAGL}
+{\bkmkend AAAAAAAAGL}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+template color::to_string\'82\'C9\'82\'A8\'82\'AF\'82\'E9\'90\'D4\'82\'CC\'93\'C1\'8E\'EA\'89\'BB\'8E\'C0\'91\'95 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+template string {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGM" }{}}{\fldrslt {\cs37\ul\cf2 to_string< Green >}}}
+ (const string &message){\bkmkstart AAAAAAAAGM}
+{\bkmkend AAAAAAAAGM}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+template color::to_string\'82\'C9\'82\'A8\'82\'AF\'82\'E9\'97\'CE\'82\'CC\'93\'C1\'8E\'EA\'89\'BB\'8E\'C0\'91\'95 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+template string {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGN" }{}}{\fldrslt {\cs37\ul\cf2 to_string< Yellow >}}}
+ (const string &message){\bkmkstart AAAAAAAAGN}
+{\bkmkend AAAAAAAAGN}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+template color::to_string\'82\'C9\'82\'A8\'82\'AF\'82\'E9\'89\'A9\'82\'CC\'93\'C1\'8E\'EA\'89\'BB\'8E\'C0\'91\'95 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+template string {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGO" }{}}{\fldrslt {\cs37\ul\cf2 to_string< Blue >}}}
+ (const string &message){\bkmkstart AAAAAAAAGO}
+{\bkmkend AAAAAAAAGO}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+template color::to_string\'82\'C9\'82\'A8\'82\'AF\'82\'E9\'90\'C2\'82\'CC\'93\'C1\'8E\'EA\'89\'BB\'8E\'C0\'91\'95 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+template string {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGP" }{}}{\fldrslt {\cs37\ul\cf2 to_string< Magenta >}}}
+ (const string &message){\bkmkstart AAAAAAAAGP}
+{\bkmkend AAAAAAAAGP}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+template color::to_string\'82\'C9\'82\'A8\'82\'AF\'82\'E9\'83\'7D\'83\'5B\'83\'93\'83\'5E\'82\'CC\'93\'C1\'8E\'EA\'89\'BB\'8E\'C0\'91\'95 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+template string {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGQ" }{}}{\fldrslt {\cs37\ul\cf2 to_string< Cyan >}}}
+ (const string &message){\bkmkstart AAAAAAAAGQ}
+{\bkmkend AAAAAAAAGQ}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+template color::to_string\'82\'C9\'82\'A8\'82\'AF\'82\'E9\'83\'56\'83\'41\'83\'93\'82\'CC\'93\'C1\'8E\'EA\'89\'BB\'8E\'C0\'91\'95 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+template string {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGR" }{}}{\fldrslt {\cs37\ul\cf2 to_string< White >}}}
+ (const string &message){\bkmkstart AAAAAAAAGR}
+{\bkmkend AAAAAAAAGR}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+template color::to_string\'82\'C9\'82\'A8\'82\'AF\'82\'E9\'94\'92\'82\'CC\'93\'C1\'8E\'EA\'89\'BB\'8E\'C0\'91\'95 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+template string {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGS" }{}}{\fldrslt {\cs37\ul\cf2 to_string< Clear >}}}
+ (const string &message){\bkmkstart AAAAAAAAGS}
+{\bkmkend AAAAAAAAGS}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+template color::to_string\'82\'C9\'82\'A8\'82\'AF\'82\'E9\'8F\'89\'8A\'FA\'89\'BB\'82\'CC\'93\'C1\'8E\'EA\'89\'BB\'8E\'C0\'91\'95 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Variables\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGT" }{}}{\fldrslt {\cs37\ul\cf2 black}}}
+ = 0x00'00'00'00'00'00'00'01{\bkmkstart AAAAAAAAGT}
+{\bkmkend AAAAAAAAGT}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'95\'B6\'8E\'9A\'90\'46\'81\'69\'8D\'95\'81\'6A\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGU" }{}}{\fldrslt {\cs37\ul\cf2 red}}}
+ = 0x00'00'00'00'00'00'00'02{\bkmkstart AAAAAAAAGU}
+{\bkmkend AAAAAAAAGU}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'95\'B6\'8E\'9A\'90\'46\'81\'69\'90\'D4\'81\'6A\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGV" }{}}{\fldrslt {\cs37\ul\cf2 green}}}
+ = 0x00'00'00'00'00'00'00'04{\bkmkstart AAAAAAAAGV}
+{\bkmkend AAAAAAAAGV}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'95\'B6\'8E\'9A\'90\'46\'81\'69\'97\'CE\'81\'6A\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGW" }{}}{\fldrslt {\cs37\ul\cf2 yellow}}}
+ = 0x00'00'00'00'00'00'00'08{\bkmkstart AAAAAAAAGW}
+{\bkmkend AAAAAAAAGW}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'95\'B6\'8E\'9A\'90\'46\'81\'69\'89\'A9\'81\'6A\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGX" }{}}{\fldrslt {\cs37\ul\cf2 blue}}}
+ = 0x00'00'00'00'00'00'00'10{\bkmkstart AAAAAAAAGX}
+{\bkmkend AAAAAAAAGX}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'95\'B6\'8E\'9A\'90\'46\'81\'69\'90\'C2\'81\'6A\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGY" }{}}{\fldrslt {\cs37\ul\cf2 magenta}}}
+ = 0x00'00'00'00'00'00'00'20{\bkmkstart AAAAAAAAGY}
+{\bkmkend AAAAAAAAGY}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'95\'B6\'8E\'9A\'90\'46\'81\'69\'83\'7D\'83\'5B\'83\'93\'83\'5E\'81\'6A\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAGZ" }{}}{\fldrslt {\cs37\ul\cf2 cyan}}}
+ = 0x00'00'00'00'00'00'00'40{\bkmkstart AAAAAAAAGZ}
+{\bkmkend AAAAAAAAGZ}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'95\'B6\'8E\'9A\'90\'46\'81\'69\'83\'56\'83\'41\'83\'93\'81\'6A\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAHA" }{}}{\fldrslt {\cs37\ul\cf2 white}}}
+ = 0x00'00'00'00'00'00'00'80{\bkmkstart AAAAAAAAHA}
+{\bkmkend AAAAAAAAHA}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'95\'B6\'8E\'9A\'90\'46\'81\'69\'94\'92\'81\'6A\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAHB" }{}}{\fldrslt {\cs37\ul\cf2 clear}}}
+ = 0x00'00'00'00'00'00'01'00{\bkmkstart AAAAAAAAHB}
+{\bkmkend AAAAAAAAHB}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'95\'B6\'8E\'9A\'90\'46\'81\'69\'8F\'89\'8A\'FA\'89\'BB\'81\'6A\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'95\'57\'8F\'80\'8F\'6F\'97\'CD\'82\'D6\'82\'CC\'92\'85\'90\'46\'97\'70\'96\'BC\'91\'4F\'8B\'F3\'8A\'D4 \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::global Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v GA::global}
+{\xe \v GA::global}
+{\bkmkstart AAAAAAAAHE}
+{\bkmkend AAAAAAAAHE}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'4F\'83\'8D\'81\'5B\'83\'6F\'83\'8B\'95\'CF\'90\'94\'92\'E8\'8B\'60\'97\'70\'82\'CC\'96\'BC\'91\'4F\'8B\'F3\'8A\'D4 }}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Variables\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+bool {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAHF" }{}}{\fldrslt {\cs37\ul\cf2 verbose_log}}}
+ = false{\bkmkstart AAAAAAAAHF}
+{\bkmkend AAAAAAAAHF}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+verbose\'83\'82\'81\'5B\'83\'68\'81\'69Mar. 2019\'8E\'9E\'93\'5F\'96\'A2\'8E\'C0\'91\'95\'81\'6A\'82\'F0\'97\'4C\'8C\'F8\'82\'C9\'82\'B5\'82\'BD\'82\'A2\'8F\'EA\'8D\'87true\'82\'F0\'97\'5E\'82\'A6\'82\'E9\'81\'42 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+bool {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAHG" }{}}{\fldrslt {\cs37\ul\cf2 color_log}}}
+ = false{\bkmkstart AAAAAAAAHG}
+{\bkmkend AAAAAAAAHG}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'82\'F0\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'82\'B5\'82\'BD\'82\'A2\'81\'69color::to_string\'82\'F0\'97\'4C\'8C\'F8\'82\'C9\'82\'B5\'82\'BD\'82\'A2\'81\'6A\'8F\'EA\'8D\'87true\'82\'F0\'97\'5E\'82\'A6\'82\'E9\'81\'42 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'4F\'83\'8D\'81\'5B\'83\'6F\'83\'8B\'95\'CF\'90\'94\'92\'E8\'8B\'60\'97\'70\'82\'CC\'96\'BC\'91\'4F\'8B\'F3\'8A\'D4 \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::loglevel Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v GA::loglevel}
+{\xe \v GA::loglevel}
+{\bkmkstart AAAAAAAAHH}
+{\bkmkend AAAAAAAAHH}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'92\'E8\'8B\'60\'97\'70\'82\'CC\'96\'BC\'91\'4F\'8B\'F3\'8A\'D4 }}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::string {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAHI" }{}}{\fldrslt {\cs37\ul\cf2 to_string}}}
+ (const uint64_t &flag)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'82\'F0string\'8C\'5E\'82\'C9\'95\'CF\'8A\'B7\'82\'B7\'82\'E9\'8A\'D6\'90\'94 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Variables\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAHJ" }{}}{\fldrslt {\cs37\ul\cf2 all}}}
+ = 0x00'00'00'00'00'00'00'FF{\bkmkstart AAAAAAAAHJ}
+{\bkmkend AAAAAAAAHJ}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'82\'B7\'82\'D7\'82\'C4\'82\'CC\'83\'8D\'83\'4F\'82\'F0\'8F\'6F\'97\'CD\'82\'B7\'82\'E9\'82\'B3\'82\'A2\'82\'C9\'8E\'77\'92\'E8\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAHK" }{}}{\fldrslt {\cs37\ul\cf2 fatal}}}
+ = 0x00'00'00'00'00'00'00'20{\bkmkstart AAAAAAAAHK}
+{\bkmkend AAAAAAAAHK}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'92\'76\'96\'BD\'93\'49\'82\'C8\'83\'47\'83\'89\'81\'5B\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAHL" }{}}{\fldrslt {\cs37\ul\cf2 error}}}
+ = 0x00'00'00'00'00'00'00'10{\bkmkstart AAAAAAAAHL}
+{\bkmkend AAAAAAAAHL}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'47\'83\'89\'81\'5B\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAHM" }{}}{\fldrslt {\cs37\ul\cf2 warning}}}
+ = 0x00'00'00'00'00'00'00'08{\bkmkstart AAAAAAAAHM}
+{\bkmkend AAAAAAAAHM}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8C\'78\'8D\'90\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAHN" }{}}{\fldrslt {\cs37\ul\cf2 information}}}
+ = 0x00'00'00'00'00'00'00'04{\bkmkstart AAAAAAAAHN}
+{\bkmkend AAAAAAAAHN}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8F\'EE\'95\'F1\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAHO" }{}}{\fldrslt {\cs37\ul\cf2 debug}}}
+ = 0x00'00'00'00'00'00'00'02{\bkmkstart AAAAAAAAHO}
+{\bkmkend AAAAAAAAHO}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'66\'83\'6F\'83\'62\'83\'4F\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAHP" }{}}{\fldrslt {\cs37\ul\cf2 trace}}}
+ = 0x00'00'00'00'00'00'00'01{\bkmkstart AAAAAAAAHP}
+{\bkmkend AAAAAAAAHP}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'67\'83\'8C\'81\'5B\'83\'58\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAHQ" }{}}{\fldrslt {\cs37\ul\cf2 none}}}
+ = 0x00'00'00'00'00'00'00'00{\bkmkstart AAAAAAAAHQ}
+{\bkmkend AAAAAAAAHQ}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8E\'67\'97\'70\'94\'F1\'90\'84\'8F\'A7\'82\'CC\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'82\'F0\'8E\'77\'82\'B7\'92\'E8\'90\'94 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'92\'E8\'8B\'60\'97\'70\'82\'CC\'96\'BC\'91\'4F\'8B\'F3\'8A\'D4 \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v to_string\:GA::loglevel}
+{\xe \v GA::loglevel\:to_string}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string GA::loglevel::to_string (const uint64_t &  {\i flag})}}
+\par
+{\bkmkstart AAAAAAAAHI}
+{\bkmkend AAAAAAAAHI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'82\'F0string\'8C\'5E\'82\'C9\'95\'CF\'8A\'B7\'82\'B7\'82\'E9\'8A\'D6\'90\'94 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'96\'A2\'92\'E8\'8B\'60\'82\'CC\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'82\'CC\'8F\'EA\'8D\'87\'82\'CDUnknown\'82\'F0\'95\'D4\'82\'B7\'81\'42 \par
+}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Documentation{\tc \v Class Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::color::Black Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::color::Black}
+{\xe \v GA::color::Black}
+{\bkmkstart AAAAAAAAFY}
+{\bkmkend AAAAAAAAFY}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'8D\'95\'81\'6A }}\par
+{
+{\f2 #include <Define.hpp>}}\par
+Inheritance diagram for GA::color::Black:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1color_1_1_black.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'8D\'95\'81\'6A \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Define.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Define.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::color::Blue Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::color::Blue}
+{\xe \v GA::color::Blue}
+{\bkmkstart AAAAAAAAFZ}
+{\bkmkend AAAAAAAAFZ}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'90\'C2\'81\'6A }}\par
+{
+{\f2 #include <Define.hpp>}}\par
+Inheritance diagram for GA::color::Blue:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1color_1_1_blue.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'90\'C2\'81\'6A \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Define.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Define.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::Chromosome Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::Chromosome}
+{\xe \v GA::Chromosome}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'90\'F5\'90\'46\'91\'CC\'81\'69chromosome\'81\'6A }}\par
+{
+{\f2 #include <Chromosome.hpp>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b Chromosome} (const uint64_t &population_locus, const uint64_t &individual_locus, const uint64_t &locus){\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\b get_population_locus} () const{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\b get_individual_locus} () const{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\b get_chromosome_locus} () const{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b length} () const{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b allocation} (const uint64_t &length){\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 Gene}}}
+ & {\b operator[]} (std::size_t idx) const{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 Gene}}}
+ & {\b operator[]} (std::size_t idx){\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b initialize} (){\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Private Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+std::unique_ptr< std::shared_ptr< {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 Gene}}}
+ >[], std::default_delete< std::shared_ptr< {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 Gene}}}
+ >[]> > {\b genes}{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b _length}{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b _population_locus}{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b _individual_locus}{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b _chromosome_locus}{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Log}}}
+ {\b log}{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'90\'F5\'90\'46\'91\'CC\'81\'69chromosome\'81\'6A \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'95\'A1\'90\'94\'82\'CC\'88\'E2\'93\'60\'8E\'71\'82\'C9\'8F\'57\'82\'DC\'82\'E8 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Chromosome.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Chromosome.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::color::Clear Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::color::Clear}
+{\xe \v GA::color::Clear}
+{\bkmkstart AAAAAAAAGA}
+{\bkmkend AAAAAAAAGA}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'8F\'89\'8A\'FA\'89\'BB\'81\'6A }}\par
+{
+{\f2 #include <Define.hpp>}}\par
+Inheritance diagram for GA::color::Clear:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1color_1_1_clear.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'8F\'89\'8A\'FA\'89\'BB\'81\'6A \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Define.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Define.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::color::Color Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::color::Color}
+{\xe \v GA::color::Color}
+{\bkmkstart AAAAAAAAGB}
+{\bkmkend AAAAAAAAGB}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'8A\'EE\'92\'EA\'83\'4E\'83\'89\'83\'58 }}\par
+{
+{\f2 #include <Define.hpp>}}\par
+Inheritance diagram for GA::color::Color:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1color_1_1_color.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b getColorCode} () const{\bkmkstart AAAAAAAAHC}
+{\bkmkend AAAAAAAAHC}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Protected Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b code}{\bkmkstart AAAAAAAAHD}
+{\bkmkend AAAAAAAAHD}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'8A\'EE\'92\'EA\'83\'4E\'83\'89\'83\'58 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Define.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Define.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::color::Cyan Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::color::Cyan}
+{\xe \v GA::color::Cyan}
+{\bkmkstart AAAAAAAAGC}
+{\bkmkend AAAAAAAAGC}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'83\'56\'83\'41\'83\'93\'81\'6A }}\par
+{
+{\f2 #include <Define.hpp>}}\par
+Inheritance diagram for GA::color::Cyan:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1color_1_1_cyan.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'83\'56\'83\'41\'83\'93\'81\'6A \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Define.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Define.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::Gene Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::Gene}
+{\xe \v GA::Gene}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'88\'E2\'93\'60\'8E\'71\'81\'69gene\'81\'6A }}\par
+{
+{\f2 #include <Gene.hpp>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b Gene} (const uint64_t &population_locus, const uint64_t &individual_locus, const uint64_t &chromosome_locus, const uint64_t &locus){\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\b get_population_locus} () const{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\b get_individual_locus} () const{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\b get_chromosome_locus} () const{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\b get_locus} () const{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b initialize} (){\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b getValue} () const{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Private Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b _population_locus}{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b _individual_locus}{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b _chromosome_locus}{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b _locus}{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Log}}}
+ {\b log}{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b _value}{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'88\'E2\'93\'60\'8E\'71\'81\'69gene\'81\'6A \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8C\'C2\'91\'CC\'82\'CC\'8C\'60\'8E\'BF\'82\'F0\'95\'5C\'82\'B7\'82\'BD\'82\'DF\'82\'CC\'8A\'EE\'96\'7B\'82\'C6\'82\'C8\'82\'E9\'8D\'5C\'90\'AC\'97\'76\'91\'66 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Gene.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Gene.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::GeneticAlgorithm Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::GeneticAlgorithm}
+{\xe \v GA::GeneticAlgorithm}
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'88\'E2\'93\'60\'93\'49\'83\'41\'83\'8B\'83\'53\'83\'8A\'83\'59\'83\'80\'82\'CC\'83\'78\'81\'5B\'83\'58\'83\'4E\'83\'89\'83\'58 }}\par
+{
+{\f2 #include <GeneticAlgorithm.hpp>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABG" }{}}{\fldrslt {\cs37\ul\cf2 GeneticAlgorithm}}}
+ (){\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'52\'83\'93\'83\'58\'83\'67\'83\'89\'83\'4E\'83\'5E }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABH" }{}}{\fldrslt {\cs37\ul\cf2 ~GeneticAlgorithm}}}
+ (){\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'66\'83\'58\'83\'67\'83\'89\'83\'4E\'83\'5E }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABI" }{}}{\fldrslt {\cs37\ul\cf2 length}}}
+ () const{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Population\'82\'CC\'97\'F1\'90\'94\'82\'F0\'95\'D4\'82\'B7 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABJ" }{}}{\fldrslt {\cs37\ul\cf2 allocation}}}
+ (const uint64_t &{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABI" }{}}{\fldrslt {\cs37\ul\cf2 length}}}
+){\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8E\'77\'92\'E8\'82\'B5\'82\'BD\'97\'F1\'92\'B7\'82\'CCPopulation\'82\'F0\'83\'43\'83\'93\'83\'58\'83\'5E\'83\'93\'83\'58\'89\'BB\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABK" }{}}{\fldrslt {\cs37\ul\cf2 Population}}}
+ & {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABL" }{}}{\fldrslt {\cs37\ul\cf2 operator[]}}}
+ (std::size_t idx) const{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'94\'7A\'97\'F1\'83\'41\'83\'4E\'83\'5A\'83\'58\'97\'70\'82\'CC\'83\'49\'83\'79\'83\'8C\'81\'5B\'83\'5E }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABK" }{}}{\fldrslt {\cs37\ul\cf2 Population}}}
+ & {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABM" }{}}{\fldrslt {\cs37\ul\cf2 operator[]}}}
+ (std::size_t idx){\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'94\'7A\'97\'F1\'83\'41\'83\'4E\'83\'5A\'83\'58\'97\'70\'82\'CC\'83\'49\'83\'79\'83\'8C\'81\'5B\'83\'5E }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABN" }{}}{\fldrslt {\cs37\ul\cf2 initialize}}}
+ (){\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+allocation\'8C\'E3\'82\'CC\'8C\'BB\'90\'A2\'91\'E3\'90\'B6\'90\'AC\'97\'70\'8A\'D6\'90\'94 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Private Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+std::unique_ptr< std::shared_ptr< {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABK" }{}}{\fldrslt {\cs37\ul\cf2 Population}}}
+ >[], std::default_delete< std::shared_ptr< {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABK" }{}}{\fldrslt {\cs37\ul\cf2 Population}}}
+ >[]> > {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABO" }{}}{\fldrslt {\cs37\ul\cf2 populations}}}
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Population\'94\'7A\'97\'F1\'82\'F0\'8A\'69\'94\'5B\'82\'B7\'82\'E9\'83\'86\'83\'6A\'81\'5B\'83\'4E\'83\'7C\'83\'43\'83\'93\'83\'5E }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABP" }{}}{\fldrslt {\cs37\ul\cf2 _length}}}
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'97\'F1\'92\'A0\'82\'F0\'8A\'69\'94\'5B\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Log}}}
+ {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABQ" }{}}{\fldrslt {\cs37\ul\cf2 log}}}
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'8F\'6F\'97\'CD\'97\'70\'83\'43\'83\'93\'83\'58\'83\'5E\'83\'93\'83\'58 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'88\'E2\'93\'60\'93\'49\'83\'41\'83\'8B\'83\'53\'83\'8A\'83\'59\'83\'80\'82\'CC\'83\'78\'81\'5B\'83\'58\'83\'4E\'83\'89\'83\'58 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+main\'8A\'D6\'90\'94\'82\'A9\'82\'E7\'82\'CD\'8C\'C4\'82\'D4\'82\'CC\'82\'CD\'8C\'B4\'91\'A5\'82\'B1\'82\'CC\'83\'4E\'83\'89\'83\'58\'82\'CC\'82\'DD \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/GeneticAlgorithm.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/GeneticAlgorithm.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::color::Green Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::color::Green}
+{\xe \v GA::color::Green}
+{\bkmkstart AAAAAAAAGD}
+{\bkmkend AAAAAAAAGD}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'97\'CE\'81\'6A }}\par
+{
+{\f2 #include <Define.hpp>}}\par
+Inheritance diagram for GA::color::Green:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1color_1_1_green.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'97\'CE\'81\'6A \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Define.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Define.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::Individual Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::Individual}
+{\xe \v GA::Individual}
+{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8C\'C2\'91\'CC\'81\'69individual\'81\'6A }}\par
+{
+{\f2 #include <Individual.hpp>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b Individual} (const uint64_t &population_locus, const uint64_t &indivisual_locus){\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\b get_population_locus} () const{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\b get_individual_locus} () const{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b length} () const{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b allocation} (const uint64_t &length){\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAA" }{}}{\fldrslt {\cs37\ul\cf2 Chromosome}}}
+ & {\b operator[]} (std::size_t idx) const{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAA" }{}}{\fldrslt {\cs37\ul\cf2 Chromosome}}}
+ & {\b operator[]} (std::size_t idx){\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b initialize} (){\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Private Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+std::unique_ptr< std::shared_ptr< {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAA" }{}}{\fldrslt {\cs37\ul\cf2 Chromosome}}}
+ >[], std::default_delete< std::shared_ptr< {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAA" }{}}{\fldrslt {\cs37\ul\cf2 Chromosome}}}
+ >[]> > {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACA" }{}}{\fldrslt {\cs37\ul\cf2 chromosomes}}}
+{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Chromosome\'82\'CC\'83\'56\'83\'46\'83\'41\'81\'5B\'83\'68\'83\'7C\'83\'43\'83\'93\'83\'5E\'94\'7A\'97\'F1\'82\'F0\'95\'DB\'8E\'9D\'82\'B7\'82\'E9\'83\'86\'83\'6A\'81\'5B\'83\'4E\'83\'7C\'83\'43\'83\'93\'83\'5E }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACB" }{}}{\fldrslt {\cs37\ul\cf2 _length}}}
+{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Chromosome\'82\'CC\'83\'56\'83\'46\'83\'41\'81\'5B\'83\'68\'83\'7C\'83\'43\'83\'93\'83\'5E\'94\'7A\'97\'F1\'92\'B7 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACC" }{}}{\fldrslt {\cs37\ul\cf2 _population_locus}}}
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8F\'E3\'88\'CAPopulation\'82\'CClocus\'82\'F0\'95\'DB\'8E\'9D\'82\'B7\'82\'E9\'95\'CF\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACD" }{}}{\fldrslt {\cs37\ul\cf2 _individual_locus}}}
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Individual\'82\'CClocus\'82\'F0\'95\'DB\'8E\'9D\'82\'B7\'82\'E9\'95\'CF\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Log}}}
+ {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACE" }{}}{\fldrslt {\cs37\ul\cf2 log}}}
+{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'8F\'6F\'97\'CD\'97\'70\'83\'43\'83\'93\'83\'58\'83\'5E\'83\'93\'83\'58 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8C\'C2\'91\'CC\'81\'69individual\'81\'6A \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'82\'50\'82\'C2\'82\'DC\'82\'BD\'82\'CD\'95\'A1\'90\'94\'82\'CC\'90\'F5\'90\'46\'91\'CC\'82\'C9\'82\'E6\'82\'C1\'82\'C4\'95\'5C\'8C\'BB\'82\'B3\'82\'EA\'82\'E9\'8E\'A9\'97\'A5\'93\'49\'82\'C8\'8C\'C2\'96\'BD\'91\'E8\'82\'C9\'91\'CE\'82\'B7\'82\'E9\'89\'F0\'82\'CC\'8C\'F3\'95\'E2 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Individual.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Individual.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::Log Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::Log}
+{\xe \v GA::Log}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'90\'B6\'90\'AC\'97\'70 }}\par
+{
+{\f2 #include <Log.hpp>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b Log} (std::string name){\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+template<class T > void {\b log} (std::string message) const{\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Private Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+std::string {\b name}{\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'90\'B6\'90\'AC\'97\'70 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Singleton\'82\'C5\'8E\'C0\'91\'95\'82\'B3\'82\'EA\'82\'C4\'82\'A2\'82\'E9LogSystem Class\'82\'C9\'91\'CE\'82\'B7\'82\'E9\'83\'43\'83\'93\'83\'5E\'83\'74\'83\'46\'81\'5B\'83\'58\'82\'CC\'96\'F0\'8A\'84 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Log.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Log.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::LogAll Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::LogAll}
+{\xe \v GA::LogAll}
+{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogAll\'83\'4E\'83\'89\'83\'58 }}\par
+{
+{\f2 #include <LogSystem.hpp>}}\par
+Inheritance diagram for GA::LogAll:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1_log_all.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogAll\'83\'4E\'83\'89\'83\'58 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/LogSystem.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::LogDebug Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::LogDebug}
+{\xe \v GA::LogDebug}
+{\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogDebug\'83\'4E\'83\'89\'83\'58 }}\par
+{
+{\f2 #include <LogSystem.hpp>}}\par
+Inheritance diagram for GA::LogDebug:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1_log_debug.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogDebug\'83\'4E\'83\'89\'83\'58 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'66\'83\'6F\'83\'62\'83\'4F\'8F\'EE\'95\'F1\par
+\'97\'5C\'8A\'FA\'82\'B5\'82\'C8\'82\'A2\'82\'BB\'82\'CC\'91\'BC\'82\'CC\'8E\'C0\'8D\'73\'8E\'9E\'83\'47\'83\'89\'81\'5B\'81\'42\'83\'52\'83\'93\'83\'5C\'81\'5B\'83\'8B\'93\'99\'82\'C9\'91\'A6\'8E\'9E\'8F\'6F\'97\'CD\'82\'B7\'82\'E9\'82\'B1\'82\'C6\'82\'F0\'91\'7A\'92\'E8 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/LogSystem.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::LogError Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::LogError}
+{\xe \v GA::LogError}
+{\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogError\'83\'4E\'83\'89\'83\'58 }}\par
+{
+{\f2 #include <LogSystem.hpp>}}\par
+Inheritance diagram for GA::LogError:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1_log_error.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogError\'83\'4E\'83\'89\'83\'58 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'47\'83\'89\'81\'5B\par
+\'97\'5C\'8A\'FA\'82\'B5\'82\'C8\'82\'A2\'82\'BB\'82\'CC\'91\'BC\'82\'CC\'8E\'C0\'8D\'73\'8E\'9E\'83\'47\'83\'89\'81\'5B\'81\'42\'83\'52\'83\'93\'83\'5C\'81\'5B\'83\'8B\'93\'99\'82\'C9\'91\'A6\'8E\'9E\'8F\'6F\'97\'CD\'82\'B7\'82\'E9\'82\'B1\'82\'C6\'82\'F0\'91\'7A\'92\'E8 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/LogSystem.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::LogFatal Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::LogFatal}
+{\xe \v GA::LogFatal}
+{\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogFatal\'83\'4E\'83\'89\'83\'58 }}\par
+{
+{\f2 #include <LogSystem.hpp>}}\par
+Inheritance diagram for GA::LogFatal:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1_log_fatal.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogFatal\'83\'4E\'83\'89\'83\'58 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'92\'76\'96\'BD\'93\'49\'82\'C8\'83\'47\'83\'89\'81\'5B\par
+\'83\'76\'83\'8D\'83\'4F\'83\'89\'83\'80\'82\'CC\'88\'D9\'8F\'ED\'8F\'49\'97\'B9\'82\'F0\'94\'BA\'82\'A4\'82\'E6\'82\'A4\'82\'C8\'82\'E0\'82\'CC\'81\'42\'83\'52\'83\'93\'83\'5C\'81\'5B\'83\'8B\'93\'99\'82\'C9\'91\'A6\'8E\'9E\'8F\'6F\'97\'CD\'82\'B7\'82\'E9\'82\'B1\'82\'C6\'82\'F0\'91\'7A\'92\'E8 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/LogSystem.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::LogInformation Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::LogInformation}
+{\xe \v GA::LogInformation}
+{\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogInformation\'83\'4E\'83\'89\'83\'58 }}\par
+{
+{\f2 #include <LogSystem.hpp>}}\par
+Inheritance diagram for GA::LogInformation:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1_log_information.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogInformation\'83\'4E\'83\'89\'83\'58 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8F\'EE\'95\'F1\par
+\'8E\'C0\'8D\'73\'8E\'9E\'82\'CC\'89\'BD\'82\'E7\'82\'A9\'82\'CC\'92\'8D\'96\'DA\'82\'B7\'82\'D7\'82\'AB\'8E\'96\'8F\'DB\'81\'69\'8A\'4A\'8E\'6E\'82\'E2\'8F\'49\'97\'B9\'82\'C8\'82\'C7\'81\'6A\'81\'42\'83\'81\'83\'62\'83\'5A\'81\'5B\'83\'57\'93\'E0\'97\'65\'82\'CD\'8A\'C8\'8C\'89\'82\'C9\'8E\'7E\'82\'DF\'82\'E9\'82\'D7\'82\'AB \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/LogSystem.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::LogInstance Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::LogInstance}
+{\xe \v GA::LogInstance}
+{\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'82\'CC\'8E\'C0\'83\'4E\'83\'89\'83\'58 }}\par
+{
+{\f2 #include <LogInstance.hpp>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACO" }{}}{\fldrslt {\cs37\ul\cf2 LogInstance}}}
+ (uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACP" }{}}{\fldrslt {\cs37\ul\cf2 id}}}
+, std::string _message, uint64_t _code){\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8F\'88\'97\'9D\'82\'C8\'82\'B5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACQ" }{}}{\fldrslt {\cs37\ul\cf2 ~LogInstance}}}
+ (){\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8F\'88\'97\'9D\'82\'C8\'82\'B5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACR" }{}}{\fldrslt {\cs37\ul\cf2 print}}}
+ ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'93\'E0\'97\'65\'82\'F0\'8F\'6F\'97\'CD\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+std::string {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACS" }{}}{\fldrslt {\cs37\ul\cf2 getMessage}}}
+ (){\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8A\'69\'94\'5B\'82\'B3\'82\'EA\'82\'C4\'82\'A2\'82\'E9\'83\'81\'83\'62\'83\'5A\'81\'5B\'83\'57\'82\'F0\'95\'D4\'82\'B7 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACT" }{}}{\fldrslt {\cs37\ul\cf2 getCode}}}
+ (){\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8A\'69\'94\'5B\'82\'B3\'82\'EA\'82\'C4\'82\'A2\'82\'E9\'83\'52\'81\'5B\'83\'68\'82\'F0\'95\'D4\'82\'B7 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACU" }{}}{\fldrslt {\cs37\ul\cf2 getCounter}}}
+ (){\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8A\'69\'94\'5B\'82\'B3\'82\'EA\'82\'C4\'82\'A2\'82\'E9\'83\'4A\'83\'45\'83\'93\'83\'5E\'82\'F0\'95\'D4\'82\'B7 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+bool {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACV" }{}}{\fldrslt {\cs37\ul\cf2 operator==}}}
+ (const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACN" }{}}{\fldrslt {\cs37\ul\cf2 LogInstance}}}
+ &right) const{\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'52\'81\'5B\'83\'68\'82\'F0\'94\'E4\'8A\'72\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+bool {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACW" }{}}{\fldrslt {\cs37\ul\cf2 operator==}}}
+ (const uint64_t &right) const{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'52\'81\'5B\'83\'68\'82\'F0\'94\'E4\'8A\'72\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACN" }{}}{\fldrslt {\cs37\ul\cf2 LogInstance}}}
+ & {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACX" }{}}{\fldrslt {\cs37\ul\cf2 operator+=}}}
+ (const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACN" }{}}{\fldrslt {\cs37\ul\cf2 LogInstance}}}
+ &right){\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'4A\'83\'45\'83\'93\'83\'5E\'82\'F0\'89\'C1\'8E\'5A\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACN" }{}}{\fldrslt {\cs37\ul\cf2 LogInstance}}}
+ & {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACY" }{}}{\fldrslt {\cs37\ul\cf2 operator+=}}}
+ (const int &right_counter){\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'4A\'83\'45\'83\'93\'83\'5E\'82\'F0\'89\'C1\'8E\'5A\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Private Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+std::string {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACZ" }{}}{\fldrslt {\cs37\ul\cf2 message}}}
+{\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'81\'83\'62\'83\'5A\'81\'5B\'83\'57\'82\'F0\'8A\'69\'94\'5B\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADA" }{}}{\fldrslt {\cs37\ul\cf2 code}}}
+{\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'52\'81\'5B\'83\'68\'82\'F0\'8A\'69\'94\'5B\'82\'B7\'82\'E9\'81\'69\'8F\'DA\'8D\'D7\'82\'CDdefine.hpp\'82\'F0\'8E\'51\'8F\'C6\'81\'6A }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+std::chrono::system_clock::time_point {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADB" }{}}{\fldrslt {\cs37\ul\cf2 time}}}
+{\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+LogInstance\'83\'43\'83\'93\'83\'58\'83\'5E\'83\'93\'83\'58\'82\'AA\'8D\'EC\'90\'AC\'82\'B3\'82\'EA\'82\'BD\'8E\'9E\'8D\'8F\'82\'F0\'8A\'69\'94\'5B\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADC" }{}}{\fldrslt {\cs37\ul\cf2 counter}}}
+{\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'4A\'83\'45\'83\'93\'83\'5E\'82\'F0\'8A\'69\'94\'5B\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACP" }{}}{\fldrslt {\cs37\ul\cf2 id}}}
+{\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+ID\'82\'F0\'8A\'69\'94\'5B\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Friends\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+bool {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADD" }{}}{\fldrslt {\cs37\ul\cf2 operator<}}}
+ (const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACN" }{}}{\fldrslt {\cs37\ul\cf2 LogInstance}}}
+ &left, const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACN" }{}}{\fldrslt {\cs37\ul\cf2 LogInstance}}}
+ &right){\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8E\'9E\'8A\'D4\'82\'F0\'94\'E4\'8A\'72\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'82\'CC\'8E\'C0\'83\'4E\'83\'89\'83\'58 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8E\'9E\'8D\'8F(time_point)\'81\'41\'83\'81\'83\'62\'83\'5A\'81\'5B\'83\'57(string)\'81\'41ID(uint64_t)\'81\'41\'83\'52\'81\'5B\'83\'68(uint64_t)\'81\'41\'83\'4A\'83\'45\'83\'93\'83\'5E(uint64_t)\'82\'F0\'8E\'9D\'82\'C2\'81\'42 \'94\'E4\'8A\'72(operator==)\'82\'CD\'83\'52\'81\'5B\'83\'68\'82\'F0\'94\'E4\'8A\'72\'82\'B5\'81\'41\'98\'61(operator+=)\'82\'CD\'83\'4A\'83\'45\'83\'93\'83\'5E\'82\'F0\'8D\'87\'8E\'5A\'82\'B7\'82\'E9\'81\'42\par
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'82\'CD\'89\'BA\'8B\'4CURL\'82\'F0\'8E\'51\'8D\'6C\'82\'C9\'82\'B5\'82\'C4\'82\'A2\'82\'E9\'81\'42 {\field {\*\fldinst { HYPERLINK "https://qiita.com/nanasess/items/350e59b29cceb2f122b3" }{}}{\fldrslt {\cs37\ul\cf2 https://qiita.com/nanasess/items/350e59b29cceb2f122b3}}}
+ \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v print\:GA::LogInstance}
+{\xe \v GA::LogInstance\:print}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void GA::LogInstance::print ()}}
+\par
+{\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'93\'E0\'97\'65\'82\'F0\'8F\'6F\'97\'CD\'82\'B7\'82\'E9 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+GA::global::verbose_log\'82\'AAfalse\'82\'CC\'8F\'EA\'8D\'87\'81\'41ID\'82\'CD\'8F\'6F\'97\'CD\'82\'B3\'82\'EA\'82\'C8\'82\'A2\'81\'42 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/LogInstance.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/LogInstance.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::LogNone Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::LogNone}
+{\xe \v GA::LogNone}
+{\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogNone\'83\'4E\'83\'89\'83\'58 }}\par
+{
+{\f2 #include <LogSystem.hpp>}}\par
+Inheritance diagram for GA::LogNone:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1_log_none.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogNone\'83\'4E\'83\'89\'83\'58 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'82\'F0\'92\'E8\'8B\'60\'82\'B5\'82\'C8\'82\'A2\'93\'C1\'8E\'EA\'83\'81\'83\'62\'83\'5A\'81\'5B\'83\'57\'97\'70\'81\'42\'96\'7B\'89\'5E\'97\'70\'82\'C5\'82\'CC\'97\'98\'97\'70\'82\'CD\'94\'F1\'90\'84\'8F\'A7\'81\'42 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/LogSystem.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::LogQueue Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::LogQueue}
+{\xe \v GA::LogQueue}
+{\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'82\'F0\'8A\'69\'94\'5B\'82\'B5\'81\'41\'83\'8A\'83\'58\'83\'67\'89\'BB\'82\'B7\'82\'E9\'83\'4E\'83\'89\'83\'58 }}\par
+{
+{\f2 #include <LogQueue.hpp>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADG" }{}}{\fldrslt {\cs37\ul\cf2 LogQueue}}}
+ (){\bkmkstart AAAAAAAADG}
+{\bkmkend AAAAAAAADG}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8F\'88\'97\'9D\'82\'C8\'82\'B5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADH" }{}}{\fldrslt {\cs37\ul\cf2 ~LogQueue}}}
+ (){\bkmkstart AAAAAAAADH}
+{\bkmkend AAAAAAAADH}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8F\'88\'97\'9D\'82\'C8\'82\'B5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADI" }{}}{\fldrslt {\cs37\ul\cf2 addQueue}}}
+ ({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACN" }{}}{\fldrslt {\cs37\ul\cf2 LogInstance}}}
+ log){\bkmkstart AAAAAAAADI}
+{\bkmkend AAAAAAAADI}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'4C\'83\'85\'81\'5B\'82\'CC\'92\'C7\'89\'C1 \'81\'A6\'8E\'67\'97\'70\'82\'CD\'94\'F1\'90\'84\'8F\'A7 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADJ" }{}}{\fldrslt {\cs37\ul\cf2 addQueue}}}
+ (std::string message, uint64_t code={\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADK" }{}}{\fldrslt {\cs37\ul\cf2 code::none}}}
+){\bkmkstart AAAAAAAADJ}
+{\bkmkend AAAAAAAADJ}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'4C\'83\'85\'81\'5B\'82\'CC\'92\'C7\'89\'C1 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADL" }{}}{\fldrslt {\cs37\ul\cf2 setId}}}
+ (uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADM" }{}}{\fldrslt {\cs37\ul\cf2 id}}}
+)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'4C\'83\'85\'81\'5B\'82\'CCID\'82\'F0\'83\'5A\'83\'62\'83\'67 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+std::vector< {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACN" }{}}{\fldrslt {\cs37\ul\cf2 LogInstance}}}
+ > {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADN" }{}}{\fldrslt {\cs37\ul\cf2 getQueue}}}
+ () const{\bkmkstart AAAAAAAADN}
+{\bkmkend AAAAAAAADN}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'4C\'83\'85\'81\'5B\'81\'69std::vector\'81\'6A\'82\'F0\'95\'D4\'82\'B7 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADF" }{}}{\fldrslt {\cs37\ul\cf2 LogQueue}}}
+ & {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADO" }{}}{\fldrslt {\cs37\ul\cf2 operator<<}}}
+ (const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADF" }{}}{\fldrslt {\cs37\ul\cf2 LogQueue}}}
+ &queue)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'4C\'83\'85\'81\'5B\'81\'69std::vector\'81\'6A\'82\'F0\'8C\'8B\'8D\'87\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADP" }{}}{\fldrslt {\cs37\ul\cf2 print}}}
+ (){\bkmkstart AAAAAAAADP}
+{\bkmkend AAAAAAAADP}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8A\'69\'94\'5B\'82\'B3\'82\'EA\'82\'C4\'82\'A2\'82\'E9Log\'83\'43\'83\'93\'83\'58\'83\'5E\'83\'93\'83\'58\'82\'C9\'91\'CE\'82\'B5\'82\'C4print()\'82\'F0\'83\'52\'81\'5B\'83\'8B\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADQ" }{}}{\fldrslt {\cs37\ul\cf2 getHttpResponseCode}}}
+ (const uint64_t &code)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+HTTP Response Code\'82\'AA\'88\'EA\'92\'76\'82\'B7\'82\'E9Log\'83\'43\'83\'93\'83\'58\'83\'5E\'83\'93\'83\'58\'82\'CC\'83\'4A\'83\'45\'83\'93\'83\'5E\'8D\'87\'8C\'76\'82\'F0\'95\'D4\'82\'B7 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+int {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADR" }{}}{\fldrslt {\cs37\ul\cf2 getStatistics}}}
+ (const uint64_t &code){\bkmkstart AAAAAAAADR}
+{\bkmkend AAAAAAAADR}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+code::message\'82\'C6\'82\'CC\'83\'72\'83\'62\'83\'67\'90\'CF\'82\'AA\'88\'EA\'92\'76\'82\'B7\'82\'E9Log\'83\'43\'83\'93\'83\'58\'83\'5E\'83\'93\'83\'58\'82\'CC\'83\'4A\'83\'45\'83\'93\'83\'5E\'8D\'87\'8C\'76\'82\'F0\'95\'D4\'82\'B7 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADS" }{}}{\fldrslt {\cs37\ul\cf2 sort}}}
+ (){\bkmkstart AAAAAAAADS}
+{\bkmkend AAAAAAAADS}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Log\'82\'CC\'8B\'4C\'98\'5E\'8E\'9E\'8A\'D4\'82\'F0\'83\'4C\'81\'5B\'82\'C6\'82\'B5\'82\'C4std::vector\'82\'F0\'8F\'B8\'8F\'87\'82\'C9\'83\'5C\'81\'5B\'83\'67\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Private Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+std::vector< {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACN" }{}}{\fldrslt {\cs37\ul\cf2 LogInstance}}}
+ > {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADT" }{}}{\fldrslt {\cs37\ul\cf2 loglist}}}
+{\bkmkstart AAAAAAAADT}
+{\bkmkend AAAAAAAADT}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Log\'97\'70\'82\'CC\'83\'4C\'83\'85\'81\'5B(std::vector) }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADM" }{}}{\fldrslt {\cs37\ul\cf2 id}}}
+{\bkmkstart AAAAAAAADM}
+{\bkmkend AAAAAAAADM}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+ID\'82\'F0\'8A\'69\'94\'5B\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'82\'F0\'8A\'69\'94\'5B\'82\'B5\'81\'41\'83\'8A\'83\'58\'83\'67\'89\'BB\'82\'B7\'82\'E9\'83\'4E\'83\'89\'83\'58 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'56\'83\'74\'83\'67(perator<<)\'82\'CDstd::vector\'82\'F0\'98\'41\'8C\'8B\'82\'B7\'82\'E9\'81\'42 define.hpp\'82\'C5\'92\'E8\'8B\'60\'82\'B3\'82\'EA\'82\'E9(bool)GA::global::verbose_log\'82\'AAtrue\'82\'C5\'82\'A0\'82\'EA\'82\'CE std::vector\'82\'F0\'98\'41\'8C\'8B\'82\'B5\'81\'41false\'82\'C5\'82\'A0\'82\'EA\'82\'CE\'83\'52\'81\'5B\'83\'68\'82\'F0\'83\'4C\'81\'5B\'82\'C6\'82\'B5\'82\'C4\'83\'4A\'83\'45\'83\'93\'83\'5E\'82\'F0\'8D\'87\'8E\'5A\'82\'B7\'82\'E9\'81\'42 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v getHttpResponseCode\:GA::LogQueue}
+{\xe \v GA::LogQueue\:getHttpResponseCode}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int GA::LogQueue::getHttpResponseCode (const uint64_t &  {\i code})}}
+\par
+{\bkmkstart AAAAAAAADQ}
+{\bkmkend AAAAAAAADQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+HTTP Response Code\'82\'AA\'88\'EA\'92\'76\'82\'B7\'82\'E9Log\'83\'43\'83\'93\'83\'58\'83\'5E\'83\'93\'83\'58\'82\'CC\'83\'4A\'83\'45\'83\'93\'83\'5E\'8D\'87\'8C\'76\'82\'F0\'95\'D4\'82\'B7 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+LogQueue::getGtppResponseCode \'96\'A2\'8E\'C0\'91\'95 \par
+}}
+{\xe \v operator<<\:GA::LogQueue}
+{\xe \v GA::LogQueue\:operator<<}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADF" }{}}{\fldrslt {\cs37\ul\cf2 LogQueue}}}
+ & GA::LogQueue::operator<< (const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADF" }{}}{\fldrslt {\cs37\ul\cf2 LogQueue}}}
+ &  {\i queue})}}
+\par
+{\bkmkstart AAAAAAAADO}
+{\bkmkend AAAAAAAADO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'4C\'83\'85\'81\'5B\'81\'69std::vector\'81\'6A\'82\'F0\'8C\'8B\'8D\'87\'82\'B7\'82\'E9 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+global::verbose_log\'82\'AAtrue\'82\'CC\'8F\'EA\'8D\'87\'82\'CDstd::vector\'82\'F0\'8C\'8B\'8D\'87\'82\'B7\'82\'E9\'81\'42 false\'82\'CC\'8F\'EA\'8D\'87\'82\'CD\'83\'52\'81\'5B\'83\'68\'82\'F0\'83\'4C\'81\'5B\'82\'C6\'82\'B5\'82\'C4\'83\'4A\'83\'45\'83\'93\'83\'5E\'82\'F0\'89\'C1\'8E\'5A\'82\'B7\'82\'E9\'81\'42 \par
+}}
+{\xe \v setId\:GA::LogQueue}
+{\xe \v GA::LogQueue\:setId}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void GA::LogQueue::setId (uint64_t  {\i id})}}
+\par
+{\bkmkstart AAAAAAAADL}
+{\bkmkend AAAAAAAADL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'4C\'83\'85\'81\'5B\'82\'CCID\'82\'F0\'83\'5A\'83\'62\'83\'67 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8E\'C0\'8D\'DB\'82\'CD\'83\'58\'83\'8C\'83\'62\'83\'68ID\'82\'C6\'82\'B5\'82\'C4\'8E\'67\'97\'70\'82\'B5\'82\'C4\'82\'A8\'82\'E8\'81\'41\'83\'8D\'83\'4F\'82\'F0\'8F\'DA\'8D\'D7\'82\'C9\'8F\'6F\'97\'CD\'82\'B7\'82\'E9\'8F\'EA\'8D\'87\'82\'CD \'8C\'F8\'89\'CA\'82\'AA\'82\'A0\'82\'E9\'81\'42 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/LogQueue.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/LogQueue.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::LogSystem Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::LogSystem}
+{\xe \v GA::LogSystem}
+{\bkmkstart AAAAAAAADU}
+{\bkmkend AAAAAAAADU}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+LogSystem\'83\'4E\'83\'89\'83\'58 }}\par
+{
+{\f2 #include <LogSystem.hpp>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b LogSystem} (const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADU" }{}}{\fldrslt {\cs37\ul\cf2 LogSystem}}}
+ &)=delete{\bkmkstart AAAAAAAADV}
+{\bkmkend AAAAAAAADV}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADU" }{}}{\fldrslt {\cs37\ul\cf2 LogSystem}}}
+ & {\b operator=} (const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADU" }{}}{\fldrslt {\cs37\ul\cf2 LogSystem}}}
+ &)=delete{\bkmkstart AAAAAAAADW}
+{\bkmkend AAAAAAAADW}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b LogSystem} ({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADU" }{}}{\fldrslt {\cs37\ul\cf2 LogSystem}}}
+ &&)=delete{\bkmkstart AAAAAAAADX}
+{\bkmkend AAAAAAAADX}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADU" }{}}{\fldrslt {\cs37\ul\cf2 LogSystem}}}
+ & {\b operator=} ({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADU" }{}}{\fldrslt {\cs37\ul\cf2 LogSystem}}}
+ &&)=delete{\bkmkstart AAAAAAAADY}
+{\bkmkend AAAAAAAADY}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b addLog} (const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAACN" }{}}{\fldrslt {\cs37\ul\cf2 LogInstance}}}
+ &log){\bkmkstart AAAAAAAADZ}
+{\bkmkend AAAAAAAADZ}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Static Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+static std::unique_ptr< {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADU" }{}}{\fldrslt {\cs37\ul\cf2 LogSystem}}}
+ > & {\b get} (){\bkmkstart AAAAAAAAEA}
+{\bkmkend AAAAAAAAEA}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+static void {\b create} (){\bkmkstart AAAAAAAAEB}
+{\bkmkend AAAAAAAAEB}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+static void {\b destroy} (){\bkmkstart AAAAAAAAEC}
+{\bkmkend AAAAAAAAEC}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Static Private Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+static std::unique_ptr< {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADU" }{}}{\fldrslt {\cs37\ul\cf2 LogSystem}}}
+ > {\b logsystem} = unique_ptr<{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADU" }{}}{\fldrslt {\cs37\ul\cf2 LogSystem}}}
+>(nullptr){\bkmkstart AAAAAAAAED}
+{\bkmkend AAAAAAAAED}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+static {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAADF" }{}}{\fldrslt {\cs37\ul\cf2 LogQueue}}}
+ {\b queue}{\bkmkstart AAAAAAAAEE}
+{\bkmkend AAAAAAAAEE}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+LogSystem\'83\'4E\'83\'89\'83\'58 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Singleton\'82\'C9\'82\'B5\'82\'C4\'82\'A2\'82\'E9\'82\'AA\'81\'41\'83\'43\'83\'93\'83\'58\'83\'5E\'83\'93\'83\'58\'82\'F0\'88\'EA\'88\'D3\'82\'C9\'95\'DB\'82\'C4\'82\'C8\'82\'A2\'83\'6F\'83\'4F\'82\'AA\'91\'B6\'8D\'DD\'82\'B5\'81\'41 \'89\'BA\'8B\'4C\'82\'CC\'95\'FB\'96\'40\'82\'C5\'83\'43\'83\'93\'83\'58\'83\'5E\'83\'93\'83\'58\'82\'F0\'91\'9D\'82\'E2\'82\'B9\'82\'C4\'82\'B5\'82\'DC\'82\'A4\'81\'42\par
+unique_ptr<LogSystem> lsystem= unique_ptr<LogSystem>(LogSystem::get().release()); \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/LogSystem.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/LogSystem.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::LogTrace Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::LogTrace}
+{\xe \v GA::LogTrace}
+{\bkmkstart AAAAAAAAEF}
+{\bkmkend AAAAAAAAEF}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogTrace\'83\'4E\'83\'89\'83\'58 }}\par
+{
+{\f2 #include <LogSystem.hpp>}}\par
+Inheritance diagram for GA::LogTrace:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1_log_trace.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogTrace\'83\'4E\'83\'89\'83\'58 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'67\'83\'8C\'81\'5B\'83\'58\'8F\'EE\'95\'F1\par
+\'83\'66\'83\'6F\'83\'62\'83\'4F\'8F\'EE\'95\'F1\'82\'E6\'82\'E8\'82\'E0\'81\'41\'8D\'58\'82\'C9\'8F\'DA\'8D\'D7\'82\'C8\'8F\'EE\'95\'F1 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/LogSystem.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::LogType Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::LogType}
+{\xe \v GA::LogType}
+{\bkmkstart AAAAAAAAEG}
+{\bkmkend AAAAAAAAEG}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'82\'CC\'8A\'EE\'92\'EA\'83\'4E\'83\'89\'83\'58 }}\par
+{
+{\f2 #include <LogSystem.hpp>}}\par
+Inheritance diagram for GA::LogType:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1_log_type.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b getLogType} () const{\bkmkstart AAAAAAAAEH}
+{\bkmkend AAAAAAAAEH}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Protected Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b type}{\bkmkstart AAAAAAAAEI}
+{\bkmkend AAAAAAAAEI}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'82\'CC\'8A\'EE\'92\'EA\'83\'4E\'83\'89\'83\'58 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'90\'56\'8B\'4B\'82\'C9\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'82\'F0\'8E\'C0\'91\'95\'82\'B7\'82\'E9\'8F\'EA\'8D\'87\'82\'CD\'81\'41\'83\'81\'83\'93\'83\'6F\'95\'CF\'90\'94type\'82\'C9uint64_t\'82\'F0\'90\'DD\'92\'E8\'82\'B7\'82\'E9\'95\'4B\'97\'76\'82\'AA\'82\'A0\'82\'E9\'81\'42 \'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8B\'82\'CC\'8E\'77\'92\'E8\'82\'F0\'8C\'5E\'82\'C9\'94\'43\'82\'B9\'82\'E9\'82\'B1\'82\'C6\'82\'C5\'95\'73\'90\'B3\'82\'C8\'88\'F8\'90\'94\'82\'C9\'82\'E6\'82\'E9\'83\'47\'83\'89\'81\'5B\'82\'F0\'83\'6F\'83\'4F\'82\'F0\'94\'F0\'82\'AF\'82\'E9\'91\'5F\'82\'A2\'82\'AA\'82\'A0\'82\'E9\'81\'42 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/LogSystem.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/LogSystem.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::LogWarning Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::LogWarning}
+{\xe \v GA::LogWarning}
+{\bkmkstart AAAAAAAAEJ}
+{\bkmkend AAAAAAAAEJ}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogWarning\'83\'4E\'83\'89\'83\'58 }}\par
+{
+{\f2 #include <LogSystem.hpp>}}\par
+Inheritance diagram for GA::LogWarning:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1_log_warning.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'8C\'83\'78\'83\'8BLogWarning\'83\'4E\'83\'89\'83\'58 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8C\'78\'8D\'90\par
+\'97\'5C\'8A\'FA\'82\'B5\'82\'C8\'82\'A2\'82\'BB\'82\'CC\'91\'BC\'82\'CC\'8E\'C0\'8D\'73\'8E\'9E\'83\'47\'83\'89\'81\'5B\'81\'42\'83\'52\'83\'93\'83\'5C\'81\'5B\'83\'8B\'93\'99\'82\'C9\'91\'A6\'8E\'9E\'8F\'6F\'97\'CD\'82\'B7\'82\'E9\'82\'B1\'82\'C6\'82\'F0\'91\'7A\'92\'E8 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/LogSystem.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::color::Magenta Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::color::Magenta}
+{\xe \v GA::color::Magenta}
+{\bkmkstart AAAAAAAAGE}
+{\bkmkend AAAAAAAAGE}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'83\'7D\'83\'5B\'83\'93\'83\'5E\'81\'6A }}\par
+{
+{\f2 #include <Define.hpp>}}\par
+Inheritance diagram for GA::color::Magenta:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1color_1_1_magenta.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'83\'7D\'83\'5B\'83\'93\'83\'5E\'81\'6A \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Define.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Define.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::Options Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::Options}
+{\xe \v GA::Options}
+{\bkmkstart AAAAAAAAEK}
+{\bkmkend AAAAAAAAEK}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'52\'83\'7D\'83\'93\'83\'68\'83\'89\'83\'43\'83\'93\'88\'F8\'90\'94\'82\'F0\'8F\'88\'97\'9D\'82\'B7\'82\'E9\'8A\'EE\'92\'EA\'83\'4E\'83\'89\'83\'58 }}\par
+{
+{\f2 #include <Options.hpp>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAEL" }{}}{\fldrslt {\cs37\ul\cf2 Options}}}
+ (const int _ac, const char *const *const _av){\bkmkstart AAAAAAAAEL}
+{\bkmkend AAAAAAAAEL}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'95\'57\'8F\'80\'82\'CChelp\'83\'49\'83\'76\'83\'56\'83\'87\'83\'93\'82\'C6version\'83\'49\'83\'76\'83\'56\'83\'87\'83\'93\'82\'F0\'92\'C7\'89\'C1 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAEM" }{}}{\fldrslt {\cs37\ul\cf2 ~Options}}}
+ (){\bkmkstart AAAAAAAAEM}
+{\bkmkend AAAAAAAAEM}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8F\'88\'97\'9D\'82\'C8\'82\'B5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAEN" }{}}{\fldrslt {\cs37\ul\cf2 parse}}}
+ ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'49\'83\'76\'83\'56\'83\'87\'83\'93\'82\'CC\'89\'F0\'8E\'DF }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+bool {\b isColor} (){\bkmkstart AAAAAAAAEO}
+{\bkmkend AAAAAAAAEO}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\b getPopulationNumber} () const{\bkmkstart AAAAAAAAEP}
+{\bkmkend AAAAAAAAEP}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\b getIndividualNumber} () const{\bkmkstart AAAAAAAAEQ}
+{\bkmkend AAAAAAAAEQ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\b getChromosomeNumber} () const{\bkmkstart AAAAAAAAER}
+{\bkmkend AAAAAAAAER}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\b getGeneNumber} () const{\bkmkstart AAAAAAAAES}
+{\bkmkend AAAAAAAAES}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Protected Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+std::string {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAET" }{}}{\fldrslt {\cs37\ul\cf2 getVersion}}}
+ (){\bkmkstart AAAAAAAAET}
+{\bkmkend AAAAAAAAET}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'6F\'81\'5B\'83\'57\'83\'87\'83\'93\'8F\'EE\'95\'F1\'82\'F0string\'8C\'5E\'82\'C5\'95\'D4\'82\'B7\'81\'42 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Protected Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+options_description {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAEU" }{}}{\fldrslt {\cs37\ul\cf2 description}}}
+{\bkmkstart AAAAAAAAEU}
+{\bkmkend AAAAAAAAEU}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+boost::program_options }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const int {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAEV" }{}}{\fldrslt {\cs37\ul\cf2 ac}}}
+{\bkmkstart AAAAAAAAEV}
+{\bkmkend AAAAAAAAEV}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+main\'8A\'D6\'90\'94\'82\'AA\'8E\'F3\'82\'AF\'8E\'E6\'82\'E9\'83\'52\'83\'7D\'83\'93\'83\'68\'83\'89\'83\'43\'83\'93\'88\'F8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const char *const  *const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAEW" }{}}{\fldrslt {\cs37\ul\cf2 av}}}
+{\bkmkstart AAAAAAAAEW}
+{\bkmkend AAAAAAAAEW}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+main\'8A\'D6\'90\'94\'82\'AA\'8E\'F3\'82\'AF\'8E\'E6\'82\'E9\'83\'52\'83\'7D\'83\'93\'83\'68\'83\'89\'83\'43\'83\'93\'88\'F8\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+variables_map {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAEX" }{}}{\fldrslt {\cs37\ul\cf2 vmap}}}
+{\bkmkstart AAAAAAAAEX}
+{\bkmkend AAAAAAAAEX}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+boost::program_options\'97\'70\'82\'CC\'8E\'C0\'83\'7D\'83\'62\'83\'76 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Private Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+bool {\b verbose}{\bkmkstart AAAAAAAAEY}
+{\bkmkend AAAAAAAAEY}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+bool {\b color}{\bkmkstart AAAAAAAAEZ}
+{\bkmkend AAAAAAAAEZ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Log}}}
+ {\b log}{\bkmkstart AAAAAAAAFA}
+{\bkmkend AAAAAAAAFA}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b population_number}{\bkmkstart AAAAAAAAFB}
+{\bkmkend AAAAAAAAFB}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b individual_number}{\bkmkstart AAAAAAAAFC}
+{\bkmkend AAAAAAAAFC}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b chromosome_number}{\bkmkstart AAAAAAAAFD}
+{\bkmkend AAAAAAAAFD}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\b gene_number}{\bkmkstart AAAAAAAAFE}
+{\bkmkend AAAAAAAAFE}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'52\'83\'7D\'83\'93\'83\'68\'83\'89\'83\'43\'83\'93\'88\'F8\'90\'94\'82\'F0\'8F\'88\'97\'9D\'82\'B7\'82\'E9\'8A\'EE\'92\'EA\'83\'4E\'83\'89\'83\'58 \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8F\'83\'90\'88\'89\'BC\'91\'7A\'8A\'D6\'90\'94\'82\'F0\'8A\'DC\'82\'DE\'82\'BD\'82\'DF\'81\'41\'92\'BC\'90\'DA\'83\'43\'83\'93\'83\'58\'83\'5E\'83\'93\'83\'58\'82\'C9\'82\'C5\'82\'AB\'82\'C8\'82\'A2\'81\'42 \'83\'78\'81\'5B\'83\'58\'82\'CDboost::program_options\'82\'F0\'8E\'67\'97\'70\'82\'B5\'82\'C4\'82\'A2\'82\'E9\'81\'42 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v parse\:GA::Options}
+{\xe \v GA::Options\:parse}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void GA::Options::parse (){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAEN}
+{\bkmkend AAAAAAAAEN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'49\'83\'76\'83\'56\'83\'87\'83\'93\'82\'CC\'89\'F0\'8E\'DF }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Options.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Options.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::Population Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::Population}
+{\xe \v GA::Population}
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8F\'57\'92\'63\'81\'69population\'81\'6A }}\par
+{
+{\f2 #include <Population.hpp>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFF" }{}}{\fldrslt {\cs37\ul\cf2 Population}}}
+ (const uint64_t &population_locus){\bkmkstart AAAAAAAAFF}
+{\bkmkend AAAAAAAAFF}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Population\'82\'CClocus\'82\'F0\'88\'F8\'90\'94\'82\'C6\'82\'B7\'82\'E9\'83\'52\'83\'93\'83\'58\'83\'67\'83\'89\'83\'4E\'83\'5E }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFG" }{}}{\fldrslt {\cs37\ul\cf2 get_population_locus}}}
+ () const{\bkmkstart AAAAAAAAFG}
+{\bkmkend AAAAAAAAFG}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Population\'83\'43\'83\'93\'83\'58\'83\'5E\'83\'93\'83\'58\'82\'CClocus\'82\'F0\'95\'D4\'82\'B7 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFH" }{}}{\fldrslt {\cs37\ul\cf2 length}}}
+ () const{\bkmkstart AAAAAAAAFH}
+{\bkmkend AAAAAAAAFH}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Individual\'82\'CC\'94\'7A\'97\'F1\'92\'B7\'82\'F0\'95\'D4\'82\'B7 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFI" }{}}{\fldrslt {\cs37\ul\cf2 allocation}}}
+ (const uint64_t &{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFH" }{}}{\fldrslt {\cs37\ul\cf2 length}}}
+){\bkmkstart AAAAAAAAFI}
+{\bkmkend AAAAAAAAFI}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Individual\'82\'CC\'94\'7A\'97\'F1\'92\'B7\'82\'F0\'88\'F8\'90\'94\'82\'C6\'82\'B5\'82\'C4\'83\'81\'83\'82\'83\'8A\'82\'F0\'8A\'6D\'95\'DB\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABR" }{}}{\fldrslt {\cs37\ul\cf2 Individual}}}
+ & {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFJ" }{}}{\fldrslt {\cs37\ul\cf2 operator[]}}}
+ (std::size_t idx) const{\bkmkstart AAAAAAAAFJ}
+{\bkmkend AAAAAAAAFJ}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8E\'77\'92\'E8\'82\'B3\'82\'EA\'82\'BD\'88\'CA\'92\'75\'82\'CCIndividual\'82\'CC\'8E\'51\'8F\'C6\'82\'F0\'95\'D4\'82\'B7 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABR" }{}}{\fldrslt {\cs37\ul\cf2 Individual}}}
+ & {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFK" }{}}{\fldrslt {\cs37\ul\cf2 operator[]}}}
+ (std::size_t idx){\bkmkstart AAAAAAAAFK}
+{\bkmkend AAAAAAAAFK}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8E\'77\'92\'E8\'82\'B3\'82\'EA\'82\'BD\'88\'CA\'92\'75\'82\'CCIndividual\'82\'CC\'8E\'51\'8F\'C6\'82\'F0\'95\'D4\'82\'B7 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFL" }{}}{\fldrslt {\cs37\ul\cf2 initialize}}}
+ (){\bkmkstart AAAAAAAAFL}
+{\bkmkend AAAAAAAAFL}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'95\'EF\'8A\'DC\'82\'B7\'82\'E9Individual\'82\'CC\'8C\'BB\'90\'A2\'91\'E3\'82\'F0\'90\'B6\'90\'AC\'82\'B7\'82\'E9 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Private Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+std::unique_ptr< std::shared_ptr< {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABR" }{}}{\fldrslt {\cs37\ul\cf2 Individual}}}
+ >[], std::default_delete< std::shared_ptr< {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABR" }{}}{\fldrslt {\cs37\ul\cf2 Individual}}}
+ >[]> > {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFM" }{}}{\fldrslt {\cs37\ul\cf2 individuals}}}
+{\bkmkstart AAAAAAAAFM}
+{\bkmkend AAAAAAAAFM}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Individual\'82\'CC\'83\'56\'83\'46\'83\'41\'81\'5B\'83\'68\'83\'7C\'83\'43\'83\'93\'83\'5E\'94\'7A\'97\'F1\'82\'F0\'95\'DB\'8E\'9D\'82\'B7\'82\'E9\'83\'86\'83\'6A\'81\'5B\'83\'4E\'83\'7C\'83\'43\'83\'93\'83\'5E }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFN" }{}}{\fldrslt {\cs37\ul\cf2 _length}}}
+{\bkmkstart AAAAAAAAFN}
+{\bkmkend AAAAAAAAFN}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Individual\'82\'CC\'83\'56\'83\'46\'83\'41\'81\'5B\'83\'68\'83\'7C\'83\'43\'83\'93\'83\'5E\'94\'7A\'97\'F1\'92\'B7 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+uint64_t {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFO" }{}}{\fldrslt {\cs37\ul\cf2 _population_locus}}}
+{\bkmkstart AAAAAAAAFO}
+{\bkmkend AAAAAAAAFO}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Population\'82\'CClocus\'82\'F0\'95\'DB\'8E\'9D\'82\'B7\'82\'E9\'95\'CF\'90\'94 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Log}}}
+ {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAFP" }{}}{\fldrslt {\cs37\ul\cf2 log}}}
+{\bkmkstart AAAAAAAAFP}
+{\bkmkend AAAAAAAAFP}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'8F\'6F\'97\'CD\'97\'70\'83\'43\'83\'93\'83\'58\'83\'5E\'83\'93\'83\'58 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'8F\'57\'92\'63\'81\'69population\'81\'6A \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'97\'6C\'81\'58\'82\'C8\'8C\'C2\'91\'CC\'82\'CC\'8F\'57\'82\'DC\'82\'E8 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Population.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Population.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::color::Red Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::color::Red}
+{\xe \v GA::color::Red}
+{\bkmkstart AAAAAAAAGF}
+{\bkmkend AAAAAAAAGF}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'90\'D4\'81\'6A }}\par
+{
+{\f2 #include <Define.hpp>}}\par
+Inheritance diagram for GA::color::Red:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1color_1_1_red.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'90\'D4\'81\'6A \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Define.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Define.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::color::White Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::color::White}
+{\xe \v GA::color::White}
+{\bkmkstart AAAAAAAAGG}
+{\bkmkend AAAAAAAAGG}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'94\'92\'81\'6A }}\par
+{
+{\f2 #include <Define.hpp>}}\par
+Inheritance diagram for GA::color::White:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1color_1_1_white.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'94\'92\'81\'6A \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Define.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Define.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+GA::color::Yellow Class Reference\par \pard\plain 
+{\tc\tcl2 \v GA::color::Yellow}
+{\xe \v GA::color::Yellow}
+{\bkmkstart AAAAAAAAGH}
+{\bkmkend AAAAAAAAGH}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'89\'A9\'81\'6A }}\par
+{
+{\f2 #include <Define.hpp>}}\par
+Inheritance diagram for GA::color::Yellow:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_a_1_1color_1_1_yellow.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'83\'8D\'83\'4F\'83\'4A\'83\'89\'81\'5B\'8F\'6F\'97\'CD\'97\'70\'82\'CC\'94\'68\'90\'B6\'83\'4E\'83\'89\'83\'58\'81\'69\'89\'A9\'81\'6A \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+include/Define.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/Define.cpp\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Index\par 
+\pard\plain 
+{\tc \v Index}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}

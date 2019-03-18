@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Implementation of The GeneticAlgorithm with C++: GeneticAlgorithm</title>
+<title>Implementation of The GeneticAlgorithm with C++: Conclusion</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,11 +62,37 @@ $(function() {
 </div><!-- top -->
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">GeneticAlgorithm </div>  </div>
+<div class="title">Conclusion </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>遺伝的アルゴリズム（Genetic Algorithm）のC++による実装。 </p>
-</div></div><!-- PageDoc -->
+<div class="textblock"><p>実行結果を示す。</p>
+<pre>
+% ./GeneticAlgorithm.out -h
+Options:
+  -h [ --help ]           Help
+  -v [ --version ]        Version information
+  -C [ --Color ]          color log
+  -p [ --population ] arg Number of population (for test)
+  -i [ --individual ] arg Number of individual (for test)
+  -c [ --chromosome ] arg Number of population (for test)
+  -g [ --gene ] arg       Number of population (for test)
+  -V [ --verbose ]        more log
+</pre><pre>
+% ./GeneticAlgorithm.out
+[Debug/None/06:13:24.370] (Options) color option was set to false.
+[Trace/None/06:13:24.371] (GeneticAlgorithm) instancing
+[Trace/None/06:13:24.371] (GeneticAlgorithm) allocation: 0
+[Trace/None/06:13:24.371] (GeneticAlgorithm) initializing
+[Error/None/06:13:24.371] (GeneticAlgorithm) length is zero. allocate memory.
+[Debug/None/06:13:24.371] (main) application was successful
+[Trace/None/06:13:24.371] (GeneticAlgorithm) destructing
+</pre><pre>
+% ./GeneticAlgorithm.out -v
+Implementation of The GeneticAlgorithm with C++
+     Version: 0.0
+ Update Date: Mar. 2019
+      Author: foxpumpkin
+</pre> </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

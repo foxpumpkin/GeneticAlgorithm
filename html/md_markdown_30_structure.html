@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Implementation of The GeneticAlgorithm with C++: GeneticAlgorithm</title>
+<title>Implementation of The GeneticAlgorithm with C++: Structure</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,10 +62,27 @@ $(function() {
 </div><!-- top -->
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">GeneticAlgorithm </div>  </div>
+<div class="title">Structure </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>遺伝的アルゴリズム（Genetic Algorithm）のC++による実装。 </p>
+<div class="textblock"><p>下記の５つに分類できる。</p>
+<h3>main()</h3>
+<p>GeneticAlgorithmライブラリの動作確認用テストプログラムである。</p>
+<h3>GeneticAlgorithm</h3>
+<p>本リポジトリのメインとなる遺伝的アルゴリズムを実装する。</p>
+<h3>Log</h3>
+<p>ログ出力を管理する。ベースはLogSystem classであるが、 Log classでラップするように運用する。ただし、LogSystem classは Singletonで設計/実装されているため、必ずしもLog classを使用する必要はない。 非推奨であるが、直接LogSystem classを呼んでログ出力（統計）も可能である。</p>
+<h3>Option</h3>
+<p>コマンドライン引数を解釈する。 boost::program_optionsを使用し、コマンドライン引数を解釈する。 現時点（March 2019）では一般化されていないため、他のプログラムに 流用するのは難しいと思われる。</p>
+<h3>Define</h3>
+<p>全体で使用する変数やクラスを記述する。</p>
+<h4>名前空間 global</h4>
+<p>プログラム全体で使用するフラグ類である。</p>
+<h4>名前空間 loglevel</h4>
+<p>ログレベルを表すuint64_t型の変数を宣言/定義し、 また、loglevel::to_string()を使用し、uint64_t型のログレベルを引数としてstring型へ 変換できる。</p>
+<h4>名前空間 color</h4>
+<p>標準出力/標準エラー出力時の色を指定することを目的とした変数およびクラスを宣言/定義する。 色の指定はuint64_t型で宣言/定義される変数を使用する。</p>
+<p>color::to_string&lt;color::Color&gt;()で引数として与えるstringに対してglobal::color_logが trueの場合はカラータグを付与したstringを返す。 global::color_logがfalseの場合はタグを付与せずそのまま返す。 </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->

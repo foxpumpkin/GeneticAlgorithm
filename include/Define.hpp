@@ -13,7 +13,11 @@ namespace GA{
   /*! 
    */
   namespace global{
+    
+    //! verboseモード（Mar. 2019時点未実装）を有効にしたい場合trueを与える。
     extern bool verbose_log;
+    
+    //! ログをカラー出力したい（color::to_stringを有効にしたい）場合trueを与える。
     extern bool color_log;
   }
 
@@ -21,11 +25,23 @@ namespace GA{
   /*! 
    */
   namespace code{
+
+    //! 用途未定仮設コード（A）
     extern const uint64_t code_A;
+
+    //! 用途未定仮設コード（B）
     extern const uint64_t code_B;
+
+    //! 用途未定仮設コード（C）
     extern const uint64_t code_C;
+
+    //! 用途未定仮設コード（D）
     extern const uint64_t code_D;
+
+    //! 用途未定仮設コード（E）
     extern const uint64_t code_E;
+
+    //! デフォルトコード
     extern const uint64_t none;
 
     //! コードをstring型に変換する関数
@@ -40,15 +56,31 @@ namespace GA{
    * 
    */
   namespace loglevel{
+
+    //! すべてのログを出力するさいに指定する
     extern const uint64_t all;
+
+    //! 致命的なエラーを指す定数
     extern const uint64_t fatal;
+
+    //! エラーを指す定数
     extern const uint64_t error;
+
+    //! 警告を指す定数
     extern const uint64_t warning;
+
+    //! 情報を指す定数
     extern const uint64_t information;
+
+    //! デバッグを指す定数
     extern const uint64_t debug;
+
+    //! トレースを指す定数
     extern const uint64_t trace;
+
+    //! 使用非推奨のログレベルを指す定数
     extern const uint64_t none;
-    
+
     //! ログレベルをstring型に変換する関数
     /*!
      * 未定義のログレベルの場合はUnknownを返す。
@@ -62,14 +94,32 @@ namespace GA{
    * 
    */
   namespace color{
+
+    //! 文字色（黒）を指す定数
     extern const uint64_t black;
+
+    //! 文字色（赤）を指す定数
     extern const uint64_t red;
+
+    //! 文字色（緑）を指す定数
     extern const uint64_t green;
+
+    //! 文字色（黄）を指す定数
     extern const uint64_t yellow;
+
+    //! 文字色（青）を指す定数
     extern const uint64_t blue;
+
+    //! 文字色（マゼンタ）を指す定数
     extern const uint64_t magenta; 
+
+    //! 文字色（シアン）を指す定数
     extern const uint64_t cyan; 
+
+    //! 文字色（白）を指す定数
     extern const uint64_t white;
+
+    //! 文字色（初期化）を指す定数
     extern const uint64_t clear;
 
     //! ログカラー出力用の基底クラス
